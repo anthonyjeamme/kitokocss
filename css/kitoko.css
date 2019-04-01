@@ -1,0 +1,125 @@
+/* Colors */
+/* Typography */
+/* Misc */
+.is-height-1 {
+  height: 1.78125rem;
+}
+
+.is-height-2 {
+  height: 3.5625rem;
+}
+
+.is-height-3 {
+  height: 5.34375rem;
+}
+
+.is-height-4 {
+  height: 7.125rem;
+}
+
+.is-height-5 {
+  height: 8.90625rem;
+}
+
+.is-height-6 {
+  height: 10.6875rem;
+}
+
+.is-height-7 {
+  height: 12.46875rem;
+}
+
+.is-height-8 {
+  height: 14.25rem;
+}
+
+.is-height-9 {
+  height: 16.03125rem;
+}
+
+.is-height-10 {
+  height: 17.8125rem;
+}
+
+body {
+  font-size: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px);
+  background-size: 100% 1.78125rem;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+  line-height: 1.78125rem;
+  font-size: 1.1875rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.1875rem;
+  margin-top: 1.78125rem;
+  margin-bottom: 1.78125rem;
+}
+
+p img {
+  margin-top: 3.5625rem;
+}
+
+h1 {
+  font-size: 3.35724rem !important;
+  line-height: 3.5625rem;
+  margin-top: 3.5625rem !important;
+  margin-bottom: 1.78125rem !important;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.37428rem;
+  line-height: 3.5625rem;
+  margin-top: 3.5625rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.67912rem;
+  line-height: 1.78125rem;
+  margin-top: 3.5625rem;
+  font-weight: 700;
+}
+
+code {
+  padding: 1.78125rem !important;
+  margin: 0;
+  display: block;
+  font-size: 1.1875rem !important;
+  line-height: 1.78125rem;
+  margin-top: 1.78125rem;
+  font-family: inherit;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.columns, .column {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.column {
+  padding: 0 1.78125rem 0 1.78125rem !important;
+}
+
+article {
+  margin: 0 auto 0 auto;
+  max-width: 47rem;
+}
+
+code {
+  border-left: 4px solid #ddd;
+  color: #666;
+  background: transparent;
+}
+
+/*# sourceMappingURL=kitoko.css.map */
