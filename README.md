@@ -1,6 +1,6 @@
 The Typography Based CSS Framework
 
-More informations here : http://tonyjahim.github.io/kitoko-css/
+More informations here : https://tonyjahim.github.io/kitokocss
 
 
 # TODO

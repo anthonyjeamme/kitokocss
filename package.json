@@ -1,5 +1,5 @@
 {
-  "name": "kitokocss",
+  "name": "kitoko-css",
   "version": "0.0.1",
   "description": "The typography based CSS framework",
   "main": "kitoko.scss",
