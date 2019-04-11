@@ -1,0 +1,11 @@
+// Responsive
+$phablet-breakpoint: 37em; 
+$tablet-breakpoint: 48em;
+$desktop-breakpoint: 64em;
+$large-desktop-breakpoint: 80em;
+
+$font-size-em : $font-size / 16;
+$font-size-desktop-em : $font-size-desktop / 16;
+
+$leading: $font-size-em * $line-height;
+$leading-desktop: $font-size-desktop-em * $line-height-desktop; // TODO

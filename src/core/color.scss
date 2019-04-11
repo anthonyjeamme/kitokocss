@@ -1,0 +1,21 @@
+$button-border-color-primary: darken($primary,20%);
+$button-border-color-info: darken($info,20%);
+$button-border-color-danger: darken($danger,20%);
+$button-border-color-warning: darken($warning,20%);
+
+$color-names-list: primary info warning danger white dark light;
+$color-list: $primary $info $warning $danger #fff $dark $light;
+
+@each $color-name in $color-names-list {
+
+    $i: index( $color-names-list, $color-name ) ;
+    $color: nth( $color-list,$i);
+    
+    .background-#{$color-name}{
+        background-color: $color;
+        color: getColorFromBackground($color);
+    }
+    .color-#{$color-name}{
+        color: $color;
+    }
+}

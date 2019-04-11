@@ -1,16 +1,16 @@
 {
   "name": "kitoko-css",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.15",
+  "description": "The typography based CSS framework",
+  "main": "kitoko.scss",
   "scripts": {
-    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
-    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
+    "build": "npm run build-clean && npm run build-sass",
     "build-clean": "rimraf css",
-    "build-cleancss": "cleancss -o css/bulma.min.css css/bulma.css",
+    "build-cleancss": "cleancss -o css/kitoko.min.css css/kitoko.css",
     "build-sass": "node-sass --output-style expanded --source-map true kitoko.scss css/kitoko.css",
+    "build-sass-demo": "node-sass --output-style expanded --source-map true demo/style.scss demo/kitoko.css",
     "deploy": "npm run build",
-    "start": "npm run build-sass -- --watch"
+    "start": "npm run build-sass-demo -- --watch"
   },
   "author": {
     "name": "Anthony JEAMME",
@@ -26,6 +26,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14"
   }
 }

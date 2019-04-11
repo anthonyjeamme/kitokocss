@@ -1,0 +1,11 @@
+.columns{
+    
+    @media screen and (min-width: $tablet-breakpoint){ 
+        
+        display: flex;
+
+        .column{
+            flex:1;
+        }
+    }
+}

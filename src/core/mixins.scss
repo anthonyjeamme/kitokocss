@@ -1,0 +1,163 @@
+// TODO : remove
+@mixin line-height($n){
+
+    line-height: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        line-height: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+// Absolute position
+
+@mixin top($n){
+    top: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        top: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin right($n){
+    right: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        right: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin bottom($n){
+    bottom: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        bottom: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin left($n){
+    left: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        left: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+// Sizes
+@mixin height($n){
+    height: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        height: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin min-height($n){
+    min-height: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        min-height: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin width($n){
+    width: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        width: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin min-width($n){
+    min-width: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        min-width: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+// Margin
+@mixin margin-top($n){
+    margin-top: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        margin-top: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin margin-right($n){
+    margin-right: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        margin-right: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin margin-bottom($n){
+    margin-bottom: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        margin-bottom: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin margin-left($n){
+    margin-left: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        margin-left: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+// Padding
+@mixin padding($n){
+    padding: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        padding: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+@mixin padding-top($n){
+    padding-top: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        padding-top: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin padding-bottom($n){
+
+    padding-bottom: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        padding-bottom: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin padding-left($n){
+
+    padding-left: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        padding-left: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin padding-right($n){
+
+    padding-right: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){
+        padding-right: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+
+@mixin max-width($n){
+
+    max-width: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        max-width: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
+@mixin font-size($n){
+
+    font-size: $font-size-em * pow($size-ratio,$n - 1) + rem;
+    
+    @media screen and (min-width: $tablet-breakpoint){
+
+        font-size: $font-size-desktop-em * pow($size-ratio,$n - 1) + rem;
+    }
+}
+
+@mixin grid(){
+    
+    background-image: linear-gradient(to bottom,#{$primary}FF 0px,transparent 1px);
+        //,linear-gradient(to bottom,transparent $leading/2-1+rem,#{$primary}55 $leading/2+rem,transparent $leading/2+1+rem);
+    background-size: 100% $leading+rem;
+
+    
+    @media screen and (min-width: $tablet-breakpoint){ 
+
+        background-image: linear-gradient(to bottom,#{$primary}FF 0px,transparent 1px);
+            // ,linear-gradient(to bottom,transparent $leading-desktop/2-1+rem,#{$primary}55 $leading-desktop/2+em,transparent $leading-desktop/2+1+rem);
+        background-size: 100% $leading-desktop+rem;
+    }
+}
