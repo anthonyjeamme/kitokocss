@@ -15,4 +15,7 @@ $heading:(
 $font-size: 16;
 $font-size-desktop: 18;
 
+$navbar-hide-start-mobile: true;
+$navbar-hide-end-mobile: false;
+
 @import '../kitoko.scss';

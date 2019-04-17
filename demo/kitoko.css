@@ -25,13 +25,13 @@
 
 @media screen and (min-width: 48em) {
   .container {
-    padding-left: 0.90625rem;
+    padding-left: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .container {
-    padding-right: 0.90625rem;
+    padding-right: 0.81562rem;
   }
 }
 
@@ -44,13 +44,13 @@
 
 @media screen and (min-width: 37em) and (min-width: 48em) {
   .container {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 37em) and (min-width: 48em) {
   .container {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
@@ -69,13 +69,13 @@
 
 @media screen and (min-width: 48em) {
   .measure {
-    padding-left: 3.625rem;
+    padding-left: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .measure {
-    padding-right: 3.625rem;
+    padding-right: 3.2625rem;
   }
 }
 
@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 48em) and (min-width: 48em) {
   .measure h1 {
-    margin-left: -1.8125rem;
+    margin-left: -1.63125rem;
   }
 }
 
@@ -282,7 +282,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-0-5 {
-    padding-top: 0.90625rem;
+    padding-top: 0.81562rem;
   }
 }
 
@@ -302,7 +302,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-0-5 {
-    padding-bottom: 0.90625rem;
+    padding-bottom: 0.81562rem;
   }
 }
 
@@ -322,7 +322,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-0-5 {
-    padding-left: 0.90625rem;
+    padding-left: 0.81562rem;
   }
 }
 
@@ -342,7 +342,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-0-5 {
-    padding-right: 0.90625rem;
+    padding-right: 0.81562rem;
   }
 }
 
@@ -362,7 +362,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-0-5 {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
@@ -382,7 +382,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-0-5 {
-    margin-bottom: 0.90625rem;
+    margin-bottom: 0.81562rem;
   }
 }
 
@@ -402,7 +402,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-0-5 {
-    margin-left: 0.90625rem;
+    margin-left: 0.81562rem;
   }
 }
 
@@ -422,7 +422,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-0-5 {
-    margin-right: 0.90625rem;
+    margin-right: 0.81562rem;
   }
 }
 
@@ -432,7 +432,7 @@
 
 @media screen and (min-width: 48em) {
   .height-1 {
-    height: 1.8125rem;
+    height: 1.63125rem;
   }
 }
 
@@ -442,7 +442,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-1 {
-    min-width: 1.8125rem;
+    min-width: 1.63125rem;
   }
 }
 
@@ -455,25 +455,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-1 {
-    padding-top: 1.8125rem;
+    padding-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-1 {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-1 {
-    padding-bottom: 1.8125rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-1 {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
@@ -486,25 +486,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-1 {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-1 {
-    margin-right: 1.8125rem;
+    margin-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-1 {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-1 {
-    margin-left: 1.8125rem;
+    margin-left: 1.63125rem;
   }
 }
 
@@ -517,13 +517,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-1-auto {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-1-auto {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
@@ -533,7 +533,7 @@
 
 @media screen and (min-width: 48em) {
   .top-1 {
-    top: 1.8125rem;
+    top: 1.63125rem;
   }
 }
 
@@ -543,7 +543,7 @@
 
 @media screen and (min-width: 48em) {
   .right-1 {
-    right: 1.8125rem;
+    right: 1.63125rem;
   }
 }
 
@@ -553,7 +553,7 @@
 
 @media screen and (min-width: 48em) {
   .left-1 {
-    left: 1.8125rem;
+    left: 1.63125rem;
   }
 }
 
@@ -563,7 +563,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-1 {
-    bottom: 1.8125rem;
+    bottom: 1.63125rem;
   }
 }
 
@@ -573,7 +573,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-1 {
-    padding-top: 1.8125rem;
+    padding-top: 1.63125rem;
   }
 }
 
@@ -583,7 +583,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-1-5 {
-    padding-top: 2.71875rem;
+    padding-top: 2.44687rem;
   }
 }
 
@@ -593,7 +593,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-1 {
-    padding-bottom: 1.8125rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
@@ -603,7 +603,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-1-5 {
-    padding-bottom: 2.71875rem;
+    padding-bottom: 2.44687rem;
   }
 }
 
@@ -613,7 +613,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-1 {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
@@ -623,7 +623,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-1-5 {
-    padding-left: 2.71875rem;
+    padding-left: 2.44687rem;
   }
 }
 
@@ -633,7 +633,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-1 {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
@@ -643,7 +643,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-1-5 {
-    padding-right: 2.71875rem;
+    padding-right: 2.44687rem;
   }
 }
 
@@ -653,7 +653,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-1 {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -663,7 +663,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-1-5 {
-    margin-top: 2.71875rem;
+    margin-top: 2.44687rem;
   }
 }
 
@@ -673,7 +673,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-1 {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
@@ -683,7 +683,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-1-5 {
-    margin-bottom: 2.71875rem;
+    margin-bottom: 2.44687rem;
   }
 }
 
@@ -693,7 +693,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-1 {
-    margin-left: 1.8125rem;
+    margin-left: 1.63125rem;
   }
 }
 
@@ -703,7 +703,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-1-5 {
-    margin-left: 2.71875rem;
+    margin-left: 2.44687rem;
   }
 }
 
@@ -713,7 +713,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-1 {
-    margin-right: 1.8125rem;
+    margin-right: 1.63125rem;
   }
 }
 
@@ -723,7 +723,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-1-5 {
-    margin-right: 2.71875rem;
+    margin-right: 2.44687rem;
   }
 }
 
@@ -733,7 +733,7 @@
 
 @media screen and (min-width: 48em) {
   .height-2 {
-    height: 3.625rem;
+    height: 3.2625rem;
   }
 }
 
@@ -743,7 +743,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-2 {
-    min-width: 3.625rem;
+    min-width: 3.2625rem;
   }
 }
 
@@ -756,25 +756,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-2 {
-    padding-top: 3.625rem;
+    padding-top: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-2 {
-    padding-right: 3.625rem;
+    padding-right: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-2 {
-    padding-bottom: 3.625rem;
+    padding-bottom: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-2 {
-    padding-left: 3.625rem;
+    padding-left: 3.2625rem;
   }
 }
 
@@ -787,25 +787,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-2 {
-    margin-top: 3.625rem;
+    margin-top: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-2 {
-    margin-right: 3.625rem;
+    margin-right: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-2 {
-    margin-bottom: 3.625rem;
+    margin-bottom: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-2 {
-    margin-left: 3.625rem;
+    margin-left: 3.2625rem;
   }
 }
 
@@ -818,13 +818,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-2-auto {
-    margin-top: 3.625rem;
+    margin-top: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-2-auto {
-    margin-bottom: 3.625rem;
+    margin-bottom: 3.2625rem;
   }
 }
 
@@ -834,7 +834,7 @@
 
 @media screen and (min-width: 48em) {
   .top-2 {
-    top: 3.625rem;
+    top: 3.2625rem;
   }
 }
 
@@ -844,7 +844,7 @@
 
 @media screen and (min-width: 48em) {
   .right-2 {
-    right: 3.625rem;
+    right: 3.2625rem;
   }
 }
 
@@ -854,7 +854,7 @@
 
 @media screen and (min-width: 48em) {
   .left-2 {
-    left: 3.625rem;
+    left: 3.2625rem;
   }
 }
 
@@ -864,7 +864,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-2 {
-    bottom: 3.625rem;
+    bottom: 3.2625rem;
   }
 }
 
@@ -874,7 +874,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-2 {
-    padding-top: 3.625rem;
+    padding-top: 3.2625rem;
   }
 }
 
@@ -884,7 +884,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-2-5 {
-    padding-top: 4.53125rem;
+    padding-top: 4.07813rem;
   }
 }
 
@@ -894,7 +894,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-2 {
-    padding-bottom: 3.625rem;
+    padding-bottom: 3.2625rem;
   }
 }
 
@@ -904,7 +904,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-2-5 {
-    padding-bottom: 4.53125rem;
+    padding-bottom: 4.07813rem;
   }
 }
 
@@ -914,7 +914,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-2 {
-    padding-left: 3.625rem;
+    padding-left: 3.2625rem;
   }
 }
 
@@ -924,7 +924,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-2-5 {
-    padding-left: 4.53125rem;
+    padding-left: 4.07813rem;
   }
 }
 
@@ -934,7 +934,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-2 {
-    padding-right: 3.625rem;
+    padding-right: 3.2625rem;
   }
 }
 
@@ -944,7 +944,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-2-5 {
-    padding-right: 4.53125rem;
+    padding-right: 4.07813rem;
   }
 }
 
@@ -954,7 +954,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-2 {
-    margin-top: 3.625rem;
+    margin-top: 3.2625rem;
   }
 }
 
@@ -964,7 +964,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-2-5 {
-    margin-top: 4.53125rem;
+    margin-top: 4.07813rem;
   }
 }
 
@@ -974,7 +974,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-2 {
-    margin-bottom: 3.625rem;
+    margin-bottom: 3.2625rem;
   }
 }
 
@@ -984,7 +984,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-2-5 {
-    margin-bottom: 4.53125rem;
+    margin-bottom: 4.07813rem;
   }
 }
 
@@ -994,7 +994,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-2 {
-    margin-left: 3.625rem;
+    margin-left: 3.2625rem;
   }
 }
 
@@ -1004,7 +1004,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-2-5 {
-    margin-left: 4.53125rem;
+    margin-left: 4.07813rem;
   }
 }
 
@@ -1014,7 +1014,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-2 {
-    margin-right: 3.625rem;
+    margin-right: 3.2625rem;
   }
 }
 
@@ -1024,7 +1024,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-2-5 {
-    margin-right: 4.53125rem;
+    margin-right: 4.07813rem;
   }
 }
 
@@ -1034,7 +1034,7 @@
 
 @media screen and (min-width: 48em) {
   .height-3 {
-    height: 5.4375rem;
+    height: 4.89375rem;
   }
 }
 
@@ -1044,7 +1044,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-3 {
-    min-width: 5.4375rem;
+    min-width: 4.89375rem;
   }
 }
 
@@ -1057,25 +1057,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-3 {
-    padding-top: 5.4375rem;
+    padding-top: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-3 {
-    padding-right: 5.4375rem;
+    padding-right: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-3 {
-    padding-bottom: 5.4375rem;
+    padding-bottom: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-3 {
-    padding-left: 5.4375rem;
+    padding-left: 4.89375rem;
   }
 }
 
@@ -1088,25 +1088,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-3 {
-    margin-top: 5.4375rem;
+    margin-top: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-3 {
-    margin-right: 5.4375rem;
+    margin-right: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-3 {
-    margin-bottom: 5.4375rem;
+    margin-bottom: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-3 {
-    margin-left: 5.4375rem;
+    margin-left: 4.89375rem;
   }
 }
 
@@ -1119,13 +1119,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-3-auto {
-    margin-top: 5.4375rem;
+    margin-top: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-3-auto {
-    margin-bottom: 5.4375rem;
+    margin-bottom: 4.89375rem;
   }
 }
 
@@ -1135,7 +1135,7 @@
 
 @media screen and (min-width: 48em) {
   .top-3 {
-    top: 5.4375rem;
+    top: 4.89375rem;
   }
 }
 
@@ -1145,7 +1145,7 @@
 
 @media screen and (min-width: 48em) {
   .right-3 {
-    right: 5.4375rem;
+    right: 4.89375rem;
   }
 }
 
@@ -1155,7 +1155,7 @@
 
 @media screen and (min-width: 48em) {
   .left-3 {
-    left: 5.4375rem;
+    left: 4.89375rem;
   }
 }
 
@@ -1165,7 +1165,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-3 {
-    bottom: 5.4375rem;
+    bottom: 4.89375rem;
   }
 }
 
@@ -1175,7 +1175,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-3 {
-    padding-top: 5.4375rem;
+    padding-top: 4.89375rem;
   }
 }
 
@@ -1185,7 +1185,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-3-5 {
-    padding-top: 6.34375rem;
+    padding-top: 5.70937rem;
   }
 }
 
@@ -1195,7 +1195,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-3 {
-    padding-bottom: 5.4375rem;
+    padding-bottom: 4.89375rem;
   }
 }
 
@@ -1205,7 +1205,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-3-5 {
-    padding-bottom: 6.34375rem;
+    padding-bottom: 5.70937rem;
   }
 }
 
@@ -1215,7 +1215,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-3 {
-    padding-left: 5.4375rem;
+    padding-left: 4.89375rem;
   }
 }
 
@@ -1225,7 +1225,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-3-5 {
-    padding-left: 6.34375rem;
+    padding-left: 5.70937rem;
   }
 }
 
@@ -1235,7 +1235,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-3 {
-    padding-right: 5.4375rem;
+    padding-right: 4.89375rem;
   }
 }
 
@@ -1245,7 +1245,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-3-5 {
-    padding-right: 6.34375rem;
+    padding-right: 5.70937rem;
   }
 }
 
@@ -1255,7 +1255,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-3 {
-    margin-top: 5.4375rem;
+    margin-top: 4.89375rem;
   }
 }
 
@@ -1265,7 +1265,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-3-5 {
-    margin-top: 6.34375rem;
+    margin-top: 5.70937rem;
   }
 }
 
@@ -1275,7 +1275,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-3 {
-    margin-bottom: 5.4375rem;
+    margin-bottom: 4.89375rem;
   }
 }
 
@@ -1285,7 +1285,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-3-5 {
-    margin-bottom: 6.34375rem;
+    margin-bottom: 5.70937rem;
   }
 }
 
@@ -1295,7 +1295,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-3 {
-    margin-left: 5.4375rem;
+    margin-left: 4.89375rem;
   }
 }
 
@@ -1305,7 +1305,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-3-5 {
-    margin-left: 6.34375rem;
+    margin-left: 5.70937rem;
   }
 }
 
@@ -1315,7 +1315,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-3 {
-    margin-right: 5.4375rem;
+    margin-right: 4.89375rem;
   }
 }
 
@@ -1325,7 +1325,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-3-5 {
-    margin-right: 6.34375rem;
+    margin-right: 5.70937rem;
   }
 }
 
@@ -1335,7 +1335,7 @@
 
 @media screen and (min-width: 48em) {
   .height-4 {
-    height: 7.25rem;
+    height: 6.525rem;
   }
 }
 
@@ -1345,7 +1345,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-4 {
-    min-width: 7.25rem;
+    min-width: 6.525rem;
   }
 }
 
@@ -1358,25 +1358,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-4 {
-    padding-top: 7.25rem;
+    padding-top: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-4 {
-    padding-right: 7.25rem;
+    padding-right: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-4 {
-    padding-bottom: 7.25rem;
+    padding-bottom: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-4 {
-    padding-left: 7.25rem;
+    padding-left: 6.525rem;
   }
 }
 
@@ -1389,25 +1389,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-4 {
-    margin-top: 7.25rem;
+    margin-top: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-4 {
-    margin-right: 7.25rem;
+    margin-right: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-4 {
-    margin-bottom: 7.25rem;
+    margin-bottom: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-4 {
-    margin-left: 7.25rem;
+    margin-left: 6.525rem;
   }
 }
 
@@ -1420,13 +1420,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-4-auto {
-    margin-top: 7.25rem;
+    margin-top: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-4-auto {
-    margin-bottom: 7.25rem;
+    margin-bottom: 6.525rem;
   }
 }
 
@@ -1436,7 +1436,7 @@
 
 @media screen and (min-width: 48em) {
   .top-4 {
-    top: 7.25rem;
+    top: 6.525rem;
   }
 }
 
@@ -1446,7 +1446,7 @@
 
 @media screen and (min-width: 48em) {
   .right-4 {
-    right: 7.25rem;
+    right: 6.525rem;
   }
 }
 
@@ -1456,7 +1456,7 @@
 
 @media screen and (min-width: 48em) {
   .left-4 {
-    left: 7.25rem;
+    left: 6.525rem;
   }
 }
 
@@ -1466,7 +1466,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-4 {
-    bottom: 7.25rem;
+    bottom: 6.525rem;
   }
 }
 
@@ -1476,7 +1476,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-4 {
-    padding-top: 7.25rem;
+    padding-top: 6.525rem;
   }
 }
 
@@ -1486,7 +1486,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-4-5 {
-    padding-top: 8.15625rem;
+    padding-top: 7.34062rem;
   }
 }
 
@@ -1496,7 +1496,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-4 {
-    padding-bottom: 7.25rem;
+    padding-bottom: 6.525rem;
   }
 }
 
@@ -1506,7 +1506,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-4-5 {
-    padding-bottom: 8.15625rem;
+    padding-bottom: 7.34062rem;
   }
 }
 
@@ -1516,7 +1516,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-4 {
-    padding-left: 7.25rem;
+    padding-left: 6.525rem;
   }
 }
 
@@ -1526,7 +1526,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-4-5 {
-    padding-left: 8.15625rem;
+    padding-left: 7.34062rem;
   }
 }
 
@@ -1536,7 +1536,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-4 {
-    padding-right: 7.25rem;
+    padding-right: 6.525rem;
   }
 }
 
@@ -1546,7 +1546,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-4-5 {
-    padding-right: 8.15625rem;
+    padding-right: 7.34062rem;
   }
 }
 
@@ -1556,7 +1556,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-4 {
-    margin-top: 7.25rem;
+    margin-top: 6.525rem;
   }
 }
 
@@ -1566,7 +1566,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-4-5 {
-    margin-top: 8.15625rem;
+    margin-top: 7.34062rem;
   }
 }
 
@@ -1576,7 +1576,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-4 {
-    margin-bottom: 7.25rem;
+    margin-bottom: 6.525rem;
   }
 }
 
@@ -1586,7 +1586,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-4-5 {
-    margin-bottom: 8.15625rem;
+    margin-bottom: 7.34062rem;
   }
 }
 
@@ -1596,7 +1596,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-4 {
-    margin-left: 7.25rem;
+    margin-left: 6.525rem;
   }
 }
 
@@ -1606,7 +1606,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-4-5 {
-    margin-left: 8.15625rem;
+    margin-left: 7.34062rem;
   }
 }
 
@@ -1616,7 +1616,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-4 {
-    margin-right: 7.25rem;
+    margin-right: 6.525rem;
   }
 }
 
@@ -1626,7 +1626,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-4-5 {
-    margin-right: 8.15625rem;
+    margin-right: 7.34062rem;
   }
 }
 
@@ -1636,7 +1636,7 @@
 
 @media screen and (min-width: 48em) {
   .height-5 {
-    height: 9.0625rem;
+    height: 8.15625rem;
   }
 }
 
@@ -1646,7 +1646,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-5 {
-    min-width: 9.0625rem;
+    min-width: 8.15625rem;
   }
 }
 
@@ -1659,25 +1659,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-5 {
-    padding-top: 9.0625rem;
+    padding-top: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-5 {
-    padding-right: 9.0625rem;
+    padding-right: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-5 {
-    padding-bottom: 9.0625rem;
+    padding-bottom: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-5 {
-    padding-left: 9.0625rem;
+    padding-left: 8.15625rem;
   }
 }
 
@@ -1690,25 +1690,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-5 {
-    margin-top: 9.0625rem;
+    margin-top: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-5 {
-    margin-right: 9.0625rem;
+    margin-right: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-5 {
-    margin-bottom: 9.0625rem;
+    margin-bottom: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-5 {
-    margin-left: 9.0625rem;
+    margin-left: 8.15625rem;
   }
 }
 
@@ -1721,13 +1721,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-5-auto {
-    margin-top: 9.0625rem;
+    margin-top: 8.15625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-5-auto {
-    margin-bottom: 9.0625rem;
+    margin-bottom: 8.15625rem;
   }
 }
 
@@ -1737,7 +1737,7 @@
 
 @media screen and (min-width: 48em) {
   .top-5 {
-    top: 9.0625rem;
+    top: 8.15625rem;
   }
 }
 
@@ -1747,7 +1747,7 @@
 
 @media screen and (min-width: 48em) {
   .right-5 {
-    right: 9.0625rem;
+    right: 8.15625rem;
   }
 }
 
@@ -1757,7 +1757,7 @@
 
 @media screen and (min-width: 48em) {
   .left-5 {
-    left: 9.0625rem;
+    left: 8.15625rem;
   }
 }
 
@@ -1767,7 +1767,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-5 {
-    bottom: 9.0625rem;
+    bottom: 8.15625rem;
   }
 }
 
@@ -1777,7 +1777,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-5 {
-    padding-top: 9.0625rem;
+    padding-top: 8.15625rem;
   }
 }
 
@@ -1787,7 +1787,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-5-5 {
-    padding-top: 9.96875rem;
+    padding-top: 8.97187rem;
   }
 }
 
@@ -1797,7 +1797,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-5 {
-    padding-bottom: 9.0625rem;
+    padding-bottom: 8.15625rem;
   }
 }
 
@@ -1807,7 +1807,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-5-5 {
-    padding-bottom: 9.96875rem;
+    padding-bottom: 8.97187rem;
   }
 }
 
@@ -1817,7 +1817,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-5 {
-    padding-left: 9.0625rem;
+    padding-left: 8.15625rem;
   }
 }
 
@@ -1827,7 +1827,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-5-5 {
-    padding-left: 9.96875rem;
+    padding-left: 8.97187rem;
   }
 }
 
@@ -1837,7 +1837,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-5 {
-    padding-right: 9.0625rem;
+    padding-right: 8.15625rem;
   }
 }
 
@@ -1847,7 +1847,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-5-5 {
-    padding-right: 9.96875rem;
+    padding-right: 8.97187rem;
   }
 }
 
@@ -1857,7 +1857,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-5 {
-    margin-top: 9.0625rem;
+    margin-top: 8.15625rem;
   }
 }
 
@@ -1867,7 +1867,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-5-5 {
-    margin-top: 9.96875rem;
+    margin-top: 8.97187rem;
   }
 }
 
@@ -1877,7 +1877,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-5 {
-    margin-bottom: 9.0625rem;
+    margin-bottom: 8.15625rem;
   }
 }
 
@@ -1887,7 +1887,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-5-5 {
-    margin-bottom: 9.96875rem;
+    margin-bottom: 8.97187rem;
   }
 }
 
@@ -1897,7 +1897,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-5 {
-    margin-left: 9.0625rem;
+    margin-left: 8.15625rem;
   }
 }
 
@@ -1907,7 +1907,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-5-5 {
-    margin-left: 9.96875rem;
+    margin-left: 8.97187rem;
   }
 }
 
@@ -1917,7 +1917,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-5 {
-    margin-right: 9.0625rem;
+    margin-right: 8.15625rem;
   }
 }
 
@@ -1927,7 +1927,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-5-5 {
-    margin-right: 9.96875rem;
+    margin-right: 8.97187rem;
   }
 }
 
@@ -1937,7 +1937,7 @@
 
 @media screen and (min-width: 48em) {
   .height-6 {
-    height: 10.875rem;
+    height: 9.7875rem;
   }
 }
 
@@ -1947,7 +1947,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-6 {
-    min-width: 10.875rem;
+    min-width: 9.7875rem;
   }
 }
 
@@ -1960,25 +1960,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-6 {
-    padding-top: 10.875rem;
+    padding-top: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-6 {
-    padding-right: 10.875rem;
+    padding-right: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-6 {
-    padding-bottom: 10.875rem;
+    padding-bottom: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-6 {
-    padding-left: 10.875rem;
+    padding-left: 9.7875rem;
   }
 }
 
@@ -1991,25 +1991,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-6 {
-    margin-top: 10.875rem;
+    margin-top: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-6 {
-    margin-right: 10.875rem;
+    margin-right: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-6 {
-    margin-bottom: 10.875rem;
+    margin-bottom: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-6 {
-    margin-left: 10.875rem;
+    margin-left: 9.7875rem;
   }
 }
 
@@ -2022,13 +2022,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-6-auto {
-    margin-top: 10.875rem;
+    margin-top: 9.7875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-6-auto {
-    margin-bottom: 10.875rem;
+    margin-bottom: 9.7875rem;
   }
 }
 
@@ -2038,7 +2038,7 @@
 
 @media screen and (min-width: 48em) {
   .top-6 {
-    top: 10.875rem;
+    top: 9.7875rem;
   }
 }
 
@@ -2048,7 +2048,7 @@
 
 @media screen and (min-width: 48em) {
   .right-6 {
-    right: 10.875rem;
+    right: 9.7875rem;
   }
 }
 
@@ -2058,7 +2058,7 @@
 
 @media screen and (min-width: 48em) {
   .left-6 {
-    left: 10.875rem;
+    left: 9.7875rem;
   }
 }
 
@@ -2068,7 +2068,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-6 {
-    bottom: 10.875rem;
+    bottom: 9.7875rem;
   }
 }
 
@@ -2078,7 +2078,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-6 {
-    padding-top: 10.875rem;
+    padding-top: 9.7875rem;
   }
 }
 
@@ -2088,7 +2088,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-6-5 {
-    padding-top: 11.78125rem;
+    padding-top: 10.60312rem;
   }
 }
 
@@ -2098,7 +2098,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-6 {
-    padding-bottom: 10.875rem;
+    padding-bottom: 9.7875rem;
   }
 }
 
@@ -2108,7 +2108,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-6-5 {
-    padding-bottom: 11.78125rem;
+    padding-bottom: 10.60312rem;
   }
 }
 
@@ -2118,7 +2118,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-6 {
-    padding-left: 10.875rem;
+    padding-left: 9.7875rem;
   }
 }
 
@@ -2128,7 +2128,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-6-5 {
-    padding-left: 11.78125rem;
+    padding-left: 10.60312rem;
   }
 }
 
@@ -2138,7 +2138,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-6 {
-    padding-right: 10.875rem;
+    padding-right: 9.7875rem;
   }
 }
 
@@ -2148,7 +2148,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-6-5 {
-    padding-right: 11.78125rem;
+    padding-right: 10.60312rem;
   }
 }
 
@@ -2158,7 +2158,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-6 {
-    margin-top: 10.875rem;
+    margin-top: 9.7875rem;
   }
 }
 
@@ -2168,7 +2168,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-6-5 {
-    margin-top: 11.78125rem;
+    margin-top: 10.60312rem;
   }
 }
 
@@ -2178,7 +2178,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-6 {
-    margin-bottom: 10.875rem;
+    margin-bottom: 9.7875rem;
   }
 }
 
@@ -2188,7 +2188,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-6-5 {
-    margin-bottom: 11.78125rem;
+    margin-bottom: 10.60312rem;
   }
 }
 
@@ -2198,7 +2198,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-6 {
-    margin-left: 10.875rem;
+    margin-left: 9.7875rem;
   }
 }
 
@@ -2208,7 +2208,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-6-5 {
-    margin-left: 11.78125rem;
+    margin-left: 10.60312rem;
   }
 }
 
@@ -2218,7 +2218,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-6 {
-    margin-right: 10.875rem;
+    margin-right: 9.7875rem;
   }
 }
 
@@ -2228,7 +2228,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-6-5 {
-    margin-right: 11.78125rem;
+    margin-right: 10.60312rem;
   }
 }
 
@@ -2238,7 +2238,7 @@
 
 @media screen and (min-width: 48em) {
   .height-7 {
-    height: 12.6875rem;
+    height: 11.41875rem;
   }
 }
 
@@ -2248,7 +2248,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-7 {
-    min-width: 12.6875rem;
+    min-width: 11.41875rem;
   }
 }
 
@@ -2261,25 +2261,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-7 {
-    padding-top: 12.6875rem;
+    padding-top: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-7 {
-    padding-right: 12.6875rem;
+    padding-right: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-7 {
-    padding-bottom: 12.6875rem;
+    padding-bottom: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-7 {
-    padding-left: 12.6875rem;
+    padding-left: 11.41875rem;
   }
 }
 
@@ -2292,25 +2292,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-7 {
-    margin-top: 12.6875rem;
+    margin-top: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-7 {
-    margin-right: 12.6875rem;
+    margin-right: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-7 {
-    margin-bottom: 12.6875rem;
+    margin-bottom: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-7 {
-    margin-left: 12.6875rem;
+    margin-left: 11.41875rem;
   }
 }
 
@@ -2323,13 +2323,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-7-auto {
-    margin-top: 12.6875rem;
+    margin-top: 11.41875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-7-auto {
-    margin-bottom: 12.6875rem;
+    margin-bottom: 11.41875rem;
   }
 }
 
@@ -2339,7 +2339,7 @@
 
 @media screen and (min-width: 48em) {
   .top-7 {
-    top: 12.6875rem;
+    top: 11.41875rem;
   }
 }
 
@@ -2349,7 +2349,7 @@
 
 @media screen and (min-width: 48em) {
   .right-7 {
-    right: 12.6875rem;
+    right: 11.41875rem;
   }
 }
 
@@ -2359,7 +2359,7 @@
 
 @media screen and (min-width: 48em) {
   .left-7 {
-    left: 12.6875rem;
+    left: 11.41875rem;
   }
 }
 
@@ -2369,7 +2369,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-7 {
-    bottom: 12.6875rem;
+    bottom: 11.41875rem;
   }
 }
 
@@ -2379,7 +2379,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-7 {
-    padding-top: 12.6875rem;
+    padding-top: 11.41875rem;
   }
 }
 
@@ -2389,7 +2389,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-7-5 {
-    padding-top: 13.59375rem;
+    padding-top: 12.23437rem;
   }
 }
 
@@ -2399,7 +2399,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-7 {
-    padding-bottom: 12.6875rem;
+    padding-bottom: 11.41875rem;
   }
 }
 
@@ -2409,7 +2409,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-7-5 {
-    padding-bottom: 13.59375rem;
+    padding-bottom: 12.23437rem;
   }
 }
 
@@ -2419,7 +2419,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-7 {
-    padding-left: 12.6875rem;
+    padding-left: 11.41875rem;
   }
 }
 
@@ -2429,7 +2429,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-7-5 {
-    padding-left: 13.59375rem;
+    padding-left: 12.23437rem;
   }
 }
 
@@ -2439,7 +2439,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-7 {
-    padding-right: 12.6875rem;
+    padding-right: 11.41875rem;
   }
 }
 
@@ -2449,7 +2449,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-7-5 {
-    padding-right: 13.59375rem;
+    padding-right: 12.23437rem;
   }
 }
 
@@ -2459,7 +2459,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-7 {
-    margin-top: 12.6875rem;
+    margin-top: 11.41875rem;
   }
 }
 
@@ -2469,7 +2469,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-7-5 {
-    margin-top: 13.59375rem;
+    margin-top: 12.23437rem;
   }
 }
 
@@ -2479,7 +2479,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-7 {
-    margin-bottom: 12.6875rem;
+    margin-bottom: 11.41875rem;
   }
 }
 
@@ -2489,7 +2489,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-7-5 {
-    margin-bottom: 13.59375rem;
+    margin-bottom: 12.23437rem;
   }
 }
 
@@ -2499,7 +2499,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-7 {
-    margin-left: 12.6875rem;
+    margin-left: 11.41875rem;
   }
 }
 
@@ -2509,7 +2509,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-7-5 {
-    margin-left: 13.59375rem;
+    margin-left: 12.23437rem;
   }
 }
 
@@ -2519,7 +2519,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-7 {
-    margin-right: 12.6875rem;
+    margin-right: 11.41875rem;
   }
 }
 
@@ -2529,7 +2529,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-7-5 {
-    margin-right: 13.59375rem;
+    margin-right: 12.23437rem;
   }
 }
 
@@ -2539,7 +2539,7 @@
 
 @media screen and (min-width: 48em) {
   .height-8 {
-    height: 14.5rem;
+    height: 13.05rem;
   }
 }
 
@@ -2549,7 +2549,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-8 {
-    min-width: 14.5rem;
+    min-width: 13.05rem;
   }
 }
 
@@ -2562,25 +2562,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-8 {
-    padding-top: 14.5rem;
+    padding-top: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-8 {
-    padding-right: 14.5rem;
+    padding-right: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-8 {
-    padding-bottom: 14.5rem;
+    padding-bottom: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-8 {
-    padding-left: 14.5rem;
+    padding-left: 13.05rem;
   }
 }
 
@@ -2593,25 +2593,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-8 {
-    margin-top: 14.5rem;
+    margin-top: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-8 {
-    margin-right: 14.5rem;
+    margin-right: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-8 {
-    margin-bottom: 14.5rem;
+    margin-bottom: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-8 {
-    margin-left: 14.5rem;
+    margin-left: 13.05rem;
   }
 }
 
@@ -2624,13 +2624,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-8-auto {
-    margin-top: 14.5rem;
+    margin-top: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-8-auto {
-    margin-bottom: 14.5rem;
+    margin-bottom: 13.05rem;
   }
 }
 
@@ -2640,7 +2640,7 @@
 
 @media screen and (min-width: 48em) {
   .top-8 {
-    top: 14.5rem;
+    top: 13.05rem;
   }
 }
 
@@ -2650,7 +2650,7 @@
 
 @media screen and (min-width: 48em) {
   .right-8 {
-    right: 14.5rem;
+    right: 13.05rem;
   }
 }
 
@@ -2660,7 +2660,7 @@
 
 @media screen and (min-width: 48em) {
   .left-8 {
-    left: 14.5rem;
+    left: 13.05rem;
   }
 }
 
@@ -2670,7 +2670,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-8 {
-    bottom: 14.5rem;
+    bottom: 13.05rem;
   }
 }
 
@@ -2680,7 +2680,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-8 {
-    padding-top: 14.5rem;
+    padding-top: 13.05rem;
   }
 }
 
@@ -2690,7 +2690,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-8-5 {
-    padding-top: 15.40625rem;
+    padding-top: 13.86562rem;
   }
 }
 
@@ -2700,7 +2700,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-8 {
-    padding-bottom: 14.5rem;
+    padding-bottom: 13.05rem;
   }
 }
 
@@ -2710,7 +2710,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-8-5 {
-    padding-bottom: 15.40625rem;
+    padding-bottom: 13.86562rem;
   }
 }
 
@@ -2720,7 +2720,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-8 {
-    padding-left: 14.5rem;
+    padding-left: 13.05rem;
   }
 }
 
@@ -2730,7 +2730,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-8-5 {
-    padding-left: 15.40625rem;
+    padding-left: 13.86562rem;
   }
 }
 
@@ -2740,7 +2740,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-8 {
-    padding-right: 14.5rem;
+    padding-right: 13.05rem;
   }
 }
 
@@ -2750,7 +2750,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-8-5 {
-    padding-right: 15.40625rem;
+    padding-right: 13.86562rem;
   }
 }
 
@@ -2760,7 +2760,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-8 {
-    margin-top: 14.5rem;
+    margin-top: 13.05rem;
   }
 }
 
@@ -2770,7 +2770,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-8-5 {
-    margin-top: 15.40625rem;
+    margin-top: 13.86562rem;
   }
 }
 
@@ -2780,7 +2780,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-8 {
-    margin-bottom: 14.5rem;
+    margin-bottom: 13.05rem;
   }
 }
 
@@ -2790,7 +2790,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-8-5 {
-    margin-bottom: 15.40625rem;
+    margin-bottom: 13.86562rem;
   }
 }
 
@@ -2800,7 +2800,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-8 {
-    margin-left: 14.5rem;
+    margin-left: 13.05rem;
   }
 }
 
@@ -2810,7 +2810,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-8-5 {
-    margin-left: 15.40625rem;
+    margin-left: 13.86562rem;
   }
 }
 
@@ -2820,7 +2820,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-8 {
-    margin-right: 14.5rem;
+    margin-right: 13.05rem;
   }
 }
 
@@ -2830,7 +2830,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-8-5 {
-    margin-right: 15.40625rem;
+    margin-right: 13.86562rem;
   }
 }
 
@@ -2840,7 +2840,7 @@
 
 @media screen and (min-width: 48em) {
   .height-9 {
-    height: 16.3125rem;
+    height: 14.68125rem;
   }
 }
 
@@ -2850,7 +2850,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-9 {
-    min-width: 16.3125rem;
+    min-width: 14.68125rem;
   }
 }
 
@@ -2863,25 +2863,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-9 {
-    padding-top: 16.3125rem;
+    padding-top: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-9 {
-    padding-right: 16.3125rem;
+    padding-right: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-9 {
-    padding-bottom: 16.3125rem;
+    padding-bottom: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-9 {
-    padding-left: 16.3125rem;
+    padding-left: 14.68125rem;
   }
 }
 
@@ -2894,25 +2894,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-9 {
-    margin-top: 16.3125rem;
+    margin-top: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-9 {
-    margin-right: 16.3125rem;
+    margin-right: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-9 {
-    margin-bottom: 16.3125rem;
+    margin-bottom: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-9 {
-    margin-left: 16.3125rem;
+    margin-left: 14.68125rem;
   }
 }
 
@@ -2925,13 +2925,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-9-auto {
-    margin-top: 16.3125rem;
+    margin-top: 14.68125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-9-auto {
-    margin-bottom: 16.3125rem;
+    margin-bottom: 14.68125rem;
   }
 }
 
@@ -2941,7 +2941,7 @@
 
 @media screen and (min-width: 48em) {
   .top-9 {
-    top: 16.3125rem;
+    top: 14.68125rem;
   }
 }
 
@@ -2951,7 +2951,7 @@
 
 @media screen and (min-width: 48em) {
   .right-9 {
-    right: 16.3125rem;
+    right: 14.68125rem;
   }
 }
 
@@ -2961,7 +2961,7 @@
 
 @media screen and (min-width: 48em) {
   .left-9 {
-    left: 16.3125rem;
+    left: 14.68125rem;
   }
 }
 
@@ -2971,7 +2971,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-9 {
-    bottom: 16.3125rem;
+    bottom: 14.68125rem;
   }
 }
 
@@ -2981,7 +2981,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-9 {
-    padding-top: 16.3125rem;
+    padding-top: 14.68125rem;
   }
 }
 
@@ -2991,7 +2991,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-9-5 {
-    padding-top: 17.21875rem;
+    padding-top: 15.49687rem;
   }
 }
 
@@ -3001,7 +3001,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-9 {
-    padding-bottom: 16.3125rem;
+    padding-bottom: 14.68125rem;
   }
 }
 
@@ -3011,7 +3011,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-9-5 {
-    padding-bottom: 17.21875rem;
+    padding-bottom: 15.49687rem;
   }
 }
 
@@ -3021,7 +3021,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-9 {
-    padding-left: 16.3125rem;
+    padding-left: 14.68125rem;
   }
 }
 
@@ -3031,7 +3031,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-9-5 {
-    padding-left: 17.21875rem;
+    padding-left: 15.49687rem;
   }
 }
 
@@ -3041,7 +3041,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-9 {
-    padding-right: 16.3125rem;
+    padding-right: 14.68125rem;
   }
 }
 
@@ -3051,7 +3051,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-9-5 {
-    padding-right: 17.21875rem;
+    padding-right: 15.49687rem;
   }
 }
 
@@ -3061,7 +3061,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-9 {
-    margin-top: 16.3125rem;
+    margin-top: 14.68125rem;
   }
 }
 
@@ -3071,7 +3071,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-9-5 {
-    margin-top: 17.21875rem;
+    margin-top: 15.49687rem;
   }
 }
 
@@ -3081,7 +3081,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-9 {
-    margin-bottom: 16.3125rem;
+    margin-bottom: 14.68125rem;
   }
 }
 
@@ -3091,7 +3091,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-9-5 {
-    margin-bottom: 17.21875rem;
+    margin-bottom: 15.49687rem;
   }
 }
 
@@ -3101,7 +3101,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-9 {
-    margin-left: 16.3125rem;
+    margin-left: 14.68125rem;
   }
 }
 
@@ -3111,7 +3111,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-9-5 {
-    margin-left: 17.21875rem;
+    margin-left: 15.49687rem;
   }
 }
 
@@ -3121,7 +3121,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-9 {
-    margin-right: 16.3125rem;
+    margin-right: 14.68125rem;
   }
 }
 
@@ -3131,7 +3131,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-9-5 {
-    margin-right: 17.21875rem;
+    margin-right: 15.49687rem;
   }
 }
 
@@ -3141,7 +3141,7 @@
 
 @media screen and (min-width: 48em) {
   .height-10 {
-    height: 18.125rem;
+    height: 16.3125rem;
   }
 }
 
@@ -3151,7 +3151,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-10 {
-    min-width: 18.125rem;
+    min-width: 16.3125rem;
   }
 }
 
@@ -3164,25 +3164,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-10 {
-    padding-top: 18.125rem;
+    padding-top: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-10 {
-    padding-right: 18.125rem;
+    padding-right: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-10 {
-    padding-bottom: 18.125rem;
+    padding-bottom: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-10 {
-    padding-left: 18.125rem;
+    padding-left: 16.3125rem;
   }
 }
 
@@ -3195,25 +3195,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-10 {
-    margin-top: 18.125rem;
+    margin-top: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-10 {
-    margin-right: 18.125rem;
+    margin-right: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-10 {
-    margin-bottom: 18.125rem;
+    margin-bottom: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-10 {
-    margin-left: 18.125rem;
+    margin-left: 16.3125rem;
   }
 }
 
@@ -3226,13 +3226,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-10-auto {
-    margin-top: 18.125rem;
+    margin-top: 16.3125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-10-auto {
-    margin-bottom: 18.125rem;
+    margin-bottom: 16.3125rem;
   }
 }
 
@@ -3242,7 +3242,7 @@
 
 @media screen and (min-width: 48em) {
   .top-10 {
-    top: 18.125rem;
+    top: 16.3125rem;
   }
 }
 
@@ -3252,7 +3252,7 @@
 
 @media screen and (min-width: 48em) {
   .right-10 {
-    right: 18.125rem;
+    right: 16.3125rem;
   }
 }
 
@@ -3262,7 +3262,7 @@
 
 @media screen and (min-width: 48em) {
   .left-10 {
-    left: 18.125rem;
+    left: 16.3125rem;
   }
 }
 
@@ -3272,7 +3272,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-10 {
-    bottom: 18.125rem;
+    bottom: 16.3125rem;
   }
 }
 
@@ -3282,7 +3282,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-10 {
-    padding-top: 18.125rem;
+    padding-top: 16.3125rem;
   }
 }
 
@@ -3292,7 +3292,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-10-5 {
-    padding-top: 19.03125rem;
+    padding-top: 17.12812rem;
   }
 }
 
@@ -3302,7 +3302,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-10 {
-    padding-bottom: 18.125rem;
+    padding-bottom: 16.3125rem;
   }
 }
 
@@ -3312,7 +3312,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-10-5 {
-    padding-bottom: 19.03125rem;
+    padding-bottom: 17.12812rem;
   }
 }
 
@@ -3322,7 +3322,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-10 {
-    padding-left: 18.125rem;
+    padding-left: 16.3125rem;
   }
 }
 
@@ -3332,7 +3332,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-10-5 {
-    padding-left: 19.03125rem;
+    padding-left: 17.12812rem;
   }
 }
 
@@ -3342,7 +3342,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-10 {
-    padding-right: 18.125rem;
+    padding-right: 16.3125rem;
   }
 }
 
@@ -3352,7 +3352,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-10-5 {
-    padding-right: 19.03125rem;
+    padding-right: 17.12812rem;
   }
 }
 
@@ -3362,7 +3362,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-10 {
-    margin-top: 18.125rem;
+    margin-top: 16.3125rem;
   }
 }
 
@@ -3372,7 +3372,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-10-5 {
-    margin-top: 19.03125rem;
+    margin-top: 17.12812rem;
   }
 }
 
@@ -3382,7 +3382,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-10 {
-    margin-bottom: 18.125rem;
+    margin-bottom: 16.3125rem;
   }
 }
 
@@ -3392,7 +3392,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-10-5 {
-    margin-bottom: 19.03125rem;
+    margin-bottom: 17.12812rem;
   }
 }
 
@@ -3402,7 +3402,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-10 {
-    margin-left: 18.125rem;
+    margin-left: 16.3125rem;
   }
 }
 
@@ -3412,7 +3412,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-10-5 {
-    margin-left: 19.03125rem;
+    margin-left: 17.12812rem;
   }
 }
 
@@ -3422,7 +3422,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-10 {
-    margin-right: 18.125rem;
+    margin-right: 16.3125rem;
   }
 }
 
@@ -3432,7 +3432,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-10-5 {
-    margin-right: 19.03125rem;
+    margin-right: 17.12812rem;
   }
 }
 
@@ -3442,7 +3442,7 @@
 
 @media screen and (min-width: 48em) {
   .height-11 {
-    height: 19.9375rem;
+    height: 17.94375rem;
   }
 }
 
@@ -3452,7 +3452,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-11 {
-    min-width: 19.9375rem;
+    min-width: 17.94375rem;
   }
 }
 
@@ -3465,25 +3465,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-11 {
-    padding-top: 19.9375rem;
+    padding-top: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-11 {
-    padding-right: 19.9375rem;
+    padding-right: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-11 {
-    padding-bottom: 19.9375rem;
+    padding-bottom: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-11 {
-    padding-left: 19.9375rem;
+    padding-left: 17.94375rem;
   }
 }
 
@@ -3496,25 +3496,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-11 {
-    margin-top: 19.9375rem;
+    margin-top: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-11 {
-    margin-right: 19.9375rem;
+    margin-right: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-11 {
-    margin-bottom: 19.9375rem;
+    margin-bottom: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-11 {
-    margin-left: 19.9375rem;
+    margin-left: 17.94375rem;
   }
 }
 
@@ -3527,13 +3527,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-11-auto {
-    margin-top: 19.9375rem;
+    margin-top: 17.94375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-11-auto {
-    margin-bottom: 19.9375rem;
+    margin-bottom: 17.94375rem;
   }
 }
 
@@ -3543,7 +3543,7 @@
 
 @media screen and (min-width: 48em) {
   .top-11 {
-    top: 19.9375rem;
+    top: 17.94375rem;
   }
 }
 
@@ -3553,7 +3553,7 @@
 
 @media screen and (min-width: 48em) {
   .right-11 {
-    right: 19.9375rem;
+    right: 17.94375rem;
   }
 }
 
@@ -3563,7 +3563,7 @@
 
 @media screen and (min-width: 48em) {
   .left-11 {
-    left: 19.9375rem;
+    left: 17.94375rem;
   }
 }
 
@@ -3573,7 +3573,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-11 {
-    bottom: 19.9375rem;
+    bottom: 17.94375rem;
   }
 }
 
@@ -3583,7 +3583,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-11 {
-    padding-top: 19.9375rem;
+    padding-top: 17.94375rem;
   }
 }
 
@@ -3593,7 +3593,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-11-5 {
-    padding-top: 20.84375rem;
+    padding-top: 18.75937rem;
   }
 }
 
@@ -3603,7 +3603,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-11 {
-    padding-bottom: 19.9375rem;
+    padding-bottom: 17.94375rem;
   }
 }
 
@@ -3613,7 +3613,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-11-5 {
-    padding-bottom: 20.84375rem;
+    padding-bottom: 18.75937rem;
   }
 }
 
@@ -3623,7 +3623,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-11 {
-    padding-left: 19.9375rem;
+    padding-left: 17.94375rem;
   }
 }
 
@@ -3633,7 +3633,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-11-5 {
-    padding-left: 20.84375rem;
+    padding-left: 18.75937rem;
   }
 }
 
@@ -3643,7 +3643,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-11 {
-    padding-right: 19.9375rem;
+    padding-right: 17.94375rem;
   }
 }
 
@@ -3653,7 +3653,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-11-5 {
-    padding-right: 20.84375rem;
+    padding-right: 18.75937rem;
   }
 }
 
@@ -3663,7 +3663,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-11 {
-    margin-top: 19.9375rem;
+    margin-top: 17.94375rem;
   }
 }
 
@@ -3673,7 +3673,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-11-5 {
-    margin-top: 20.84375rem;
+    margin-top: 18.75937rem;
   }
 }
 
@@ -3683,7 +3683,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-11 {
-    margin-bottom: 19.9375rem;
+    margin-bottom: 17.94375rem;
   }
 }
 
@@ -3693,7 +3693,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-11-5 {
-    margin-bottom: 20.84375rem;
+    margin-bottom: 18.75937rem;
   }
 }
 
@@ -3703,7 +3703,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-11 {
-    margin-left: 19.9375rem;
+    margin-left: 17.94375rem;
   }
 }
 
@@ -3713,7 +3713,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-11-5 {
-    margin-left: 20.84375rem;
+    margin-left: 18.75937rem;
   }
 }
 
@@ -3723,7 +3723,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-11 {
-    margin-right: 19.9375rem;
+    margin-right: 17.94375rem;
   }
 }
 
@@ -3733,7 +3733,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-11-5 {
-    margin-right: 20.84375rem;
+    margin-right: 18.75937rem;
   }
 }
 
@@ -3743,7 +3743,7 @@
 
 @media screen and (min-width: 48em) {
   .height-12 {
-    height: 21.75rem;
+    height: 19.575rem;
   }
 }
 
@@ -3753,7 +3753,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-12 {
-    min-width: 21.75rem;
+    min-width: 19.575rem;
   }
 }
 
@@ -3766,25 +3766,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-12 {
-    padding-top: 21.75rem;
+    padding-top: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-12 {
-    padding-right: 21.75rem;
+    padding-right: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-12 {
-    padding-bottom: 21.75rem;
+    padding-bottom: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-12 {
-    padding-left: 21.75rem;
+    padding-left: 19.575rem;
   }
 }
 
@@ -3797,25 +3797,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-12 {
-    margin-top: 21.75rem;
+    margin-top: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-12 {
-    margin-right: 21.75rem;
+    margin-right: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-12 {
-    margin-bottom: 21.75rem;
+    margin-bottom: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-12 {
-    margin-left: 21.75rem;
+    margin-left: 19.575rem;
   }
 }
 
@@ -3828,13 +3828,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-12-auto {
-    margin-top: 21.75rem;
+    margin-top: 19.575rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-12-auto {
-    margin-bottom: 21.75rem;
+    margin-bottom: 19.575rem;
   }
 }
 
@@ -3844,7 +3844,7 @@
 
 @media screen and (min-width: 48em) {
   .top-12 {
-    top: 21.75rem;
+    top: 19.575rem;
   }
 }
 
@@ -3854,7 +3854,7 @@
 
 @media screen and (min-width: 48em) {
   .right-12 {
-    right: 21.75rem;
+    right: 19.575rem;
   }
 }
 
@@ -3864,7 +3864,7 @@
 
 @media screen and (min-width: 48em) {
   .left-12 {
-    left: 21.75rem;
+    left: 19.575rem;
   }
 }
 
@@ -3874,7 +3874,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-12 {
-    bottom: 21.75rem;
+    bottom: 19.575rem;
   }
 }
 
@@ -3884,7 +3884,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-12 {
-    padding-top: 21.75rem;
+    padding-top: 19.575rem;
   }
 }
 
@@ -3894,7 +3894,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-12-5 {
-    padding-top: 22.65625rem;
+    padding-top: 20.39063rem;
   }
 }
 
@@ -3904,7 +3904,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-12 {
-    padding-bottom: 21.75rem;
+    padding-bottom: 19.575rem;
   }
 }
 
@@ -3914,7 +3914,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-12-5 {
-    padding-bottom: 22.65625rem;
+    padding-bottom: 20.39063rem;
   }
 }
 
@@ -3924,7 +3924,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-12 {
-    padding-left: 21.75rem;
+    padding-left: 19.575rem;
   }
 }
 
@@ -3934,7 +3934,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-12-5 {
-    padding-left: 22.65625rem;
+    padding-left: 20.39063rem;
   }
 }
 
@@ -3944,7 +3944,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-12 {
-    padding-right: 21.75rem;
+    padding-right: 19.575rem;
   }
 }
 
@@ -3954,7 +3954,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-12-5 {
-    padding-right: 22.65625rem;
+    padding-right: 20.39063rem;
   }
 }
 
@@ -3964,7 +3964,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-12 {
-    margin-top: 21.75rem;
+    margin-top: 19.575rem;
   }
 }
 
@@ -3974,7 +3974,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-12-5 {
-    margin-top: 22.65625rem;
+    margin-top: 20.39063rem;
   }
 }
 
@@ -3984,7 +3984,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-12 {
-    margin-bottom: 21.75rem;
+    margin-bottom: 19.575rem;
   }
 }
 
@@ -3994,7 +3994,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-12-5 {
-    margin-bottom: 22.65625rem;
+    margin-bottom: 20.39063rem;
   }
 }
 
@@ -4004,7 +4004,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-12 {
-    margin-left: 21.75rem;
+    margin-left: 19.575rem;
   }
 }
 
@@ -4014,7 +4014,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-12-5 {
-    margin-left: 22.65625rem;
+    margin-left: 20.39063rem;
   }
 }
 
@@ -4024,7 +4024,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-12 {
-    margin-right: 21.75rem;
+    margin-right: 19.575rem;
   }
 }
 
@@ -4034,7 +4034,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-12-5 {
-    margin-right: 22.65625rem;
+    margin-right: 20.39063rem;
   }
 }
 
@@ -4044,7 +4044,7 @@
 
 @media screen and (min-width: 48em) {
   .height-13 {
-    height: 23.5625rem;
+    height: 21.20625rem;
   }
 }
 
@@ -4054,7 +4054,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-13 {
-    min-width: 23.5625rem;
+    min-width: 21.20625rem;
   }
 }
 
@@ -4067,25 +4067,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-13 {
-    padding-top: 23.5625rem;
+    padding-top: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-13 {
-    padding-right: 23.5625rem;
+    padding-right: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-13 {
-    padding-bottom: 23.5625rem;
+    padding-bottom: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-13 {
-    padding-left: 23.5625rem;
+    padding-left: 21.20625rem;
   }
 }
 
@@ -4098,25 +4098,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-13 {
-    margin-top: 23.5625rem;
+    margin-top: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-13 {
-    margin-right: 23.5625rem;
+    margin-right: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-13 {
-    margin-bottom: 23.5625rem;
+    margin-bottom: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-13 {
-    margin-left: 23.5625rem;
+    margin-left: 21.20625rem;
   }
 }
 
@@ -4129,13 +4129,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-13-auto {
-    margin-top: 23.5625rem;
+    margin-top: 21.20625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-13-auto {
-    margin-bottom: 23.5625rem;
+    margin-bottom: 21.20625rem;
   }
 }
 
@@ -4145,7 +4145,7 @@
 
 @media screen and (min-width: 48em) {
   .top-13 {
-    top: 23.5625rem;
+    top: 21.20625rem;
   }
 }
 
@@ -4155,7 +4155,7 @@
 
 @media screen and (min-width: 48em) {
   .right-13 {
-    right: 23.5625rem;
+    right: 21.20625rem;
   }
 }
 
@@ -4165,7 +4165,7 @@
 
 @media screen and (min-width: 48em) {
   .left-13 {
-    left: 23.5625rem;
+    left: 21.20625rem;
   }
 }
 
@@ -4175,7 +4175,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-13 {
-    bottom: 23.5625rem;
+    bottom: 21.20625rem;
   }
 }
 
@@ -4185,7 +4185,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-13 {
-    padding-top: 23.5625rem;
+    padding-top: 21.20625rem;
   }
 }
 
@@ -4195,7 +4195,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-13-5 {
-    padding-top: 24.46875rem;
+    padding-top: 22.02187rem;
   }
 }
 
@@ -4205,7 +4205,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-13 {
-    padding-bottom: 23.5625rem;
+    padding-bottom: 21.20625rem;
   }
 }
 
@@ -4215,7 +4215,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-13-5 {
-    padding-bottom: 24.46875rem;
+    padding-bottom: 22.02187rem;
   }
 }
 
@@ -4225,7 +4225,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-13 {
-    padding-left: 23.5625rem;
+    padding-left: 21.20625rem;
   }
 }
 
@@ -4235,7 +4235,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-13-5 {
-    padding-left: 24.46875rem;
+    padding-left: 22.02187rem;
   }
 }
 
@@ -4245,7 +4245,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-13 {
-    padding-right: 23.5625rem;
+    padding-right: 21.20625rem;
   }
 }
 
@@ -4255,7 +4255,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-13-5 {
-    padding-right: 24.46875rem;
+    padding-right: 22.02187rem;
   }
 }
 
@@ -4265,7 +4265,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-13 {
-    margin-top: 23.5625rem;
+    margin-top: 21.20625rem;
   }
 }
 
@@ -4275,7 +4275,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-13-5 {
-    margin-top: 24.46875rem;
+    margin-top: 22.02187rem;
   }
 }
 
@@ -4285,7 +4285,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-13 {
-    margin-bottom: 23.5625rem;
+    margin-bottom: 21.20625rem;
   }
 }
 
@@ -4295,7 +4295,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-13-5 {
-    margin-bottom: 24.46875rem;
+    margin-bottom: 22.02187rem;
   }
 }
 
@@ -4305,7 +4305,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-13 {
-    margin-left: 23.5625rem;
+    margin-left: 21.20625rem;
   }
 }
 
@@ -4315,7 +4315,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-13-5 {
-    margin-left: 24.46875rem;
+    margin-left: 22.02187rem;
   }
 }
 
@@ -4325,7 +4325,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-13 {
-    margin-right: 23.5625rem;
+    margin-right: 21.20625rem;
   }
 }
 
@@ -4335,7 +4335,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-13-5 {
-    margin-right: 24.46875rem;
+    margin-right: 22.02187rem;
   }
 }
 
@@ -4345,7 +4345,7 @@
 
 @media screen and (min-width: 48em) {
   .height-14 {
-    height: 25.375rem;
+    height: 22.8375rem;
   }
 }
 
@@ -4355,7 +4355,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-14 {
-    min-width: 25.375rem;
+    min-width: 22.8375rem;
   }
 }
 
@@ -4368,25 +4368,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-14 {
-    padding-top: 25.375rem;
+    padding-top: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-14 {
-    padding-right: 25.375rem;
+    padding-right: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-14 {
-    padding-bottom: 25.375rem;
+    padding-bottom: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-14 {
-    padding-left: 25.375rem;
+    padding-left: 22.8375rem;
   }
 }
 
@@ -4399,25 +4399,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-14 {
-    margin-top: 25.375rem;
+    margin-top: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-14 {
-    margin-right: 25.375rem;
+    margin-right: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-14 {
-    margin-bottom: 25.375rem;
+    margin-bottom: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-14 {
-    margin-left: 25.375rem;
+    margin-left: 22.8375rem;
   }
 }
 
@@ -4430,13 +4430,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-14-auto {
-    margin-top: 25.375rem;
+    margin-top: 22.8375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-14-auto {
-    margin-bottom: 25.375rem;
+    margin-bottom: 22.8375rem;
   }
 }
 
@@ -4446,7 +4446,7 @@
 
 @media screen and (min-width: 48em) {
   .top-14 {
-    top: 25.375rem;
+    top: 22.8375rem;
   }
 }
 
@@ -4456,7 +4456,7 @@
 
 @media screen and (min-width: 48em) {
   .right-14 {
-    right: 25.375rem;
+    right: 22.8375rem;
   }
 }
 
@@ -4466,7 +4466,7 @@
 
 @media screen and (min-width: 48em) {
   .left-14 {
-    left: 25.375rem;
+    left: 22.8375rem;
   }
 }
 
@@ -4476,7 +4476,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-14 {
-    bottom: 25.375rem;
+    bottom: 22.8375rem;
   }
 }
 
@@ -4486,7 +4486,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-14 {
-    padding-top: 25.375rem;
+    padding-top: 22.8375rem;
   }
 }
 
@@ -4496,7 +4496,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-14-5 {
-    padding-top: 26.28125rem;
+    padding-top: 23.65312rem;
   }
 }
 
@@ -4506,7 +4506,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-14 {
-    padding-bottom: 25.375rem;
+    padding-bottom: 22.8375rem;
   }
 }
 
@@ -4516,7 +4516,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-14-5 {
-    padding-bottom: 26.28125rem;
+    padding-bottom: 23.65312rem;
   }
 }
 
@@ -4526,7 +4526,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-14 {
-    padding-left: 25.375rem;
+    padding-left: 22.8375rem;
   }
 }
 
@@ -4536,7 +4536,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-14-5 {
-    padding-left: 26.28125rem;
+    padding-left: 23.65312rem;
   }
 }
 
@@ -4546,7 +4546,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-14 {
-    padding-right: 25.375rem;
+    padding-right: 22.8375rem;
   }
 }
 
@@ -4556,7 +4556,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-14-5 {
-    padding-right: 26.28125rem;
+    padding-right: 23.65312rem;
   }
 }
 
@@ -4566,7 +4566,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-14 {
-    margin-top: 25.375rem;
+    margin-top: 22.8375rem;
   }
 }
 
@@ -4576,7 +4576,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-14-5 {
-    margin-top: 26.28125rem;
+    margin-top: 23.65312rem;
   }
 }
 
@@ -4586,7 +4586,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-14 {
-    margin-bottom: 25.375rem;
+    margin-bottom: 22.8375rem;
   }
 }
 
@@ -4596,7 +4596,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-14-5 {
-    margin-bottom: 26.28125rem;
+    margin-bottom: 23.65312rem;
   }
 }
 
@@ -4606,7 +4606,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-14 {
-    margin-left: 25.375rem;
+    margin-left: 22.8375rem;
   }
 }
 
@@ -4616,7 +4616,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-14-5 {
-    margin-left: 26.28125rem;
+    margin-left: 23.65312rem;
   }
 }
 
@@ -4626,7 +4626,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-14 {
-    margin-right: 25.375rem;
+    margin-right: 22.8375rem;
   }
 }
 
@@ -4636,7 +4636,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-14-5 {
-    margin-right: 26.28125rem;
+    margin-right: 23.65312rem;
   }
 }
 
@@ -4646,7 +4646,7 @@
 
 @media screen and (min-width: 48em) {
   .height-15 {
-    height: 27.1875rem;
+    height: 24.46875rem;
   }
 }
 
@@ -4656,7 +4656,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-15 {
-    min-width: 27.1875rem;
+    min-width: 24.46875rem;
   }
 }
 
@@ -4669,25 +4669,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-15 {
-    padding-top: 27.1875rem;
+    padding-top: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-15 {
-    padding-right: 27.1875rem;
+    padding-right: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-15 {
-    padding-bottom: 27.1875rem;
+    padding-bottom: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-15 {
-    padding-left: 27.1875rem;
+    padding-left: 24.46875rem;
   }
 }
 
@@ -4700,25 +4700,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-15 {
-    margin-top: 27.1875rem;
+    margin-top: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-15 {
-    margin-right: 27.1875rem;
+    margin-right: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-15 {
-    margin-bottom: 27.1875rem;
+    margin-bottom: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-15 {
-    margin-left: 27.1875rem;
+    margin-left: 24.46875rem;
   }
 }
 
@@ -4731,13 +4731,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-15-auto {
-    margin-top: 27.1875rem;
+    margin-top: 24.46875rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-15-auto {
-    margin-bottom: 27.1875rem;
+    margin-bottom: 24.46875rem;
   }
 }
 
@@ -4747,7 +4747,7 @@
 
 @media screen and (min-width: 48em) {
   .top-15 {
-    top: 27.1875rem;
+    top: 24.46875rem;
   }
 }
 
@@ -4757,7 +4757,7 @@
 
 @media screen and (min-width: 48em) {
   .right-15 {
-    right: 27.1875rem;
+    right: 24.46875rem;
   }
 }
 
@@ -4767,7 +4767,7 @@
 
 @media screen and (min-width: 48em) {
   .left-15 {
-    left: 27.1875rem;
+    left: 24.46875rem;
   }
 }
 
@@ -4777,7 +4777,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-15 {
-    bottom: 27.1875rem;
+    bottom: 24.46875rem;
   }
 }
 
@@ -4787,7 +4787,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-15 {
-    padding-top: 27.1875rem;
+    padding-top: 24.46875rem;
   }
 }
 
@@ -4797,7 +4797,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-15-5 {
-    padding-top: 28.09375rem;
+    padding-top: 25.28437rem;
   }
 }
 
@@ -4807,7 +4807,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-15 {
-    padding-bottom: 27.1875rem;
+    padding-bottom: 24.46875rem;
   }
 }
 
@@ -4817,7 +4817,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-15-5 {
-    padding-bottom: 28.09375rem;
+    padding-bottom: 25.28437rem;
   }
 }
 
@@ -4827,7 +4827,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-15 {
-    padding-left: 27.1875rem;
+    padding-left: 24.46875rem;
   }
 }
 
@@ -4837,7 +4837,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-15-5 {
-    padding-left: 28.09375rem;
+    padding-left: 25.28437rem;
   }
 }
 
@@ -4847,7 +4847,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-15 {
-    padding-right: 27.1875rem;
+    padding-right: 24.46875rem;
   }
 }
 
@@ -4857,7 +4857,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-15-5 {
-    padding-right: 28.09375rem;
+    padding-right: 25.28437rem;
   }
 }
 
@@ -4867,7 +4867,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-15 {
-    margin-top: 27.1875rem;
+    margin-top: 24.46875rem;
   }
 }
 
@@ -4877,7 +4877,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-15-5 {
-    margin-top: 28.09375rem;
+    margin-top: 25.28437rem;
   }
 }
 
@@ -4887,7 +4887,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-15 {
-    margin-bottom: 27.1875rem;
+    margin-bottom: 24.46875rem;
   }
 }
 
@@ -4897,7 +4897,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-15-5 {
-    margin-bottom: 28.09375rem;
+    margin-bottom: 25.28437rem;
   }
 }
 
@@ -4907,7 +4907,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-15 {
-    margin-left: 27.1875rem;
+    margin-left: 24.46875rem;
   }
 }
 
@@ -4917,7 +4917,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-15-5 {
-    margin-left: 28.09375rem;
+    margin-left: 25.28437rem;
   }
 }
 
@@ -4927,7 +4927,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-15 {
-    margin-right: 27.1875rem;
+    margin-right: 24.46875rem;
   }
 }
 
@@ -4937,7 +4937,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-15-5 {
-    margin-right: 28.09375rem;
+    margin-right: 25.28437rem;
   }
 }
 
@@ -4947,7 +4947,7 @@
 
 @media screen and (min-width: 48em) {
   .height-16 {
-    height: 29rem;
+    height: 26.1rem;
   }
 }
 
@@ -4957,7 +4957,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-16 {
-    min-width: 29rem;
+    min-width: 26.1rem;
   }
 }
 
@@ -4970,25 +4970,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-16 {
-    padding-top: 29rem;
+    padding-top: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-16 {
-    padding-right: 29rem;
+    padding-right: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-16 {
-    padding-bottom: 29rem;
+    padding-bottom: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-16 {
-    padding-left: 29rem;
+    padding-left: 26.1rem;
   }
 }
 
@@ -5001,25 +5001,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-16 {
-    margin-top: 29rem;
+    margin-top: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-16 {
-    margin-right: 29rem;
+    margin-right: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-16 {
-    margin-bottom: 29rem;
+    margin-bottom: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-16 {
-    margin-left: 29rem;
+    margin-left: 26.1rem;
   }
 }
 
@@ -5032,13 +5032,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-16-auto {
-    margin-top: 29rem;
+    margin-top: 26.1rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-16-auto {
-    margin-bottom: 29rem;
+    margin-bottom: 26.1rem;
   }
 }
 
@@ -5048,7 +5048,7 @@
 
 @media screen and (min-width: 48em) {
   .top-16 {
-    top: 29rem;
+    top: 26.1rem;
   }
 }
 
@@ -5058,7 +5058,7 @@
 
 @media screen and (min-width: 48em) {
   .right-16 {
-    right: 29rem;
+    right: 26.1rem;
   }
 }
 
@@ -5068,7 +5068,7 @@
 
 @media screen and (min-width: 48em) {
   .left-16 {
-    left: 29rem;
+    left: 26.1rem;
   }
 }
 
@@ -5078,7 +5078,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-16 {
-    bottom: 29rem;
+    bottom: 26.1rem;
   }
 }
 
@@ -5088,7 +5088,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-16 {
-    padding-top: 29rem;
+    padding-top: 26.1rem;
   }
 }
 
@@ -5098,7 +5098,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-16-5 {
-    padding-top: 29.90625rem;
+    padding-top: 26.91562rem;
   }
 }
 
@@ -5108,7 +5108,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-16 {
-    padding-bottom: 29rem;
+    padding-bottom: 26.1rem;
   }
 }
 
@@ -5118,7 +5118,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-16-5 {
-    padding-bottom: 29.90625rem;
+    padding-bottom: 26.91562rem;
   }
 }
 
@@ -5128,7 +5128,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-16 {
-    padding-left: 29rem;
+    padding-left: 26.1rem;
   }
 }
 
@@ -5138,7 +5138,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-16-5 {
-    padding-left: 29.90625rem;
+    padding-left: 26.91562rem;
   }
 }
 
@@ -5148,7 +5148,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-16 {
-    padding-right: 29rem;
+    padding-right: 26.1rem;
   }
 }
 
@@ -5158,7 +5158,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-16-5 {
-    padding-right: 29.90625rem;
+    padding-right: 26.91562rem;
   }
 }
 
@@ -5168,7 +5168,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-16 {
-    margin-top: 29rem;
+    margin-top: 26.1rem;
   }
 }
 
@@ -5178,7 +5178,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-16-5 {
-    margin-top: 29.90625rem;
+    margin-top: 26.91562rem;
   }
 }
 
@@ -5188,7 +5188,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-16 {
-    margin-bottom: 29rem;
+    margin-bottom: 26.1rem;
   }
 }
 
@@ -5198,7 +5198,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-16-5 {
-    margin-bottom: 29.90625rem;
+    margin-bottom: 26.91562rem;
   }
 }
 
@@ -5208,7 +5208,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-16 {
-    margin-left: 29rem;
+    margin-left: 26.1rem;
   }
 }
 
@@ -5218,7 +5218,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-16-5 {
-    margin-left: 29.90625rem;
+    margin-left: 26.91562rem;
   }
 }
 
@@ -5228,7 +5228,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-16 {
-    margin-right: 29rem;
+    margin-right: 26.1rem;
   }
 }
 
@@ -5238,7 +5238,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-16-5 {
-    margin-right: 29.90625rem;
+    margin-right: 26.91562rem;
   }
 }
 
@@ -5248,7 +5248,7 @@
 
 @media screen and (min-width: 48em) {
   .height-17 {
-    height: 30.8125rem;
+    height: 27.73125rem;
   }
 }
 
@@ -5258,7 +5258,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-17 {
-    min-width: 30.8125rem;
+    min-width: 27.73125rem;
   }
 }
 
@@ -5271,25 +5271,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-17 {
-    padding-top: 30.8125rem;
+    padding-top: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-17 {
-    padding-right: 30.8125rem;
+    padding-right: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-17 {
-    padding-bottom: 30.8125rem;
+    padding-bottom: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-17 {
-    padding-left: 30.8125rem;
+    padding-left: 27.73125rem;
   }
 }
 
@@ -5302,25 +5302,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-17 {
-    margin-top: 30.8125rem;
+    margin-top: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-17 {
-    margin-right: 30.8125rem;
+    margin-right: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-17 {
-    margin-bottom: 30.8125rem;
+    margin-bottom: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-17 {
-    margin-left: 30.8125rem;
+    margin-left: 27.73125rem;
   }
 }
 
@@ -5333,13 +5333,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-17-auto {
-    margin-top: 30.8125rem;
+    margin-top: 27.73125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-17-auto {
-    margin-bottom: 30.8125rem;
+    margin-bottom: 27.73125rem;
   }
 }
 
@@ -5349,7 +5349,7 @@
 
 @media screen and (min-width: 48em) {
   .top-17 {
-    top: 30.8125rem;
+    top: 27.73125rem;
   }
 }
 
@@ -5359,7 +5359,7 @@
 
 @media screen and (min-width: 48em) {
   .right-17 {
-    right: 30.8125rem;
+    right: 27.73125rem;
   }
 }
 
@@ -5369,7 +5369,7 @@
 
 @media screen and (min-width: 48em) {
   .left-17 {
-    left: 30.8125rem;
+    left: 27.73125rem;
   }
 }
 
@@ -5379,7 +5379,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-17 {
-    bottom: 30.8125rem;
+    bottom: 27.73125rem;
   }
 }
 
@@ -5389,7 +5389,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-17 {
-    padding-top: 30.8125rem;
+    padding-top: 27.73125rem;
   }
 }
 
@@ -5399,7 +5399,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-17-5 {
-    padding-top: 31.71875rem;
+    padding-top: 28.54687rem;
   }
 }
 
@@ -5409,7 +5409,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-17 {
-    padding-bottom: 30.8125rem;
+    padding-bottom: 27.73125rem;
   }
 }
 
@@ -5419,7 +5419,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-17-5 {
-    padding-bottom: 31.71875rem;
+    padding-bottom: 28.54687rem;
   }
 }
 
@@ -5429,7 +5429,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-17 {
-    padding-left: 30.8125rem;
+    padding-left: 27.73125rem;
   }
 }
 
@@ -5439,7 +5439,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-17-5 {
-    padding-left: 31.71875rem;
+    padding-left: 28.54687rem;
   }
 }
 
@@ -5449,7 +5449,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-17 {
-    padding-right: 30.8125rem;
+    padding-right: 27.73125rem;
   }
 }
 
@@ -5459,7 +5459,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-17-5 {
-    padding-right: 31.71875rem;
+    padding-right: 28.54687rem;
   }
 }
 
@@ -5469,7 +5469,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-17 {
-    margin-top: 30.8125rem;
+    margin-top: 27.73125rem;
   }
 }
 
@@ -5479,7 +5479,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-17-5 {
-    margin-top: 31.71875rem;
+    margin-top: 28.54687rem;
   }
 }
 
@@ -5489,7 +5489,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-17 {
-    margin-bottom: 30.8125rem;
+    margin-bottom: 27.73125rem;
   }
 }
 
@@ -5499,7 +5499,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-17-5 {
-    margin-bottom: 31.71875rem;
+    margin-bottom: 28.54687rem;
   }
 }
 
@@ -5509,7 +5509,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-17 {
-    margin-left: 30.8125rem;
+    margin-left: 27.73125rem;
   }
 }
 
@@ -5519,7 +5519,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-17-5 {
-    margin-left: 31.71875rem;
+    margin-left: 28.54687rem;
   }
 }
 
@@ -5529,7 +5529,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-17 {
-    margin-right: 30.8125rem;
+    margin-right: 27.73125rem;
   }
 }
 
@@ -5539,7 +5539,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-17-5 {
-    margin-right: 31.71875rem;
+    margin-right: 28.54687rem;
   }
 }
 
@@ -5549,7 +5549,7 @@
 
 @media screen and (min-width: 48em) {
   .height-18 {
-    height: 32.625rem;
+    height: 29.3625rem;
   }
 }
 
@@ -5559,7 +5559,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-18 {
-    min-width: 32.625rem;
+    min-width: 29.3625rem;
   }
 }
 
@@ -5572,25 +5572,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-18 {
-    padding-top: 32.625rem;
+    padding-top: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-18 {
-    padding-right: 32.625rem;
+    padding-right: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-18 {
-    padding-bottom: 32.625rem;
+    padding-bottom: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-18 {
-    padding-left: 32.625rem;
+    padding-left: 29.3625rem;
   }
 }
 
@@ -5603,25 +5603,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-18 {
-    margin-top: 32.625rem;
+    margin-top: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-18 {
-    margin-right: 32.625rem;
+    margin-right: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-18 {
-    margin-bottom: 32.625rem;
+    margin-bottom: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-18 {
-    margin-left: 32.625rem;
+    margin-left: 29.3625rem;
   }
 }
 
@@ -5634,13 +5634,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-18-auto {
-    margin-top: 32.625rem;
+    margin-top: 29.3625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-18-auto {
-    margin-bottom: 32.625rem;
+    margin-bottom: 29.3625rem;
   }
 }
 
@@ -5650,7 +5650,7 @@
 
 @media screen and (min-width: 48em) {
   .top-18 {
-    top: 32.625rem;
+    top: 29.3625rem;
   }
 }
 
@@ -5660,7 +5660,7 @@
 
 @media screen and (min-width: 48em) {
   .right-18 {
-    right: 32.625rem;
+    right: 29.3625rem;
   }
 }
 
@@ -5670,7 +5670,7 @@
 
 @media screen and (min-width: 48em) {
   .left-18 {
-    left: 32.625rem;
+    left: 29.3625rem;
   }
 }
 
@@ -5680,7 +5680,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-18 {
-    bottom: 32.625rem;
+    bottom: 29.3625rem;
   }
 }
 
@@ -5690,7 +5690,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-18 {
-    padding-top: 32.625rem;
+    padding-top: 29.3625rem;
   }
 }
 
@@ -5700,7 +5700,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-18-5 {
-    padding-top: 33.53125rem;
+    padding-top: 30.17812rem;
   }
 }
 
@@ -5710,7 +5710,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-18 {
-    padding-bottom: 32.625rem;
+    padding-bottom: 29.3625rem;
   }
 }
 
@@ -5720,7 +5720,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-18-5 {
-    padding-bottom: 33.53125rem;
+    padding-bottom: 30.17812rem;
   }
 }
 
@@ -5730,7 +5730,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-18 {
-    padding-left: 32.625rem;
+    padding-left: 29.3625rem;
   }
 }
 
@@ -5740,7 +5740,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-18-5 {
-    padding-left: 33.53125rem;
+    padding-left: 30.17812rem;
   }
 }
 
@@ -5750,7 +5750,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-18 {
-    padding-right: 32.625rem;
+    padding-right: 29.3625rem;
   }
 }
 
@@ -5760,7 +5760,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-18-5 {
-    padding-right: 33.53125rem;
+    padding-right: 30.17812rem;
   }
 }
 
@@ -5770,7 +5770,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-18 {
-    margin-top: 32.625rem;
+    margin-top: 29.3625rem;
   }
 }
 
@@ -5780,7 +5780,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-18-5 {
-    margin-top: 33.53125rem;
+    margin-top: 30.17812rem;
   }
 }
 
@@ -5790,7 +5790,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-18 {
-    margin-bottom: 32.625rem;
+    margin-bottom: 29.3625rem;
   }
 }
 
@@ -5800,7 +5800,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-18-5 {
-    margin-bottom: 33.53125rem;
+    margin-bottom: 30.17812rem;
   }
 }
 
@@ -5810,7 +5810,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-18 {
-    margin-left: 32.625rem;
+    margin-left: 29.3625rem;
   }
 }
 
@@ -5820,7 +5820,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-18-5 {
-    margin-left: 33.53125rem;
+    margin-left: 30.17812rem;
   }
 }
 
@@ -5830,7 +5830,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-18 {
-    margin-right: 32.625rem;
+    margin-right: 29.3625rem;
   }
 }
 
@@ -5840,7 +5840,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-18-5 {
-    margin-right: 33.53125rem;
+    margin-right: 30.17812rem;
   }
 }
 
@@ -5850,7 +5850,7 @@
 
 @media screen and (min-width: 48em) {
   .height-19 {
-    height: 34.4375rem;
+    height: 30.99375rem;
   }
 }
 
@@ -5860,7 +5860,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-19 {
-    min-width: 34.4375rem;
+    min-width: 30.99375rem;
   }
 }
 
@@ -5873,25 +5873,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-19 {
-    padding-top: 34.4375rem;
+    padding-top: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-19 {
-    padding-right: 34.4375rem;
+    padding-right: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-19 {
-    padding-bottom: 34.4375rem;
+    padding-bottom: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-19 {
-    padding-left: 34.4375rem;
+    padding-left: 30.99375rem;
   }
 }
 
@@ -5904,25 +5904,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-19 {
-    margin-top: 34.4375rem;
+    margin-top: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-19 {
-    margin-right: 34.4375rem;
+    margin-right: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-19 {
-    margin-bottom: 34.4375rem;
+    margin-bottom: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-19 {
-    margin-left: 34.4375rem;
+    margin-left: 30.99375rem;
   }
 }
 
@@ -5935,13 +5935,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-19-auto {
-    margin-top: 34.4375rem;
+    margin-top: 30.99375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-19-auto {
-    margin-bottom: 34.4375rem;
+    margin-bottom: 30.99375rem;
   }
 }
 
@@ -5951,7 +5951,7 @@
 
 @media screen and (min-width: 48em) {
   .top-19 {
-    top: 34.4375rem;
+    top: 30.99375rem;
   }
 }
 
@@ -5961,7 +5961,7 @@
 
 @media screen and (min-width: 48em) {
   .right-19 {
-    right: 34.4375rem;
+    right: 30.99375rem;
   }
 }
 
@@ -5971,7 +5971,7 @@
 
 @media screen and (min-width: 48em) {
   .left-19 {
-    left: 34.4375rem;
+    left: 30.99375rem;
   }
 }
 
@@ -5981,7 +5981,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-19 {
-    bottom: 34.4375rem;
+    bottom: 30.99375rem;
   }
 }
 
@@ -5991,7 +5991,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-19 {
-    padding-top: 34.4375rem;
+    padding-top: 30.99375rem;
   }
 }
 
@@ -6001,7 +6001,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-19-5 {
-    padding-top: 35.34375rem;
+    padding-top: 31.80937rem;
   }
 }
 
@@ -6011,7 +6011,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-19 {
-    padding-bottom: 34.4375rem;
+    padding-bottom: 30.99375rem;
   }
 }
 
@@ -6021,7 +6021,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-19-5 {
-    padding-bottom: 35.34375rem;
+    padding-bottom: 31.80937rem;
   }
 }
 
@@ -6031,7 +6031,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-19 {
-    padding-left: 34.4375rem;
+    padding-left: 30.99375rem;
   }
 }
 
@@ -6041,7 +6041,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-19-5 {
-    padding-left: 35.34375rem;
+    padding-left: 31.80937rem;
   }
 }
 
@@ -6051,7 +6051,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-19 {
-    padding-right: 34.4375rem;
+    padding-right: 30.99375rem;
   }
 }
 
@@ -6061,7 +6061,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-19-5 {
-    padding-right: 35.34375rem;
+    padding-right: 31.80937rem;
   }
 }
 
@@ -6071,7 +6071,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-19 {
-    margin-top: 34.4375rem;
+    margin-top: 30.99375rem;
   }
 }
 
@@ -6081,7 +6081,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-19-5 {
-    margin-top: 35.34375rem;
+    margin-top: 31.80937rem;
   }
 }
 
@@ -6091,7 +6091,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-19 {
-    margin-bottom: 34.4375rem;
+    margin-bottom: 30.99375rem;
   }
 }
 
@@ -6101,7 +6101,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-19-5 {
-    margin-bottom: 35.34375rem;
+    margin-bottom: 31.80937rem;
   }
 }
 
@@ -6111,7 +6111,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-19 {
-    margin-left: 34.4375rem;
+    margin-left: 30.99375rem;
   }
 }
 
@@ -6121,7 +6121,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-19-5 {
-    margin-left: 35.34375rem;
+    margin-left: 31.80937rem;
   }
 }
 
@@ -6131,7 +6131,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-19 {
-    margin-right: 34.4375rem;
+    margin-right: 30.99375rem;
   }
 }
 
@@ -6141,7 +6141,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-19-5 {
-    margin-right: 35.34375rem;
+    margin-right: 31.80937rem;
   }
 }
 
@@ -6151,7 +6151,7 @@
 
 @media screen and (min-width: 48em) {
   .height-20 {
-    height: 36.25rem;
+    height: 32.625rem;
   }
 }
 
@@ -6161,7 +6161,7 @@
 
 @media screen and (min-width: 48em) {
   .min-width-20 {
-    min-width: 36.25rem;
+    min-width: 32.625rem;
   }
 }
 
@@ -6174,25 +6174,25 @@
 
 @media screen and (min-width: 48em) {
   .padding-20 {
-    padding-top: 36.25rem;
+    padding-top: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-20 {
-    padding-right: 36.25rem;
+    padding-right: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-20 {
-    padding-bottom: 36.25rem;
+    padding-bottom: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .padding-20 {
-    padding-left: 36.25rem;
+    padding-left: 32.625rem;
   }
 }
 
@@ -6205,25 +6205,25 @@
 
 @media screen and (min-width: 48em) {
   .margin-20 {
-    margin-top: 36.25rem;
+    margin-top: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-20 {
-    margin-right: 36.25rem;
+    margin-right: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-20 {
-    margin-bottom: 36.25rem;
+    margin-bottom: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-20 {
-    margin-left: 36.25rem;
+    margin-left: 32.625rem;
   }
 }
 
@@ -6236,13 +6236,13 @@
 
 @media screen and (min-width: 48em) {
   .margin-20-auto {
-    margin-top: 36.25rem;
+    margin-top: 32.625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .margin-20-auto {
-    margin-bottom: 36.25rem;
+    margin-bottom: 32.625rem;
   }
 }
 
@@ -6252,7 +6252,7 @@
 
 @media screen and (min-width: 48em) {
   .top-20 {
-    top: 36.25rem;
+    top: 32.625rem;
   }
 }
 
@@ -6262,7 +6262,7 @@
 
 @media screen and (min-width: 48em) {
   .right-20 {
-    right: 36.25rem;
+    right: 32.625rem;
   }
 }
 
@@ -6272,7 +6272,7 @@
 
 @media screen and (min-width: 48em) {
   .left-20 {
-    left: 36.25rem;
+    left: 32.625rem;
   }
 }
 
@@ -6282,7 +6282,7 @@
 
 @media screen and (min-width: 48em) {
   .bottom-20 {
-    bottom: 36.25rem;
+    bottom: 32.625rem;
   }
 }
 
@@ -6292,7 +6292,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-20 {
-    padding-top: 36.25rem;
+    padding-top: 32.625rem;
   }
 }
 
@@ -6302,7 +6302,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-top-20-5 {
-    padding-top: 37.15625rem;
+    padding-top: 33.44062rem;
   }
 }
 
@@ -6312,7 +6312,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-20 {
-    padding-bottom: 36.25rem;
+    padding-bottom: 32.625rem;
   }
 }
 
@@ -6322,7 +6322,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-bottom-20-5 {
-    padding-bottom: 37.15625rem;
+    padding-bottom: 33.44062rem;
   }
 }
 
@@ -6332,7 +6332,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-20 {
-    padding-left: 36.25rem;
+    padding-left: 32.625rem;
   }
 }
 
@@ -6342,7 +6342,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-left-20-5 {
-    padding-left: 37.15625rem;
+    padding-left: 33.44062rem;
   }
 }
 
@@ -6352,7 +6352,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-20 {
-    padding-right: 36.25rem;
+    padding-right: 32.625rem;
   }
 }
 
@@ -6362,7 +6362,7 @@
 
 @media screen and (min-width: 48em) {
   .padding-right-20-5 {
-    padding-right: 37.15625rem;
+    padding-right: 33.44062rem;
   }
 }
 
@@ -6372,7 +6372,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-20 {
-    margin-top: 36.25rem;
+    margin-top: 32.625rem;
   }
 }
 
@@ -6382,7 +6382,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-top-20-5 {
-    margin-top: 37.15625rem;
+    margin-top: 33.44062rem;
   }
 }
 
@@ -6392,7 +6392,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-20 {
-    margin-bottom: 36.25rem;
+    margin-bottom: 32.625rem;
   }
 }
 
@@ -6402,7 +6402,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-bottom-20-5 {
-    margin-bottom: 37.15625rem;
+    margin-bottom: 33.44062rem;
   }
 }
 
@@ -6412,7 +6412,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-20 {
-    margin-left: 36.25rem;
+    margin-left: 32.625rem;
   }
 }
 
@@ -6422,7 +6422,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-left-20-5 {
-    margin-left: 37.15625rem;
+    margin-left: 33.44062rem;
   }
 }
 
@@ -6432,7 +6432,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-20 {
-    margin-right: 36.25rem;
+    margin-right: 32.625rem;
   }
 }
 
@@ -6442,7 +6442,7 @@
 
 @media screen and (min-width: 48em) {
   .margin-right-20-5 {
-    margin-right: 37.15625rem;
+    margin-right: 33.44062rem;
   }
 }
 
@@ -6454,7 +6454,7 @@
 @media screen and (min-width: 48em) {
   .grid {
     background-image: linear-gradient(to bottom, #9b59b6FF 0px, transparent 1px);
-    background-size: 100% 1.8125rem;
+    background-size: 100% 1.63125rem;
   }
 }
 
@@ -6578,13 +6578,13 @@ body {
 
 @media screen and (min-width: 48em) {
   body {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   body {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
@@ -6608,31 +6608,31 @@ p {
 
 @media screen and (min-width: 48em) {
   p {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
 h1 {
-  line-height: 3.875rem;
+  line-height: 3.1rem;
   margin-top: 4.65rem;
   margin-bottom: 1.55rem;
 }
 
 @media screen and (min-width: 48em) {
   h1 {
-    line-height: 4.53125rem;
+    line-height: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h1 {
-    margin-top: 5.4375rem;
+    margin-top: 4.89375rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h1 {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
@@ -6644,19 +6644,19 @@ h2 {
 
 @media screen and (min-width: 48em) {
   h2 {
-    line-height: 3.625rem;
+    line-height: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h2 {
-    margin-top: 3.625rem;
+    margin-top: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h2 {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
@@ -6668,19 +6668,19 @@ h3 {
 
 @media screen and (min-width: 48em) {
   h3 {
-    line-height: 3.625rem;
+    line-height: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h3 {
-    margin-top: 3.625rem;
+    margin-top: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h3 {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
@@ -6692,13 +6692,13 @@ h4 {
 
 @media screen and (min-width: 48em) {
   h4 {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h4 {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -6716,13 +6716,13 @@ h5 {
 
 @media screen and (min-width: 48em) {
   h5 {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h5 {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -6740,13 +6740,13 @@ h6 {
 
 @media screen and (min-width: 48em) {
   h6 {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   h6 {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -6763,12 +6763,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 900;
   font-size: 2.82715rem;
-  letter-spacing: 0;
+  letter-spacing: -1px;
+  font-variant-caps: small-caps !important;
 }
 
 @media screen and (min-width: 48em) {
   h1 {
-    font-size: 3.53393rem;
+    font-size: 3.18054rem;
   }
 }
 
@@ -6780,7 +6781,7 @@ h2 {
 
 @media screen and (min-width: 48em) {
   h2 {
-    font-size: 2.49924rem;
+    font-size: 2.24932rem;
   }
 }
 
@@ -6792,7 +6793,7 @@ h3 {
 
 @media screen and (min-width: 48em) {
   h3 {
-    font-size: 1.7675rem;
+    font-size: 1.59075rem;
   }
 }
 
@@ -6803,7 +6804,7 @@ h4, h5, h6 {
 
 @media screen and (min-width: 48em) {
   h4, h5, h6 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -6820,13 +6821,13 @@ code {
 
 @media screen and (min-width: 48em) {
   code {
-    padding: 0.90625rem;
+    padding: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   code {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -6862,19 +6863,19 @@ button {
 
 @media screen and (min-width: 48em) {
   button {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
@@ -6888,13 +6889,13 @@ button.invisible {
 
 @media screen and (min-width: 48em) {
   button.invisible {
-    padding-left: 0.45313rem;
+    padding-left: 0.40781rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.invisible {
-    padding-right: 0.45313rem;
+    padding-right: 0.40781rem;
   }
 }
 
@@ -6914,7 +6915,7 @@ button.small {
 
 @media screen and (min-width: 48em) {
   button.small {
-    line-height: 1.35938rem;
+    line-height: 1.22344rem;
   }
 }
 
@@ -6932,13 +6933,13 @@ button.small {
 
 @media screen and (min-width: 48em) {
   button.small {
-    margin-top: 0.22656rem;
+    margin-top: 0.20391rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.small {
-    margin-bottom: 0.22656rem;
+    margin-bottom: 0.20391rem;
   }
 }
 
@@ -6953,37 +6954,37 @@ button.medium {
 
 @media screen and (min-width: 48em) {
   button.medium {
-    padding-top: 0.90625rem;
+    padding-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.medium {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.medium {
-    padding-bottom: 0.90625rem;
+    padding-bottom: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.medium {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.medium {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.medium {
-    margin-bottom: 0.90625rem;
+    margin-bottom: 0.81562rem;
   }
 }
 
@@ -6999,43 +7000,43 @@ button.big {
 
 @media screen and (min-width: 48em) {
   button.big {
-    font-size: 1.7675rem;
+    font-size: 1.59075rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    padding-top: 1.8125rem;
+    padding-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    padding-bottom: 1.8125rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   button.big {
-    margin-bottom: 0.90625rem;
+    margin-bottom: 0.81562rem;
   }
 }
 
@@ -7115,13 +7116,13 @@ hr {
 
 @media screen and (min-width: 48em) {
   hr {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   hr {
-    height: 1.8125rem;
+    height: 1.63125rem;
   }
 }
 
@@ -7147,13 +7148,13 @@ ul, ol, dl {
 
 @media screen and (min-width: 48em) {
   ul, ol, dl {
-    margin-bottom: 1.8125rem;
+    margin-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   ul, ol, dl {
-    margin-top: 1.8125rem;
+    margin-top: 1.63125rem;
   }
 }
 
@@ -7170,19 +7171,19 @@ ul li, ol li, dl li {
 
 @media screen and (min-width: 48em) {
   ul li, ol li, dl li {
-    padding-left: 0.90625rem;
+    padding-left: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   ul li, ol li, dl li {
-    padding-right: 0.90625rem;
+    padding-right: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   ul li, ol li, dl li {
-    margin-left: -0.90625rem;
+    margin-left: -0.81562rem;
   }
 }
 
@@ -7196,7 +7197,7 @@ ul dd, ol dd, dl dd {
 
 @media screen and (min-width: 48em) {
   ul dd, ol dd, dl dd {
-    margin-left: 1.8125rem;
+    margin-left: 1.63125rem;
   }
 }
 
@@ -7227,19 +7228,19 @@ table tr th, table tr td {
 
 @media screen and (min-width: 48em) {
   table tr th, table tr td {
-    padding-top: 0.90625rem;
+    padding-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   table tr th, table tr td {
-    padding-bottom: 0.90625rem;
+    padding-bottom: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   table tr th, table tr td {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
@@ -7267,13 +7268,13 @@ table.large th, table.large td {
 
 @media screen and (min-width: 48em) {
   table.large th, table.large td {
-    padding-top: 1.8125rem;
+    padding-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   table.large th, table.large td {
-    padding-bottom: 1.8125rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
@@ -7302,25 +7303,25 @@ figure {
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-top: 7.25rem;
+    padding-top: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-bottom: 7.25rem;
+    padding-bottom: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-right: 0.90625rem;
+    padding-right: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-left: 0.90625rem;
+    padding-left: 0.81562rem;
   }
 }
 
@@ -7333,13 +7334,13 @@ figure {
 
 @media screen and (min-width: 37em) and (min-width: 48em) {
   .hero .hero-body {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 37em) and (min-width: 48em) {
   .hero .hero-body {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
@@ -7349,7 +7350,7 @@ figure {
 
 @media screen and (min-width: 48em) {
   .hero.small .hero-body {
-    padding: 1.8125rem;
+    padding: 1.63125rem;
   }
 }
 
@@ -7363,13 +7364,13 @@ figure {
 
 @media screen and (min-width: 48em) {
   .hero.large .hero-body {
-    padding-top: 14.5rem;
+    padding-top: 13.05rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero.large .hero-body {
-    padding-bottom: 14.5rem;
+    padding-bottom: 13.05rem;
   }
 }
 
@@ -7387,13 +7388,13 @@ figure {
 
 @media screen and (min-width: 48em) {
   .hero.fullheight .hero-body {
-    padding-top: 7.25rem;
+    padding-top: 6.525rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero.fullheight .hero-body {
-    padding-bottom: 7.25rem;
+    padding-bottom: 6.525rem;
   }
 }
 
@@ -7405,7 +7406,7 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar {
-    height: 3.625rem;
+    height: 3.2625rem;
   }
 }
 
@@ -7436,13 +7437,13 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar .navbar-container {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .navbar-container {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
@@ -7475,13 +7476,13 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar .navbar-item {
-    margin-right: 0.90625rem;
+    margin-right: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .navbar-item {
-    margin-left: 0.90625rem;
+    margin-left: 0.81562rem;
   }
 }
 
@@ -7508,25 +7509,25 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu {
-    padding-top: 0.90625rem;
+    padding-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu {
-    padding-bottom: 0.90625rem;
+    padding-bottom: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
@@ -7543,19 +7544,19 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu hr {
-    width: 3.625rem;
+    width: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu hr {
-    height: 0.90625rem;
+    height: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu hr {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
@@ -7567,13 +7568,13 @@ figure {
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu .navbar-item {
-    padding-top: 0.45313rem;
+    padding-top: 0.40781rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .navbar .mobile-menu .navbar-item {
-    padding-bottom: 0.45313rem;
+    padding-bottom: 0.40781rem;
   }
 }
 
@@ -7588,7 +7589,7 @@ figure {
   .navbar.active .mobile-menu {
     display: block;
   }
-  .navbar .navbar-end {
+  .navbar .navbar-start {
     display: none;
   }
 }
@@ -7607,19 +7608,19 @@ figure {
 
 @media screen and (min-width: 48em) {
   .progress {
-    height: 0.90625rem;
+    height: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .progress {
-    margin-top: 0.45313rem;
+    margin-top: 0.40781rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .progress {
-    margin-bottom: 0.45313rem;
+    margin-bottom: 0.40781rem;
   }
 }
 
@@ -7632,19 +7633,19 @@ figure {
 
 @media screen and (min-width: 48em) {
   .progress.small {
-    height: 0.45313rem;
+    height: 0.40781rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .progress.small {
-    margin-top: 0.67969rem;
+    margin-top: 0.61172rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .progress.small {
-    margin-bottom: 0.67969rem;
+    margin-bottom: 0.61172rem;
   }
 }
 
@@ -7655,7 +7656,7 @@ figure {
 
 @media screen and (min-width: 48em) {
   .progress.large {
-    height: 1.8125rem;
+    height: 1.63125rem;
   }
 }
 
@@ -7713,7 +7714,7 @@ figure {
 
 @media screen and (min-width: 48em) {
   .notification {
-    padding: 1.8125rem;
+    padding: 1.63125rem;
   }
 }
 
@@ -7758,31 +7759,31 @@ input {
 
 @media screen and (min-width: 48em) {
   input {
-    padding-left: 0.90625rem;
+    padding-left: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input {
-    padding-right: 0.90625rem;
+    padding-right: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input {
-    margin-bottom: 0.90625rem;
+    margin-bottom: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input {
-    line-height: 1.8125rem;
+    line-height: 1.63125rem;
   }
 }
 
@@ -7799,13 +7800,13 @@ input.medium {
 
 @media screen and (min-width: 48em) {
   input.medium {
-    line-height: 2.71875rem;
+    line-height: 2.44687rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.medium {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -7817,7 +7818,7 @@ input.medium {
 
 @media screen and (min-width: 48em) {
   input.medium {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
@@ -7829,19 +7830,19 @@ input.medium {
 
 @media screen and (min-width: 48em) {
   input.medium {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.medium {
-    margin-top: 0.90625rem;
+    margin-top: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.medium {
-    margin-bottom: 0.90625rem;
+    margin-bottom: 0.81562rem;
   }
 }
 
@@ -7856,37 +7857,37 @@ input.big {
 
 @media screen and (min-width: 48em) {
   input.big {
-    font-size: 1.7675rem;
+    font-size: 1.59075rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.big {
-    line-height: 3.625rem;
+    line-height: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.big {
-    padding-top: 1.8125rem;
+    padding-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.big {
-    padding-bottom: 1.8125rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.big {
-    padding-left: 1.8125rem;
+    padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   input.big {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
@@ -7908,54 +7909,12 @@ label > span {
 
 @media screen and (min-width: 48em) {
   label > span {
-    padding-right: 1.8125rem;
+    padding-right: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   label > span {
-    min-width: 5.4375rem;
-  }
-}
-
-label.line {
-  display: flex;
-  margin-top: 1.55rem;
-  margin-bottom: 1.55rem;
-}
-
-@media screen and (min-width: 48em) {
-  label.line {
-    margin-top: 1.8125rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  label.line {
-    margin-bottom: 1.8125rem;
-  }
-}
-
-label.line > span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-label.line input, label.line button {
-  flex: 1;
-}
-
-@media screen and (min-width: 48em) {
-  .columns {
-    display: flex;
-  }
-  .columns .column {
-    flex: 1;
-  }
-}
-
-/*# sourceMappingURL=kitoko.css.map */pan {
     min-width: 4.89375rem;
   }
 }
