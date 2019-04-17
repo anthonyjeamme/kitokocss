@@ -56,7 +56,6 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6{
-    text-align: initial;
     hyphens: none;
 }
 
@@ -108,6 +107,7 @@ code{
     
     font-family: inherit;
     border-radius: $border-radius;
+    white-space: normal;
 }
 
 pre{
@@ -140,7 +140,7 @@ button{
 
     $border-color: getBorderColor(#eee);
 
-    box-shadow: 0 -1px $border-color inset, 0 1px $border-color inset, -1px 0 $border-color inset,1px 0 $border-color inset;
+    //box-shadow: 0 -1px $border-color inset, 0 1px $border-color inset, -1px 0 $border-color inset,1px 0 $border-color inset;
     background:#eee;
     border:0;
     border-radius: $border-radius;
@@ -213,35 +213,56 @@ button{
         &.#{$color-name} {
             color: getColorFromBackground($color);
             background-color: nth( $color-list, $i );
-            box-shadow:
-                0 1px lighten($border-color,30%) inset,
-                0 -1px $border-color inset,
-                1px 0 lighten($border-color,30%) inset,
-                -1px 0 $border-color inset;
+            // box-shadow:
+            //     0 1px lighten($border-color,30%) inset,
+            //     0 -1px $border-color inset,
+            //     1px 0 lighten($border-color,30%) inset,
+            //     -1px 0 $border-color inset;
 
             &:hover{
                 
-            background-color: lighten( nth( $color-list, $i ),10%);
+                background-color: lighten( nth( $color-list, $i ),10%);
+            }
+
+            &:disabled{
+                background-color: lighten( nth( $color-list, $i ), 20% );
             }
         }
     }
 }
 
 hr{
-    margin:0;
-    // @include margin-top(1);
+    margin-left: auto;
+    margin-right: auto;
+    @include margin-top(0);
     @include margin-bottom(1);
     border: 0;
     @include height(1);
     background-color: transparent;
-    box-shadow: 0 -1px 0 #ddd inset;
+    box-shadow: 0 -1px 0 $hr-color inset;
+    max-width: 100%;
+
+    &.small{
+        width: 100px;
+    }
+    &.medium{
+        width: 300px;
+    }
+    &.large{
+        width: 500px;
+    }
 }
 
-ul{
+ul, ol, dl{
     margin: 0;
-    padding: 0;//$leading/2+em 0 $leading/2+em $leading+em;
-    @include margin-bottom(2);
+    padding: 0;
+    @include margin-bottom(1);
+    @include margin-top(1);
     list-style-position: outside ;
+
+    &.no-style{
+        list-style: none;
+    }
 
     li{
         padding:0;
@@ -249,21 +270,14 @@ ul{
         @include padding-right(1/2);
         @include margin-left(-1/2);
     }
-}
 
-// TODO
+    dt{
+        font-weight: 700;
+    }
 
-ol{
-
-}
-dl{
-
-}
-dt{
-
-}
-dd{
-    
+    dd{
+        @include margin-left(1);
+    }
 }
 
 table{
@@ -272,24 +286,37 @@ table{
     text-align: center;
     border-spacing : 0;
     border-collapse : collapse;
-    margin-top: 2px !important;
-    margin-bottom: -2px !important; /* WTF ? */
+
+    tr:nth-child(2n){
+        background-color: #ffffff;
+    }
+
+    tr:nth-child(2n+1){
+        background-color: #eeeeee;
+    }
 
     tr{
         
         box-shadow: 0 -1px 0 #ddd inset;
+        th, td{
         
-        th{
-
-            padding:0;
-            @include padding-left(1/2);
-            @include padding-right(1/2);
-            background: #eee;
+            @include padding-top(1/2);
+            @include padding-bottom(1/2);
+            @include line-height(1);
         }
+    }
 
-        td{
+    &.small{
+        th,td{
+            @include padding-top(0);
+            @include padding-bottom(0);
+        }
+    }
 
-            padding: 0;
+    &.large{
+        th,td{
+            @include padding-top(1);
+            @include padding-bottom(1);
         }
     }
 
@@ -305,4 +332,25 @@ footer{
 
 figure{
     margin:0;
+}
+
+/* Text tags */
+
+small{
+
+}
+
+bdi{
+
+}
+
+
+// TODO
+
+sub{
+
+}
+
+sup{
+    
 }

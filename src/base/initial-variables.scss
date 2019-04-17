@@ -25,7 +25,7 @@ $size-ratio: 1.414 !default;
 $measure: 33 !default;
 $font-size-ajust: none !default;
 
-$container-max-width: 84em;
+$container-max-width: 64em !default;
 
 // line-height | margin-top | margin-bottom
 $heading:(
@@ -49,17 +49,28 @@ $measure-h1-margin-left: -1 !default;
 $measure-h2-margin-left: 0 !default;
 $measure-h3-margin-left: 0 !default;
 
+$hr-color: #aaa !default;
+
 /* */
 $border-radius: 3px !default;
+$border-radius-box: 6px !default;
+
+/* Components */
+$navbar-hide-start-mobile: false;
+$navbar-hide-end-mobile: true;
+$navbar-height: 2 !default;
 
 /* Misc */
 $show-grid: false !default;
 $hover-animation: false !default;
 $hover-animation-duration: 200ms !default;
 
-$navbar-height: 2 !default;
-
 $hyphen: true !default;
 
 $font-family: 'Cormorant Garamond', serif !default;
 
+// Responsive
+$phablet-breakpoint: 37em !default;
+$tablet-breakpoint: 48em !default;
+$desktop-breakpoint: 64em !default;
+$large-desktop-breakpoint: 80em !default;

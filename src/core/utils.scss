@@ -14,8 +14,23 @@
     max-width: $container-max-width;
     margin: auto;
 
+    @include padding-left(0.5);
+    @include padding-right(0.5);
+
+    @media screen and (min-width: $phablet-breakpoint){
+        
+
     @include padding-left(1);
     @include padding-right(1);
+
+    }
+}
+
+.hero-body{
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .measure{
@@ -48,6 +63,11 @@
             @include margin-left($measure-h3-margin-left);
         }
     }
+}
+
+.no-justify{
+    text-align: left;
+    hyphens: none;
 }
 
 .margin-auto{
@@ -102,6 +122,38 @@
         @include bottom($i);
     }
 
+    .padding-top-#{$i}{
+        @include padding-top($i);
+    }
+
+    .padding-top-#{$i}-5{
+        @include padding-top($i+0.5);
+    }
+
+    .padding-bottom-#{$i}{
+        @include padding-bottom($i);
+    }
+
+    .padding-bottom-#{$i}-5{
+        @include padding-bottom($i+0.5);
+    }
+
+    .padding-left-#{$i}{
+        @include padding-left($i);
+    }
+
+    .padding-left-#{$i}-5{
+        @include padding-left($i+0.5);
+    }
+
+    .padding-right-#{$i}{
+        @include padding-right($i);
+    }
+
+    .padding-right-#{$i}-5{
+        @include padding-right($i+0.5);
+    }
+    
     .margin-top-#{$i}{
         @include margin-top($i);
     }
@@ -116,6 +168,22 @@
 
     .margin-bottom-#{$i}-5{
         @include margin-bottom($i+0.5);
+    }
+
+    .margin-left-#{$i}{
+        @include margin-left($i);
+    }
+
+    .margin-left-#{$i}-5{
+        @include margin-left($i+0.5);
+    }
+
+    .margin-right-#{$i}{
+        @include margin-right($i);
+    }
+
+    .margin-right-#{$i}-5{
+        @include margin-right($i+0.5);
     }
 }
 
@@ -149,3 +217,30 @@
     width: 100%;
     box-sizing: border-box;
 }
+
+.fullheight{
+    height: 100vh;
+}
+
+.desktop-only{
+
+    @media not screen and (min-width: $tablet-breakpoint){ 
+
+        display: none;
+    }
+}
+
+.mobile-only{
+
+    @media screen and (min-width: $tablet-breakpoint){ 
+
+        display: none;
+    }
+}
+
+
+
+// $phablet-breakpoint: 37em !default;
+// $tablet-breakpoint: 48em !default;
+// $desktop-breakpoint: 64em !default;
+// $large-desktop-breakpoint: 80em !default;

@@ -3,4 +3,16 @@
 $h1-letter-spacing: -1px;
 $h1-small-caps: true;
 
-@import '../kitoko.scss'
+$heading:(
+    h1:(2,3,1),
+    h2:(2,2,1),
+    h3:(2,2,1),
+    h4:(1,1,0),
+    h5:(1,1,0),
+    h6:(1,1,0),
+);
+
+$font-size: 16;
+$font-size-desktop: 18;
+
+@import '../kitoko.scss';

@@ -14,75 +14,193 @@
 </head>
 
 <body>
-    <div>
+    <nav class='measure margin-auto'>
 
-        <nav class='measure margin-auto'>
+        <h1 style='font-variant-caps: unicase'>Introduction</h1>
 
-            <ol class="padding-0">
-                <li>Tableaux</li>
-                <li>Listes</li>
-            </ol>
+        <button class="primary">hello</button>
+        <button class="danger">hello</button>
+        <button class="warning">hello</button>
+        <button class="info">hello</button>
 
-        </nav>
+        <br />
 
-        <div class='measure margin-auto'>
 
-            <h1 style='font-variant-caps: unicase'>Introduction</h1>
+        <button class="primary" disabled>hello</button>
+        <button class="danger" disabled>hello</button>
+        <button class="warning" disabled>hello</button>
+        <button class="info" disabled>hello</button>
 
-            <p>
-                Lorem
-                ipsum, dolor sit
-                amet consectetur adipisicing elit.
-                Obcaecati laudantium
-                perspiciatis
-                aliquid
-                amet, a
-                eveniet numquam eius modi. Porro facere sint quo sunt qui. Excepturi inventore vitae voluptas
-                dignissimos
-                hic!
-            </p>
+        <h2>Sommaire</h2>
 
-            <h2>Configurer les proportions</h2>
+        <ol class="no-style">
+            <li><a href='#title'>Titres</a></li>
+            <li><a href='#table'>Tableaux</a></li>
+            <li><a href='#list'>Listes</a></li>
+        </ol>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati laudantium perspiciatis
-                aliquid
-                amet, a
-                eveniet numquam eius modi. Porro facere sint quo sunt qui. Excepturi inventore vitae voluptas
-                dignissimos
-                hic!
-            </p>
+    </nav>
 
-            <h2>Ajustements</h2>
+    <hr class='center medium' />
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati laudantium perspiciatis
-                aliquid
-                amet, a
-                eveniet numquam eius modi. Porro facere sint quo sunt qui. Excepturi inventore vitae voluptas
-                dignissimos
-                hic!
-            </p>
+    <section class='measure margin-auto'>
 
-            <h3>Espace entre les lettres</h3>
+        <p class='notification dark'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis a, voluptate aliquid modi reprehenderit
+            unde in incidunt voluptatum, quae harum enim porro eos commodi repellat, nihil nobis fugiat soluta non.
+        </p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quo quia doloribus reiciendis vitae
-                suscipit
-                repellendus quasi, ipsam dolorem autem fugit illo, nulla consequatur fugiat! At perferendis
-                dolores
-                numquam
-                omnis!</p>
+        <p class="desktop-only">
+            DESKTOP
+        </p>
 
-            <h3>Small caps</h3>
+        <p class="mobile-only">
+            MOBILE
+        </p>
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quaerat. Nam at fuga illo
-                eligendi minus
-                quam sed voluptatum consequuntur, exercitationem dignissimos, qui, voluptatem sit recusandae
-                animi
-                adipisci
-                accusamus culpa!
-            </p>
-        </div>
-    </div>
+        <h2>Configurer les proportions</h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati laudantium perspiciatis
+            aliquid
+            amet, a
+            eveniet numquam eius modi. Porro facere sint quo sunt qui. Excepturi inventore vitae voluptas
+            dignissimos
+            hic!
+        </p>
+
+        <h2>Ajustements</h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati laudantium perspiciatis
+            aliquid
+            amet, a
+            eveniet numquam eius modi. Porro facere sint quo sunt qui. Excepturi inventore vitae voluptas
+            dignissimos
+            hic!
+        </p>
+
+        <h3>Espace entre les lettres</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quo quia doloribus reiciendis vitae
+            suscipit
+            repellendus quasi, ipsam dolorem autem fugit illo, nulla consequatur fugiat! At perferendis
+            dolores
+            numquam
+            omnis!</p>
+
+        <h3>Small caps</h3>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quaerat. Nam at fuga illo
+            eligendi minus
+            quam sed voluptatum consequuntur, exercitationem dignissimos, qui, voluptatem sit recusandae
+            animi
+            adipisci
+            accusamus culpa!
+        </p>
+    </section>
+
+    <section class='measure margin-auto'>
+        <h2 id='title'>Titres</h2>
+    </section>
+
+    <section class='measure margin-auto'>
+
+        <h2 id='table'>Tableaux</h2>
+
+        <table class='small'>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>René</td>
+                <td>Madellin</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Henri</td>
+                <td>Moulin</td>
+                <td>29</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>René</td>
+                <td>Madellin</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Henri</td>
+                <td>Moulin</td>
+                <td>29</td>
+            </tr>
+        </table>
+
+
+        <br />
+
+        <table class='large margin-top-2'>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>René</td>
+                <td>Madellin</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Henri</td>
+                <td>Moulin</td>
+                <td>29</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section class='measure margin-auto  margin-top-2'>
+        <h2 id='list'>Listes</h2>
+
+        <h3>Listes simples</h3>
+
+        <ul>
+            <li>Richard</li>
+            <li>Arthur</li>
+            <li>Henri</li>
+        </ul>
+
+        <h3>Listes ordonnées</h3>
+
+        <ol>
+            <li>Richard</li>
+            <li>Arthur</li>
+            <li>Henri</li>
+        </ol>
+
+        <h3>Listes de description</h3>
+
+        <dl>
+            <dt>Beast of Bodmin</dt>
+            <dd>A large feline inhabiting Bodmin Moor.</dd>
+
+            <dt>Morgawr</dt>
+            <dd>A sea serpent.</dd>
+
+            <dt>Owlman</dt>
+            <dd>A giant owl-like creature.</dd>
+        </dl>
+
+    </section>
 
 </body>
 
