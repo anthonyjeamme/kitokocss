@@ -16,7 +16,6 @@
 }
 
 .container {
-  flex: 1;
   max-width: 64em;
   margin: auto;
   padding-left: 0.775rem;
