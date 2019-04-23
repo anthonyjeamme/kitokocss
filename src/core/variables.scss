@@ -2,4 +2,7 @@ $font-size-em : $font-size / 16;
 $font-size-desktop-em : $font-size-desktop / 16;
 
 $leading: $font-size-em * $line-height;
-$leading-desktop: $font-size-desktop-em * $line-height-desktop; // TODO
+$leading-desktop: $font-size-desktop-em * $line-height-desktop;
+
+$color-names-list: primary info warning danger white dark light success;
+$color-list: $primary $info $warning $danger #fff $dark $light $success;

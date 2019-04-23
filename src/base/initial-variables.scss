@@ -6,7 +6,7 @@ $grey: #666666 !default;
 $light: #eeeeee !default;
 $danger: #e74c3c !default;
 $warning: #f1c40f !default;
-
+$success: #009432 !default;
 $white: #eeeeee !default;
 
 $body-background: $light !default;
@@ -74,3 +74,9 @@ $phablet-breakpoint: 37em !default;
 $tablet-breakpoint: 48em !default;
 $desktop-breakpoint: 64em !default;
 $large-desktop-breakpoint: 80em !default;
+
+// Hero
+$hero-small-min-height: 5;
+$hero-min-height: 10;
+$hero-medium-min-height: 15;
+$hero-large-min-height: 25;

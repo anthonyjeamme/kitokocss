@@ -201,9 +201,6 @@ button{
         background:lighten(#eee,10%);
     }
 
-    $color-names-list: primary info warning danger;
-    $color-list: $primary $info $warning $danger;
-
     @each $color-name in $color-names-list {
 
         $i: index( $color-names-list, $color-name ) ;

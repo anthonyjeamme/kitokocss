@@ -6505,6 +6505,10 @@
   }
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .background-primary {
   background-color: #9b59b6;
   color: #fff;
@@ -6566,6 +6570,15 @@
 
 .color-light {
   color: #eeeeee;
+}
+
+.background-success {
+  background-color: #009432;
+  color: #fff;
+}
+
+.color-success {
+  color: #009432;
 }
 
 body {
@@ -7096,6 +7109,58 @@ button.danger:disabled {
   background-color: #f29f97;
 }
 
+button.white {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+}
+
+button.white:hover {
+  background-color: white;
+}
+
+button.white:disabled {
+  background-color: white;
+}
+
+button.dark {
+  color: #fff;
+  background-color: #333333;
+}
+
+button.dark:hover {
+  background-color: #4d4d4d;
+}
+
+button.dark:disabled {
+  background-color: #666666;
+}
+
+button.light {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #eeeeee;
+}
+
+button.light:hover {
+  background-color: white;
+}
+
+button.light:disabled {
+  background-color: white;
+}
+
+button.success {
+  color: #fff;
+  background-color: #009432;
+}
+
+button.success:hover {
+  background-color: #00c743;
+}
+
+button.success:disabled {
+  background-color: #00fa54;
+}
+
 hr {
   margin-left: auto;
   margin-right: auto;
@@ -7291,25 +7356,71 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 15.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .hero {
+    min-height: 16.3125rem;
+  }
+}
+
+.hero .hero-head, .hero .hero-foot {
+  padding-right: 0.775rem;
+  padding-left: 0.775rem;
+}
+
+@media screen and (min-width: 48em) {
+  .hero .hero-head, .hero .hero-foot {
+    padding-right: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero .hero-head, .hero .hero-foot {
+    padding-left: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 37em) {
+  .hero .hero-head, .hero .hero-foot {
+    padding-right: 1.55rem;
+    padding-left: 1.55rem;
+  }
+}
+
+@media screen and (min-width: 37em) and (min-width: 48em) {
+  .hero .hero-head, .hero .hero-foot {
+    padding-right: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 37em) and (min-width: 48em) {
+  .hero .hero-head, .hero .hero-foot {
+    padding-left: 1.63125rem;
+  }
 }
 
 .hero .hero-body {
   flex: 1;
-  padding-top: 6.2rem;
-  padding-bottom: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1.55rem;
+  padding-bottom: 1.55rem;
   padding-right: 0.775rem;
   padding-left: 0.775rem;
 }
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-top: 6.525rem;
+    padding-top: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
   .hero .hero-body {
-    padding-bottom: 6.525rem;
+    padding-bottom: 1.63125rem;
   }
 }
 
@@ -7344,33 +7455,33 @@ figure {
   }
 }
 
-.hero.small .hero-body {
-  padding: 1.55rem;
+.hero.small {
+  min-height: 7.75rem;
 }
 
 @media screen and (min-width: 48em) {
-  .hero.small .hero-body {
-    padding: 1.63125rem;
+  .hero.small {
+    min-height: 8.15625rem;
   }
 }
 
-.hero.large .hero-body {
-  padding-top: 12.4rem;
-  padding-bottom: 12.4rem;
-  padding-right: 0;
-  padding-left: 0;
-  padding: 12.4em 0 12.4em 0;
+.hero.medium {
+  min-height: 23.25rem;
 }
 
 @media screen and (min-width: 48em) {
-  .hero.large .hero-body {
-    padding-top: 13.05rem;
+  .hero.medium {
+    min-height: 24.46875rem;
   }
 }
 
+.hero.large {
+  min-height: 38.75rem;
+}
+
 @media screen and (min-width: 48em) {
-  .hero.large .hero-body {
-    padding-bottom: 13.05rem;
+  .hero.large {
+    min-height: 40.78125rem;
   }
 }
 
@@ -7379,23 +7490,9 @@ figure {
 }
 
 .hero.fullheight .hero-body {
-  padding-top: 6.2rem;
-  padding-bottom: 6.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-@media screen and (min-width: 48em) {
-  .hero.fullheight .hero-body {
-    padding-top: 6.525rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  .hero.fullheight .hero-body {
-    padding-bottom: 6.525rem;
-  }
 }
 
 .navbar {
@@ -7500,7 +7597,9 @@ figure {
   color: #333333;
   left: 0;
   right: 0;
+  bottom: 0;
   display: none;
+  overflow-y: auto;
   padding-top: 0.775rem;
   padding-right: 1.55rem;
   padding-bottom: 0.775rem;
@@ -7702,6 +7801,46 @@ figure {
 
 .progress.danger.gradient .progress-value {
   background: linear-gradient(-90deg, #e74c3c, #f29f97);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.white .progress-value {
+  background-color: #fff;
+}
+
+.progress.white.gradient .progress-value {
+  background: linear-gradient(-90deg, #fff, white);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.dark .progress-value {
+  background-color: #333333;
+}
+
+.progress.dark.gradient .progress-value {
+  background: linear-gradient(-90deg, #333333, #666666);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.light .progress-value {
+  background-color: #eeeeee;
+}
+
+.progress.light.gradient .progress-value {
+  background: linear-gradient(-90deg, #eeeeee, white);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.success .progress-value {
+  background-color: #009432;
+}
+
+.progress.success.gradient .progress-value {
+  background: linear-gradient(-90deg, #009432, #00fa54);
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
