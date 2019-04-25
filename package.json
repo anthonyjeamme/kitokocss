@@ -1,6 +1,6 @@
 {
   "name": "kitoko",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "The typography based CSS framework",
   "main": "kitoko.scss",
   "scripts": {
@@ -10,7 +10,7 @@
     "build-sass": "node-sass --output-style expanded --source-map true kitoko.scss css/kitoko.css",
     "build-sass-demo": "node-sass --output-style expanded --source-map true demo/style.scss demo/kitoko.css",
     "deploy": "npm run build",
-    "start": "npm run build-sass-demo -- --watch"
+    "start": "npm run build-sass-demo -- --watch compressed"
   },
   "author": {
     "name": "Anthony JEAMME",

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KitokoCSS - Démo</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./kitoko.css">
+</head>
+
+<body>
+
+    <main class="container padding-2">
+
+
+        <div class="modal" id="modal">
+
+            <div>
+                <header class="relative">
+                    Title
+                    <span class="close-icon" onclick="document.getElementById('modal').classList.remove('active')" />
+                </header>
+
+                <div>
+                    Hello world
+                </div>
+                <footer class="text-right">
+                    <button class="success">Suivant</button>
+                </footer>
+            </div>
+
+        </div>
+
+
+        <button class="medium primary" onclick="document.getElementById('modal').classList.add('active')">Show
+            modal</button>
+
+
+
+    </main>
+
+
+</body>
+
+</html>

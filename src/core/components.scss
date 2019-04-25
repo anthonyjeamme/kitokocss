@@ -3,11 +3,13 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
     @include min-height($hero-min-height);
+    
+    &>header, &>footer {
 
-    .hero-head, .hero-foot{
-        
         @include padding-right(0.5);
         @include padding-left(0.5);
         
@@ -18,13 +20,19 @@
         }
     }
 
-    .hero-body{
+    &>header{
+        order:0;
+    }
+    
+    &>footer {
+        order:2
+    }
 
-        flex:1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    &>div{
 
+        order:1;
+        width:100%;
+        box-sizing: border-box;
         @include padding-top(1);
         @include padding-bottom(1);
         @include padding-right(0.5);
@@ -34,6 +42,36 @@
             
             @include padding-right(1);
             @include padding-left(1);
+        }
+    }
+
+    &>header.container, &>div.container, &>footer.container{
+        
+        max-width: $container-max-width;
+        margin: 0;
+
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+
+        @media screen and (min-width: $phablet-breakpoint){
+            
+            @include padding-left(1);
+            @include padding-right(1);
+        }
+    }
+
+    
+    &>header.measure, &>div.measure, &>footer.measure{
+        
+        margin: 0;
+
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+
+        @media screen and (min-width: $phablet-breakpoint){
+            
+            @include padding-left(1);
+            @include padding-right(1);
         }
     }
 
@@ -48,7 +86,6 @@
     }
 
     &.large{
-
 
         @include min-height($hero-large-min-height);
     }
@@ -119,24 +156,51 @@
         justify-content: flex-end;
     }
 
-    .navbar-item{
+    .item{
 
         margin: 0;
-        @include margin-right(1/2);
-        @include margin-left(1/2);
-
+        white-space: nowrap;
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        cursor: pointer;
+
+        @include padding-right(1/2);
+        @include padding-left(1/2);
+
+        &:hover{
+            
+            background-color: rgba(256,256,256,0.2);
+        }
+
+        &.dropdown{
+
+            padding-left: 0;
+            padding-right: 0;
+            &>header{
+                background:transparent;
+            }
+            
+
+            &:hover{
+                &>header{
+                    
+                    border-radius: $border-radius;
+                    box-shadow:none;
+                }
+            }
+        }
     }
 
     .burger{
 
-        flex: 1;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
         display: none;
+        flex-direction: column;
+        @include padding-right(0.5);
+        @include padding-left(0.5);
     }
 
     .mobile-menu{
@@ -169,7 +233,7 @@
             box-shadow: 0 -1px 0px #ddd;
         }
 
-        .navbar-item{
+        .item{
 
             flex:unset;
             height: auto;
@@ -315,5 +379,314 @@
         background-color: $dark;
         color: getColorFromBackground($dark);
     }
+}
 
+.box{
+    
+    background-color: $white;
+    color: getColorFromBackground($white);
+    border-radius: $border-radius-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    
+    @include padding(0.5);
+    @media screen and (min-width: $phablet-breakpoint){
+        
+        @include padding(1);
+    }
+}
+
+.dropdown{
+
+    position: relative;
+    display: inline-block;
+
+    &>header{
+
+        &:after{
+            @include fa-icon('\f107', solid);
+            position: absolute;
+            right: 0;
+            @include margin-right(0.5);
+            opacity: 0.5;
+        }
+
+        border:0;
+        background-color: white;
+        border-radius: $border-radius;
+        display: inline-block;
+        cursor: pointer;
+
+        @include padding-top(0.25);
+        @include padding-bottom(0.25);
+        @include padding-left(1);
+        @include padding-right(1+0.5);
+    }
+
+    &>div{
+
+        top:100%;
+        z-index: 100;
+        order:1;
+        position: absolute;
+        display: none;
+        min-width: 100%;
+        background-color: $white;
+        border-radius: 0 $border-radius $border-radius $border-radius;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1)
+        , 1px 0 0 rgba(0,0,0,0.025)
+        , -1px 0 0 rgba(0,0,0,0.025)
+        , 0 1px 0 rgba(0,0,0,0.025)
+        , 0 -1px 0 rgba(0,0,0,0.025)
+        ;
+        color:$dark;
+
+        @include padding-top(0.25);
+        @include padding-bottom(0.25);
+
+        .item{
+
+            cursor: pointer;
+            margin:0;
+            position: relative;
+
+            @include padding-left(0.5);
+            @include padding-right(0.5);
+
+            @if( $hover-animation==true ){
+                transition: $hover-animation-duration background-color;
+            }
+
+            &:hover{
+                background-color: #eee;
+            }
+
+            &.dropdown{
+
+                display: block;
+                padding:0;
+
+                &>header{
+                    background: transparent;
+                    @include padding(0.5);
+                    @include padding-right(1+0.5);
+                    padding-top: 0!important;
+                    padding-bottom: 0!important;
+                    border-radius: $border-radius;
+
+                    &:after{
+                        @include fa-icon('\f105', solid);
+                        position: absolute;
+                        right: 0;
+                        @include margin-right(0.5);
+                    }
+                }
+
+                &>div{
+                    left:100%;
+                    top:0;
+                    min-width: 0;
+                }
+
+                &:hover{
+                    &>header{
+                        
+                        border-radius: $border-radius;
+                        box-shadow:none;
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover{
+        
+        &>header{
+            border-radius: $border-radius $border-radius 0 0;
+            box-shadow: 0 -1px 0 rgba(0,0,0,0.05) inset;
+        }
+
+        &>div{
+            display: block;
+        }
+    }
+
+    &.left{
+        &>div{
+            right:0 !important;
+            border-radius: $border-radius 0 $border-radius $border-radius;
+        }
+    }
+}
+
+.modal{
+
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &.active{
+        
+        display: flex;
+    }
+
+    >div{
+
+        width: 500px;
+        position: relative;
+        @include padding(0.5);
+
+        &>:nth-child(1){
+            border-top-left-radius: $border-radius-box;
+            border-top-right-radius: $border-radius-box;
+        }
+    
+        &>:nth-last-child(1){
+            border-bottom-left-radius: $border-radius-box;
+            border-bottom-right-radius: $border-radius-box;
+        }
+
+        >div{
+            
+            box-sizing: border-box;
+            background-color: white;
+            width: 100%;
+            @include padding(0.5);
+        }
+    
+        header{
+            box-sizing: border-box;
+            background-color: $light;
+            width: 500px;
+            @include padding(0.5);
+        }
+
+        footer{
+            box-sizing: border-box;
+            background-color: $light;
+            width: 500px;
+            @include padding(0.5);
+        }
+
+    }
+}
+
+.tabs{
+
+    display: flex;
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.1) inset;
+
+    &.center{
+        justify-content: center;
+    }
+
+    &.left{
+        justify-content: start;
+    }
+
+    &.right{
+        justify-content: flex-end;
+    }
+
+    &.fullwidth{
+
+        &>.item{
+            flex:1;
+            text-align: center;
+        }
+    }
+
+    &>.item{
+
+        cursor: pointer;
+
+        border-top-left-radius: $border-radius-box;
+        border-top-right-radius: $border-radius-box;
+        @include margin-left(0.25);
+        @include margin-right(0.25);
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+        @include padding-top(0.25);
+        @include padding-bottom(0.25);
+        transition: box-shadow $hover-animation-duration;
+
+        &:nth-child(1){
+            margin-left: 0;
+        }
+        &:nth-last-child(1){
+            margin-right: 0;
+        }
+
+        &:hover{
+            
+            box-shadow: 0 -2px 0 rgba(0,0,0,0.1) inset;
+        }
+    }
+}
+
+.pagination{
+    display: flex;
+    position: relative;
+
+    &>.item{
+
+        border-radius: $border-radius;
+        @include border-shadow( rgba(0,0,0,0.2), 1px, 1px, 1px, 1px );
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+        @include padding-top(0.125);
+        @include padding-bottom(0.125);
+        @include margin-left(0.25);
+    }
+
+    &>.dots{
+
+        @include margin-left(0.5);
+        @include margin-right(0.25);
+
+        &:after{
+            @include fa-icon('\f141',solid);
+            color:#999;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    }
+
+    &>.item, &>.dots{
+
+        &:nth-child(1){
+            margin-left: 0;
+        }
+    }
+
+    
+    &.center{
+        justify-content: center;
+    }
+
+    &.left{
+        justify-content: start;
+    }
+
+    &.right{
+        justify-content: flex-end;
+    }
+
+    &.fullwidth{
+
+        &>.item{
+            flex:1;
+            text-align: center;
+        }
+    }
 }

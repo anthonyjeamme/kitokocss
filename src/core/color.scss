@@ -11,6 +11,10 @@ $button-border-color-warning: darken($warning,20%);
     .background-#{$color-name}{
         background-color: $color;
         color: getColorFromBackground($color);
+
+        a{
+            color: getLinkColorFromBackground($color);
+        }
     }
     .color-#{$color-name}{
         color: $color;

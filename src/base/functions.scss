@@ -39,6 +39,15 @@
     @return (map-get($color-rgb, 'red') * .2126) + (map-get($color-rgb, 'green') * .7152) + (map-get($color-rgb, 'blue') * .0722)
 };
 
+@function getLinkColorFromBackground($background-color){
+    @if (colorLuminance($background-color) > 0.55){
+      @return $link-color-light-background;
+    }
+    @else{
+        @return $link-color-dark-background;
+    }
+}
+
 @function getColorFromBackground($background-color){
     @if (colorLuminance($background-color) > 0.55){
       @return rgba(#000, 0.7);

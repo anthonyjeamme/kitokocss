@@ -161,3 +161,57 @@
         background-size: 100% $leading-desktop+rem;
     }
 }
+
+@mixin border-shadow( $color, $top, $right, $bottom,$left ){
+
+    box-shadow:
+        0 #{$top} 0 $color inset,
+        0 -#{$bottom} 0 $color inset,
+        #{$left} 0 0 $color inset,
+        -#{$right} 0 0 $color inset !important;
+
+}
+
+@mixin fa-icon( $icon, $type ){
+        
+    content: $icon;
+    font-weight: 200;
+    @if( $type == 'solid' ){
+        font-weight: 900;
+    }
+    font-family: "Font Awesome 5 Free";
+}
+
+@mixin form-field {
+    
+    padding: 0;
+    border:0;
+    margin:0;
+    border-radius: $border-radius;
+    @include padding-left(0.5);
+    @include padding-right(0.5);
+    @include margin-top(0.5);
+    @include margin-bottom(0.5);
+    @include line-height(1);
+}
+
+@mixin stick {
+    
+    display: flex;
+
+    button,input, select{
+        border-radius: 0;
+        
+        @include border-shadow( $field-border-color,1px,0,1px,1px );
+
+        &:nth-child(1){
+            border-radius: $border-radius 0 0 $border-radius;
+            @include border-shadow( $field-border-color,1px,0,1px,1px );
+        }
+        
+        &:nth-last-child(1){
+            border-radius: 0 $border-radius $border-radius 0;
+            @include border-shadow( $field-border-color,1px,1px,1px,1px );
+        }
+    }
+}

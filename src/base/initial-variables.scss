@@ -7,7 +7,10 @@ $light: #eeeeee !default;
 $danger: #e74c3c !default;
 $warning: #f1c40f !default;
 $success: #009432 !default;
-$white: #eeeeee !default;
+$white: #ffffff !default;
+
+$link-color-dark-background: $light;
+$link-color-light-background: $dark;
 
 $body-background: $light !default;
 $code-background: $dark !default;
@@ -80,3 +83,10 @@ $hero-small-min-height: 5;
 $hero-min-height: 10;
 $hero-medium-min-height: 15;
 $hero-large-min-height: 25;
+
+// Input
+$field-border-color: #eaeaea;
+
+// Fontawesome
+$use-fontawesome: true !default; // TODO
+$all-animations: true !default;

@@ -1,21 +1,54 @@
+.stick{
+    @include stick();
+}
+
+.stick-center{
+    
+    @include stick();
+    justify-content: center;
+}
+
+.stick-right{
+    
+    @include stick();
+    justify-content: flex-end;
+}
+
+.stick-left{
+    
+    @include stick();
+    justify-content: flex-start;
+}
+
+input, textarea, select, button{
+
+    font-family: $font-family;
+    @include font-size(0.5);
+    @include form-field();
+    @include border-shadow( $field-border-color,1px,1px,1px,1px );
+
+    &.success{
+        
+        @include border-shadow( $success,1px,1px,1px,1px );
+        background: white;
+    }
+}
+
+textarea{
+
+    border-radius: $border-radius;
+    color: $dark;
+}
+
+select{
+
+    border-radius: $border-radius;
+}
 
 input{
 
-    padding: 0;
-    border:0;
-    margin:0;
-    @include padding-left(0.5);
-    @include padding-right(0.5);
-    @include margin-top(0.5);
-    @include margin-bottom(0.5);
-    @include line-height(1);
-
     border-radius: $border-radius;
-    box-shadow:
-        0 1px 0 #ccc,
-        0 -1px 0 #ccc,
-        1px 0 0 #ccc,
-        -1px 0 0 #ccc;
+
     color: $dark;
     
     &.medium{
@@ -76,4 +109,145 @@ label {
             flex:1;
         }
     }
+}
+
+
+button{
+
+    white-space: nowrap;
+    @include form-field();
+
+    $border-color: getBorderColor(#eee);
+
+    //box-shadow: 0 -1px $border-color inset, 0 1px $border-color inset, -1px 0 $border-color inset,1px 0 $border-color inset;
+    background:#eee;
+    border:0;
+    vertical-align:top; /* For small button, a 2px margin-top appear without any reason. */
+
+    cursor: pointer;
+
+    &.invisible{
+        background-color: transparent;
+        box-shadow: none;
+        color: inherit;
+        @include padding-left(1/4);
+        @include padding-right(1/4);
+
+        &:hover{
+            
+            background-color: transparent;
+            box-shadow: none;
+        }
+    }
+
+    &.small{
+
+        font-size: $font-size-em /$size-ratio +em;
+        @include line-height(3/4);
+        @include padding-top(0);
+        @include padding-bottom(0);
+        @include margin-top( 1/8 );
+        @include margin-bottom( 1/8 );
+    }
+
+    &.medium{
+
+        @include padding-top(0.5);
+        @include padding-right(1);
+        @include padding-bottom(0.5);
+        @include padding-left(1);
+        @include margin-top( 1/2 );
+        @include margin-bottom( 1/2 );
+    }
+
+    &.big{
+
+        @include font-size(2);
+        @include padding-top(1);
+        @include padding-bottom(1);
+        @include padding-left(1);
+        @include padding-right(1);
+        @include margin-top( 1/2 );
+        @include margin-bottom( 1/2 );
+    }
+
+    @if($hover-animation){
+        transition: background-color $hover-animation-duration;
+    }
+    
+    &:hover{
+        background:lighten(#eee,10%);
+    }
+
+    @each $color-name in $color-names-list {
+
+        $i: index( $color-names-list, $color-name ) ;
+        $color: nth( $color-list,$i);
+        $border-color: getBorderColor($color);
+        
+        &.#{$color-name} {
+            color: getColorFromBackground($color);
+            background-color: nth( $color-list, $i );
+            // box-shadow:
+            //     0 1px lighten($border-color,30%) inset,
+            //     0 -1px $border-color inset,
+            //     1px 0 lighten($border-color,30%) inset,
+            //     -1px 0 $border-color inset;
+
+            &:hover{
+                
+                background-color: lighten( nth( $color-list, $i ),10%);
+            }
+
+            &:disabled{
+                background-color: lighten( nth( $color-list, $i ), 20% );
+            }
+        }
+    }
+}
+
+.with-icon{
+
+    position: relative;
+    display: inline-block;
+
+    &>input,&>button,&>select{
+
+        vertical-align: middle;
+    }
+
+    &.with-icon-left{
+        &>input,&>button,&>select{
+            @include padding-left(1);
+        }
+    }
+
+    &.with-icon-right{
+        &>input,&>button,&>select{
+            @include padding-right(1);
+        }
+    }
+
+    &>.icon{
+
+        position: absolute;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include font-size(0.5);
+        color:#aaa;
+
+        top:0;
+
+        &.left{
+            @include left(0.25);
+        }
+
+        &.right{
+            @include right(0.25);
+        }
+
+    }
+
 }

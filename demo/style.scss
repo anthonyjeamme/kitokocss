@@ -15,7 +15,13 @@ $heading:(
 $font-size: 16;
 $font-size-desktop: 18;
 
-$navbar-hide-start-mobile: true;
+$navbar-hide-start-mobile: false;
 $navbar-hide-end-mobile: false;
+
+$hover-animation: true;
+
+$body-background: #fff;
+
+$font-family: Arial;
 
 @import '../kitoko.scss';

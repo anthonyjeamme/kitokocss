@@ -20,7 +20,6 @@ body, caption, th, td, input, button, textarea, select, option, legend, fieldset
 }
 
 a{
-    color:$dark;
 
     @if( $hover-animation ){
         transition: opacity $hover-animation-duration;
@@ -34,17 +33,6 @@ a{
 p{
     @include margin-bottom(1);
     margin-top: 0;
-    // text-indent: -$font-size + px;
-
-    // &::first-letter {
-    //     font-size: $font-size-em*$size-ratio*2+em;
-    //     @include margin-top(0.5);
-    //     // @include margin-bottom(1);
-    //     @include margin-right(0.5);
-    //     // font-size: $font-size-em * 1 + rem;
-    //     float:left;
-
-    //   }
 }
 
 @each $heading, $properties in $heading {
@@ -56,7 +44,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6{
-    hyphens: none;
+    hyphens: none !important;
 }
 
 h1{
@@ -120,112 +108,6 @@ code{
     border-left: 4px solid #ddd;
     color:#666;
     background: transparent;
-}
-
-button{
-    
-    font-family: $font-family;
-
-    white-space: nowrap;
-
-    @include font-size(1);
-
-    padding-top:0;
-    padding-bottom: 0;
-    @include padding-left(1);
-    @include padding-right(1);
-
-    margin-top: 0;
-    margin-bottom:  0;
-
-    $border-color: getBorderColor(#eee);
-
-    //box-shadow: 0 -1px $border-color inset, 0 1px $border-color inset, -1px 0 $border-color inset,1px 0 $border-color inset;
-    background:#eee;
-    border:0;
-    border-radius: $border-radius;
-    vertical-align:top; /* For small button, a 2px margin-top appear without any reason. */
-
-    cursor: pointer;
-
-    &.invisible{
-        background-color: transparent;
-        box-shadow: none;
-        color: inherit;
-        @include padding-left(1/4);
-        @include padding-right(1/4);
-
-        &:hover{
-            
-            background-color: transparent;
-            box-shadow: none;
-        }
-    }
-
-    &.small{
-
-        font-size: $font-size-em /$size-ratio +em;
-        @include line-height(3/4);
-        @include padding-top(0);
-        @include padding-bottom(0);
-        @include margin-top( 1/8 );
-        @include margin-bottom( 1/8 );
-    }
-
-    &.medium{
-
-        @include padding-top(0.5);
-        @include padding-right(1);
-        @include padding-bottom(0.5);
-        @include padding-left(1);
-        @include margin-top( 1/2 );
-        @include margin-bottom( 1/2 );
-    }
-
-    &.big{
-
-        @include font-size(2);
-        @include padding-top(1);
-        @include padding-bottom(1);
-        @include padding-left(1);
-        @include padding-right(1);
-        @include margin-top( 1/2 );
-        @include margin-bottom( 1/2 );
-    }
-
-    @if($hover-animation){
-        transition: background-color $hover-animation-duration;
-    }
-    
-    &:hover{
-        background:lighten(#eee,10%);
-    }
-
-    @each $color-name in $color-names-list {
-
-        $i: index( $color-names-list, $color-name ) ;
-        $color: nth( $color-list,$i);
-        $border-color: getBorderColor($color);
-        
-        &.#{$color-name} {
-            color: getColorFromBackground($color);
-            background-color: nth( $color-list, $i );
-            // box-shadow:
-            //     0 1px lighten($border-color,30%) inset,
-            //     0 -1px $border-color inset,
-            //     1px 0 lighten($border-color,30%) inset,
-            //     -1px 0 $border-color inset;
-
-            &:hover{
-                
-                background-color: lighten( nth( $color-list, $i ),10%);
-            }
-
-            &:disabled{
-                background-color: lighten( nth( $color-list, $i ), 20% );
-            }
-        }
-    }
 }
 
 hr{
