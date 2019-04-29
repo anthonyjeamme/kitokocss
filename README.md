@@ -29,7 +29,7 @@ To activate the document grid :
 
 ## Documentation
 
-Documentation is coming soon
+https://anthonyjeamme.github.io/kitokocss/
 
 ## Any suggestion ?
 
