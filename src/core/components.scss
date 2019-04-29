@@ -466,6 +466,7 @@
                 padding:0;
 
                 &>header{
+                    
                     background: transparent;
                     @include padding(0.5);
                     @include padding-right(1+0.5);
@@ -669,7 +670,6 @@
         }
     }
 
-    
     &.center{
         justify-content: center;
     }

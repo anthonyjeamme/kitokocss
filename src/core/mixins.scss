@@ -8,7 +8,6 @@
 }
 
 // Absolute position
-
 @mixin top($n){
     top: #{ $n * $leading + 'rem' };
     @media screen and (min-width: $tablet-breakpoint){ 
@@ -64,6 +63,13 @@
 }
 
 // Margin
+@mixin margin($n){
+    margin: #{ $n * $leading + 'rem' };
+    @media screen and (min-width: $tablet-breakpoint){ 
+        margin: #{ $n * $leading-desktop + 'rem' };
+    }
+}
+
 @mixin margin-top($n){
     margin-top: #{ $n * $leading + 'rem' };
     @media screen and (min-width: $tablet-breakpoint){ 
@@ -97,6 +103,7 @@
         padding: #{ $n * $leading-desktop + 'rem' };
     }
 }
+
 @mixin padding-top($n){
     padding-top: #{ $n * $leading + 'rem' };
     @media screen and (min-width: $tablet-breakpoint){
@@ -127,7 +134,6 @@
         padding-right: #{ $n * $leading-desktop + 'rem' };
     }
 }
-
 
 @mixin max-width($n){
 
@@ -182,19 +188,6 @@
     font-family: "Font Awesome 5 Free";
 }
 
-@mixin form-field {
-    
-    padding: 0;
-    border:0;
-    margin:0;
-    border-radius: $border-radius;
-    @include padding-left(0.5);
-    @include padding-right(0.5);
-    @include margin-top(0.5);
-    @include margin-bottom(0.5);
-    @include line-height(1);
-}
-
 @mixin stick {
     
     display: flex;
@@ -212,6 +205,80 @@
         &:nth-last-child(1){
             border-radius: 0 $border-radius $border-radius 0;
             @include border-shadow( $field-border-color,1px,1px,1px,1px );
+        }
+    }
+}
+
+@mixin form-field( $size ) {
+    
+    padding: 0;
+    border:0;
+    margin:0;
+
+    vertical-align: top;
+    
+    border-radius: $border-radius;
+
+    @if( $size == small ){
+
+        font-size: $font-size-em /$size-ratio +em;
+        
+        @include font-size(1/2);
+        @include line-height(3/4);
+
+        @include padding-top(0);
+        @include padding-bottom(0);
+        @include padding-left(0.25);
+        @include padding-right(0.25);
+        @include margin-top(0.125);
+        @include margin-bottom(0.125);
+    }
+    @else if( $size == normal ){
+
+        @include font-size(1);
+        @include line-height(1);
+
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+        @include margin-top(0);
+        @include margin-bottom(0);
+    
+    }
+    @else if( $size == medium ){
+
+        @include font-size(1.5);
+        @include line-height(1.5);
+        
+        @include padding-right(1);
+        @include padding-left(1);
+        @include margin-top( 1/4 );
+        @include margin-bottom( 1/4 );
+    }
+    @else if( $size == big ){
+
+        @include font-size(2);
+        @include line-height(2);
+
+        @include padding-top(0);
+        @include padding-bottom(0);
+
+        @include padding-left(1);
+        @include padding-right(1);
+        
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    
+    @each $color-name in $color-names-list {
+
+        $i: index( $color-names-list, $color-name ) ;
+        $color: nth( $color-list,$i);
+        
+        &.#{$color-name}{
+            
+            @include border-shadow( $color, 1px, 1px, 1px, 1px );
+
         }
     }
 }

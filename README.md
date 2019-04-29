@@ -6,7 +6,7 @@
 
 then in your main scss/sass file :
 
-    @include 'kitoko';
+    @import 'kitoko';
 
 ### Step 1 : Configure your typography
 

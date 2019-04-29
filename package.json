@@ -12,11 +12,6 @@
     "deploy": "npm run build",
     "start": "npm run build-sass-demo -- --watch compressed"
   },
-  "author": {
-    "name": "Anthony JEAMME",
-    "email": "anthony@jeamme.fr",
-    "url": "https://anthony.jeamme.fr"
-  },
   "keywords": [
     "typography",
     "css",
@@ -24,9 +19,17 @@
     "responsive",
     "framework"
   ],
-  "license": "MIT",
   "devDependencies": {
     "node-sass": "^4.11.0",
     "postcss": "^7.0.14"
-  }
+  },
+  "dependencies": {
+    "fontawesome": "^5.6.3"
+  },
+  "author": {
+    "name": "Anthony JEAMME",
+    "email": "anthony@jeamme.fr",
+    "url": "https://anthony.jeamme.fr"
+  },
+  "license": "MIT"
 }

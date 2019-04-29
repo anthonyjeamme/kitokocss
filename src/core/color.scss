@@ -8,7 +8,8 @@ $button-border-color-warning: darken($warning,20%);
     $i: index( $color-names-list, $color-name ) ;
     $color: nth( $color-list,$i);
     
-    .background-#{$color-name}{
+    .background-#{$color-name} {
+        
         background-color: $color;
         color: getColorFromBackground($color);
 

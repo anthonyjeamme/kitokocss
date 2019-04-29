@@ -118,7 +118,7 @@ hr{
     border: 0;
     @include height(1);
     background-color: transparent;
-    box-shadow: 0 -1px 0 $hr-color inset;
+    box-shadow: 0 1px 0 $hr-color;
     max-width: 100%;
 
     &.small{

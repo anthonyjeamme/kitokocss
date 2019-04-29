@@ -20,20 +20,6 @@
     justify-content: flex-start;
 }
 
-input, textarea, select, button{
-
-    font-family: $font-family;
-    @include font-size(0.5);
-    @include form-field();
-    @include border-shadow( $field-border-color,1px,1px,1px,1px );
-
-    &.success{
-        
-        @include border-shadow( $success,1px,1px,1px,1px );
-        background: white;
-    }
-}
-
 textarea{
 
     border-radius: $border-radius;
@@ -48,31 +34,7 @@ select{
 input{
 
     border-radius: $border-radius;
-
     color: $dark;
-    
-    &.medium{
-
-        @include line-height(1.5);
-        @include font-size(1);
-
-        @include padding-top(0);
-        @include padding-right(1);
-        @include padding-bottom(0);
-        @include padding-left(1);
-        @include margin-top( 1/2 );
-        @include margin-bottom( 1/2 );
-    }
-
-    &.big{
-
-        @include font-size(2);
-        @include line-height(2);
-        @include padding-top(1);
-        @include padding-bottom(1);
-        @include padding-left(1);
-        @include padding-right(1);
-    }
 
     &.in-text{
 
@@ -80,7 +42,6 @@ input{
         color: $grey;
         border-radius: 0;
         background: transparent;
-        font-size: inherit;
         font-family: inherit;
         line-height: inherit;
     }
@@ -111,11 +72,9 @@ label {
     }
 }
 
-
-button{
+button {
 
     white-space: nowrap;
-    @include form-field();
 
     $border-color: getBorderColor(#eee);
 
@@ -138,37 +97,6 @@ button{
             background-color: transparent;
             box-shadow: none;
         }
-    }
-
-    &.small{
-
-        font-size: $font-size-em /$size-ratio +em;
-        @include line-height(3/4);
-        @include padding-top(0);
-        @include padding-bottom(0);
-        @include margin-top( 1/8 );
-        @include margin-bottom( 1/8 );
-    }
-
-    &.medium{
-
-        @include padding-top(0.5);
-        @include padding-right(1);
-        @include padding-bottom(0.5);
-        @include padding-left(1);
-        @include margin-top( 1/2 );
-        @include margin-bottom( 1/2 );
-    }
-
-    &.big{
-
-        @include font-size(2);
-        @include padding-top(1);
-        @include padding-bottom(1);
-        @include padding-left(1);
-        @include padding-right(1);
-        @include margin-top( 1/2 );
-        @include margin-bottom( 1/2 );
     }
 
     @if($hover-animation){
@@ -203,6 +131,65 @@ button{
                 background-color: lighten( nth( $color-list, $i ), 20% );
             }
         }
+
+        
+        &.border-#{$color-name} {
+            
+            @include border-shadow( $color, 1px, 1px, 1px, 1px );
+        }
+
+    }
+}
+
+button, input, select {
+    
+    @include form-field(normal);
+
+    &.small{
+
+        @include form-field(small);
+    }
+
+    &.medium{
+
+        @include form-field(medium);
+    }
+
+    &.big{
+
+        @include form-field(big);
+    }
+}
+
+select {
+
+    @include height(1);
+    option{
+        @include font-size(1);
+    }
+
+    &.small{
+
+        @include height(3/4);
+        option{
+            @include font-size(3/4);
+        }
+    }
+
+    &.medium{
+
+        @include height(1.5);
+        option{
+            @include font-size(1.5);
+        }
+    }
+
+    &.big{
+        
+        @include height(2);
+        option{
+            @include font-size(2);
+        }
     }
 }
 
@@ -217,12 +204,14 @@ button{
     }
 
     &.with-icon-left{
+
         &>input,&>button,&>select{
             @include padding-left(1);
         }
     }
 
     &.with-icon-right{
+        
         &>input,&>button,&>select{
             @include padding-right(1);
         }
@@ -247,7 +236,5 @@ button{
         &.right{
             @include right(0.25);
         }
-
     }
-
 }
