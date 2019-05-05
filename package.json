@@ -1,6 +1,6 @@
 {
   "name": "kitoko",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "The typography based CSS framework",
   "main": "kitoko.scss",
   "scripts": {

@@ -20,4 +20,17 @@ $button-border-color-warning: darken($warning,20%);
     .color-#{$color-name}{
         color: $color;
     }
+
+    .hover-#{$color-name}{
+
+        cursor: pointer;
+
+        @if( $hover-animation==true ){
+            transition: $hover-animation-duration color;
+        }
+
+        &:hover{
+            color:$color;
+        }
+    }
 }

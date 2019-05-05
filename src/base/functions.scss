@@ -107,3 +107,7 @@
     @else if $x == 0 and $exponent > 0 { @return 0; } 
     @else { $y: ln($x, $steps) * $exp2; $pow2: __exp-taylor($y, $steps); @return $pow1 * $pow2; }
 }
+
+@function unit($n) {
+    @return #{ $n * $leading + 'rem' };
+}

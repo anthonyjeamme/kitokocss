@@ -77,6 +77,10 @@
     .height-#{$i}{
         @include height($i);
     }
+
+    .width-#{$i}{
+        @include width($i);
+    }
     
     .min-width-#{$i}{
         @include min-width($i);
@@ -89,11 +93,25 @@
         @include padding-left($i);
     }
 
+    .padding-#{$i}-5{
+        @include padding-top($i+0.5);
+        @include padding-right($i+0.5);
+        @include padding-bottom($i+0.5);
+        @include padding-left($i+0.5);
+    }
+
     .margin-#{$i}{
         @include margin-top($i);
         @include margin-right($i);
         @include margin-bottom($i);
         @include margin-left($i);
+    }
+
+    .margin-#{$i}-5{
+        @include margin-top($i+0.5);
+        @include margin-right($i+0.5);
+        @include margin-bottom($i+0.5);
+        @include margin-left($i+0.5);
     }
 
     .margin-#{$i}-auto{
