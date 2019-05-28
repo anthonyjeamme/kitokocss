@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{149:function(n,e,t){"use strict";t.r(e);var u=t(0),a=t.n(u);e.default=function(){return a.a.createElement("div",null,"GOOD PRACTICES !")}}}]);
+//# sourceMappingURL=component---src-pages-docs-good-practices-js-ee2239e854a9bc81d16b.js.map
