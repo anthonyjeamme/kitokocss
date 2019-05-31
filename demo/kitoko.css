@@ -8050,6 +8050,51 @@
   position: relative;
 }
 
+.text-small {
+  font-size: 0.84096rem;
+}
+
+@media screen and (min-width: 48em) {
+  .text-small {
+    font-size: 0.94608rem;
+  }
+}
+
+.text-medium {
+  font-size: 1.414rem;
+  line-height: 1.9375rem;
+}
+
+@media screen and (min-width: 48em) {
+  .text-medium {
+    font-size: 1.59075rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .text-medium {
+    line-height: 2.03906rem;
+  }
+}
+
+.text-big {
+  font-size: 1.9994rem;
+  line-height: 2.325rem;
+}
+
+@media screen and (min-width: 48em) {
+  .text-big {
+    font-size: 2.24932rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .text-big {
+    line-height: 2.44687rem;
+  }
+}
+
+/* TODO what to do with this ? */
 .background-primary {
   background-color: #9b59b6;
   color: #fff;
@@ -8248,6 +8293,94 @@
   color: #666666;
 }
 
+.background-grey-1 {
+  background-color: #333333;
+  color: #fff;
+}
+
+.background-grey-1 a {
+  color: #eeeeee;
+}
+
+.color-grey-1 {
+  color: #333333;
+}
+
+.hover-grey-1 {
+  cursor: pointer;
+  transition: 200ms color;
+}
+
+.hover-grey-1:hover {
+  color: #333333;
+}
+
+.background-grey-2 {
+  background-color: #555555;
+  color: #fff;
+}
+
+.background-grey-2 a {
+  color: #eeeeee;
+}
+
+.color-grey-2 {
+  color: #555555;
+}
+
+.hover-grey-2 {
+  cursor: pointer;
+  transition: 200ms color;
+}
+
+.hover-grey-2:hover {
+  color: #555555;
+}
+
+.background-grey-3 {
+  background-color: #888888;
+  color: #fff;
+}
+
+.background-grey-3 a {
+  color: #eeeeee;
+}
+
+.color-grey-3 {
+  color: #888888;
+}
+
+.hover-grey-3 {
+  cursor: pointer;
+  transition: 200ms color;
+}
+
+.hover-grey-3:hover {
+  color: #888888;
+}
+
+.background-grey-4 {
+  background-color: #aaaaaa;
+  color: #fff;
+}
+
+.background-grey-4 a {
+  color: #eeeeee;
+}
+
+.color-grey-4 {
+  color: #aaaaaa;
+}
+
+.hover-grey-4 {
+  cursor: pointer;
+  transition: 200ms color;
+}
+
+.hover-grey-4:hover {
+  color: #aaaaaa;
+}
+
 body {
   background-color: #eeeeee;
   color: #333333;
@@ -8438,6 +8571,7 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
   hyphens: none !important;
+  text-align: left;
 }
 
 h1 {
@@ -8727,6 +8861,11 @@ figure {
   .hero {
     min-height: 16.3125rem;
   }
+}
+
+.hero > .hero-body {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .hero > header, .hero > footer {
@@ -9337,6 +9476,46 @@ figure {
   animation-iteration-count: infinite;
 }
 
+.progress.grey-1 .progress-value {
+  background-color: #333333;
+}
+
+.progress.grey-1.gradient .progress-value {
+  background: linear-gradient(-90deg, #333333, #666666);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.grey-2 .progress-value {
+  background-color: #555555;
+}
+
+.progress.grey-2.gradient .progress-value {
+  background: linear-gradient(-90deg, #555555, #888888);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.grey-3 .progress-value {
+  background-color: #888888;
+}
+
+.progress.grey-3.gradient .progress-value {
+  background: linear-gradient(-90deg, #888888, #bbbbbb);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.progress.grey-4 .progress-value {
+  background-color: #aaaaaa;
+}
+
+.progress.grey-4.gradient .progress-value {
+  background: linear-gradient(-90deg, #aaaaaa, #dddddd);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
 .notification {
   padding: 1.55rem;
   background-color: #fff;
@@ -9398,6 +9577,14 @@ figure {
   .box {
     padding: 1.63125rem;
   }
+}
+
+.box :nth-child(1) {
+  margin-top: 0;
+}
+
+.box :nth-last-child(1) {
+  margin-bottom: 0;
 }
 
 .dropdown {
@@ -9835,625 +10022,800 @@ figure {
   text-align: center;
 }
 
-.stick {
-  display: flex;
-}
-
-.stick button, .stick input, .stick select {
-  border-radius: 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick button:nth-child(1), .stick input:nth-child(1), .stick select:nth-child(1) {
-  border-radius: 3px 0 0 3px;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick button:nth-last-child(1), .stick input:nth-last-child(1), .stick select:nth-last-child(1) {
-  border-radius: 0 3px 3px 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -1px 0 0 #eaeaea inset !important;
-}
-
-.stick-center {
-  display: flex;
-  justify-content: center;
-}
-
-.stick-center button, .stick-center input, .stick-center select {
-  border-radius: 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-center button:nth-child(1), .stick-center input:nth-child(1), .stick-center select:nth-child(1) {
-  border-radius: 3px 0 0 3px;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-center button:nth-last-child(1), .stick-center input:nth-last-child(1), .stick-center select:nth-last-child(1) {
-  border-radius: 0 3px 3px 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -1px 0 0 #eaeaea inset !important;
-}
-
-.stick-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.stick-right button, .stick-right input, .stick-right select {
-  border-radius: 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-right button:nth-child(1), .stick-right input:nth-child(1), .stick-right select:nth-child(1) {
-  border-radius: 3px 0 0 3px;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-right button:nth-last-child(1), .stick-right input:nth-last-child(1), .stick-right select:nth-last-child(1) {
-  border-radius: 0 3px 3px 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -1px 0 0 #eaeaea inset !important;
-}
-
-.stick-left {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.stick-left button, .stick-left input, .stick-left select {
-  border-radius: 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-left button:nth-child(1), .stick-left input:nth-child(1), .stick-left select:nth-child(1) {
-  border-radius: 3px 0 0 3px;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -0 0 0 #eaeaea inset !important;
-}
-
-.stick-left button:nth-last-child(1), .stick-left input:nth-last-child(1), .stick-left select:nth-last-child(1) {
-  border-radius: 0 3px 3px 0;
-  box-shadow: 0 1px 0 #eaeaea inset, 0 -1px 0 #eaeaea inset, 1px 0 0 #eaeaea inset, -1px 0 0 #eaeaea inset !important;
-}
-
-textarea {
-  border-radius: 3px;
-  color: #333333;
-}
-
-select {
-  border-radius: 3px;
-}
-
-input {
-  border-radius: 3px;
-  color: #333333;
-}
-
-input.in-text {
-  box-shadow: 0 1px 0 #ccc;
-  color: #666666;
-  border-radius: 0;
-  background: transparent;
-  font-family: inherit;
-  line-height: inherit;
-}
-
-label > span {
-  padding-right: 1.55rem;
-  min-width: 4.65rem;
-  display: inline-block;
-}
-
-@media screen and (min-width: 48em) {
-  label > span {
-    padding-right: 1.63125rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  label > span {
-    min-width: 4.89375rem;
-  }
-}
-
-label.line {
-  display: flex;
-  margin-top: 1.55rem;
-  margin-bottom: 1.55rem;
-}
-
-@media screen and (min-width: 48em) {
-  label.line {
-    margin-top: 1.63125rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  label.line {
-    margin-bottom: 1.63125rem;
-  }
-}
-
-label.line > span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-label.line input, label.line button {
-  flex: 1;
-}
-
-button {
-  white-space: nowrap;
-  background: #eee;
-  border: 0;
-  vertical-align: top;
-  /* For small button, a 2px margin-top appear without any reason. */
-  cursor: pointer;
-  transition: background-color 200ms;
-}
-
-button.invisible {
-  background-color: transparent;
-  box-shadow: none;
-  color: inherit;
-  padding-left: 0.3875rem;
-  padding-right: 0.3875rem;
-}
-
-@media screen and (min-width: 48em) {
-  button.invisible {
-    padding-left: 0.40781rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button.invisible {
-    padding-right: 0.40781rem;
-  }
-}
-
-button.invisible:hover {
-  background-color: transparent;
-  box-shadow: none;
-}
-
-button:hover {
-  background: white;
-}
-
-button.primary {
-  color: #fff;
-  background-color: #9b59b6;
-}
-
-button.primary:hover {
-  background-color: #b07cc6;
-}
-
-button.primary:disabled {
-  background-color: #c6a0d5;
-}
-
-button.border-primary {
-  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
-}
-
-button.info {
-  color: #fff;
-  background-color: #3498db;
-}
-
-button.info:hover {
-  background-color: #5faee3;
-}
-
-button.info:disabled {
-  background-color: #8bc4ea;
-}
-
-button.border-info {
-  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
-}
-
-button.warning {
-  color: rgba(0, 0, 0, 0.7);
-  background-color: #f1c40f;
-}
-
-button.warning:hover {
-  background-color: #f4d03f;
-}
-
-button.warning:disabled {
-  background-color: #f7dc6f;
-}
-
-button.border-warning {
-  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
-}
-
-button.danger {
-  color: #fff;
-  background-color: #e74c3c;
-}
-
-button.danger:hover {
-  background-color: #ed7669;
-}
-
-button.danger:disabled {
-  background-color: #f29f97;
-}
-
-button.border-danger {
-  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
-}
-
-button.white {
-  color: rgba(0, 0, 0, 0.7);
-  background-color: #fff;
-}
-
-button.white:hover {
-  background-color: white;
-}
-
-button.white:disabled {
-  background-color: white;
-}
-
-button.border-white {
-  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
-}
-
-button.dark {
-  color: #fff;
-  background-color: #333333;
-}
-
-button.dark:hover {
-  background-color: #4d4d4d;
-}
-
-button.dark:disabled {
-  background-color: #666666;
-}
-
-button.border-dark {
-  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
-}
-
-button.light {
-  color: rgba(0, 0, 0, 0.7);
-  background-color: #eeeeee;
-}
-
-button.light:hover {
-  background-color: white;
-}
-
-button.light:disabled {
-  background-color: white;
-}
-
-button.border-light {
-  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
-}
-
-button.success {
-  color: #fff;
-  background-color: #44d13f;
-}
-
-button.success:hover {
-  background-color: #6cdb68;
-}
-
-button.success:disabled {
-  background-color: #94e591;
-}
-
-button.border-success {
-  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
-}
-
-button.grey {
-  color: #fff;
-  background-color: #666666;
-}
-
-button.grey:hover {
-  background-color: gray;
-}
-
-button.grey:disabled {
-  background-color: #999999;
-}
-
-button.border-grey {
-  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
-}
-
-button, input, select {
-  padding: 0;
+/*
+ * This file describe form fields.
+ * It includes input, textarea, select and buttons.
+ *
+ * File architecture:
+ *
+ * - EDITION FIELDS
+ * - BUTTONS
+ * - OTHERS FORM TAGS (label, fieldset)
+ * - ADDITIONAL FORMATTING CLASSES
+ *
+ */
+/*
+ * This mixin give to a field general rules
+ * (margin, padding, font-size, line-height and so on.)
+ * depending to the size.
+ */
+/* EDITION FIELDS */
+/*
+ * Give border (through box-shadow) & sizing for each field
+ * that looks like <input type='text'/>.
+ * The list is exhaustive.
+ */
+input:not([type]),
+input[type=text], input[type=date],
+input[type=datetime-local], input[type=email],
+input[type=month], input[type=number],
+input[type=password], input[type=search],
+input[type=tel], input[type=time],
+input[type=url], input[type=week],
+textarea, select {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  color: #777;
   border: 0;
   margin: 0;
   vertical-align: top;
   border-radius: 3px;
-  font-size: 1rem;
+  font-family: "monospace";
+  font-size: 0.84096rem;
   line-height: 1.55rem;
   padding-left: 0.775rem;
   padding-right: 0.775rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
+  transition: box-shadow 200ms;
 }
 
 @media screen and (min-width: 48em) {
-  button, input, select {
-    font-size: 1.125rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button, input, select {
-    line-height: 1.63125rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button, input, select {
-    padding-left: 0.81562rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button, input, select {
-    padding-right: 0.81562rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button, input, select {
-    margin-top: 0rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  button, input, select {
-    margin-bottom: 0rem;
-  }
-}
-
-button.primary, input.primary, select.primary {
-  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
-}
-
-button.info, input.info, select.info {
-  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
-}
-
-button.warning, input.warning, select.warning {
-  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
-}
-
-button.danger, input.danger, select.danger {
-  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
-}
-
-button.white, input.white, select.white {
-  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
-}
-
-button.dark, input.dark, select.dark {
-  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
-}
-
-button.light, input.light, select.light {
-  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
-}
-
-button.success, input.success, select.success {
-  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
-}
-
-button.grey, input.grey, select.grey {
-  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
-}
-
-button.small, input.small, select.small {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  vertical-align: top;
-  border-radius: 3px;
-  font-size: 0.70721em;
-  font-size: 0.84096rem;
-  line-height: 1.1625rem;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  padding-left: 0.3875rem;
-  padding-right: 0.3875rem;
-  margin-top: 0.19375rem;
-  margin-bottom: 0.19375rem;
-}
-
-@media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
     font-size: 0.94608rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
+    line-height: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
+    padding-left: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
+    padding-right: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]),
+  input[type=text], input[type=date],
+  input[type=datetime-local], input[type=email],
+  input[type=month], input[type=number],
+  input[type=password], input[type=search],
+  input[type=tel], input[type=time],
+  input[type=url], input[type=week],
+  textarea, select {
+    margin-bottom: 0rem;
+  }
+}
+
+input:not([type]).primary,
+input[type=text].primary, input[type=date].primary,
+input[type=datetime-local].primary, input[type=email].primary,
+input[type=month].primary, input[type=number].primary,
+input[type=password].primary, input[type=search].primary,
+input[type=tel].primary, input[type=time].primary,
+input[type=url].primary, input[type=week].primary,
+textarea.primary, select.primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+input:not([type]).info,
+input[type=text].info, input[type=date].info,
+input[type=datetime-local].info, input[type=email].info,
+input[type=month].info, input[type=number].info,
+input[type=password].info, input[type=search].info,
+input[type=tel].info, input[type=time].info,
+input[type=url].info, input[type=week].info,
+textarea.info, select.info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+input:not([type]).warning,
+input[type=text].warning, input[type=date].warning,
+input[type=datetime-local].warning, input[type=email].warning,
+input[type=month].warning, input[type=number].warning,
+input[type=password].warning, input[type=search].warning,
+input[type=tel].warning, input[type=time].warning,
+input[type=url].warning, input[type=week].warning,
+textarea.warning, select.warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+input:not([type]).danger,
+input[type=text].danger, input[type=date].danger,
+input[type=datetime-local].danger, input[type=email].danger,
+input[type=month].danger, input[type=number].danger,
+input[type=password].danger, input[type=search].danger,
+input[type=tel].danger, input[type=time].danger,
+input[type=url].danger, input[type=week].danger,
+textarea.danger, select.danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+input:not([type]).white,
+input[type=text].white, input[type=date].white,
+input[type=datetime-local].white, input[type=email].white,
+input[type=month].white, input[type=number].white,
+input[type=password].white, input[type=search].white,
+input[type=tel].white, input[type=time].white,
+input[type=url].white, input[type=week].white,
+textarea.white, select.white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+input:not([type]).dark,
+input[type=text].dark, input[type=date].dark,
+input[type=datetime-local].dark, input[type=email].dark,
+input[type=month].dark, input[type=number].dark,
+input[type=password].dark, input[type=search].dark,
+input[type=tel].dark, input[type=time].dark,
+input[type=url].dark, input[type=week].dark,
+textarea.dark, select.dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+input:not([type]).light,
+input[type=text].light, input[type=date].light,
+input[type=datetime-local].light, input[type=email].light,
+input[type=month].light, input[type=number].light,
+input[type=password].light, input[type=search].light,
+input[type=tel].light, input[type=time].light,
+input[type=url].light, input[type=week].light,
+textarea.light, select.light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+input:not([type]).success,
+input[type=text].success, input[type=date].success,
+input[type=datetime-local].success, input[type=email].success,
+input[type=month].success, input[type=number].success,
+input[type=password].success, input[type=search].success,
+input[type=tel].success, input[type=time].success,
+input[type=url].success, input[type=week].success,
+textarea.success, select.success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+input:not([type]).grey,
+input[type=text].grey, input[type=date].grey,
+input[type=datetime-local].grey, input[type=email].grey,
+input[type=month].grey, input[type=number].grey,
+input[type=password].grey, input[type=search].grey,
+input[type=tel].grey, input[type=time].grey,
+input[type=url].grey, input[type=week].grey,
+textarea.grey, select.grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+input:not([type]).grey-1,
+input[type=text].grey-1, input[type=date].grey-1,
+input[type=datetime-local].grey-1, input[type=email].grey-1,
+input[type=month].grey-1, input[type=number].grey-1,
+input[type=password].grey-1, input[type=search].grey-1,
+input[type=tel].grey-1, input[type=time].grey-1,
+input[type=url].grey-1, input[type=week].grey-1,
+textarea.grey-1, select.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+input:not([type]).grey-2,
+input[type=text].grey-2, input[type=date].grey-2,
+input[type=datetime-local].grey-2, input[type=email].grey-2,
+input[type=month].grey-2, input[type=number].grey-2,
+input[type=password].grey-2, input[type=search].grey-2,
+input[type=tel].grey-2, input[type=time].grey-2,
+input[type=url].grey-2, input[type=week].grey-2,
+textarea.grey-2, select.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+input:not([type]).grey-3,
+input[type=text].grey-3, input[type=date].grey-3,
+input[type=datetime-local].grey-3, input[type=email].grey-3,
+input[type=month].grey-3, input[type=number].grey-3,
+input[type=password].grey-3, input[type=search].grey-3,
+input[type=tel].grey-3, input[type=time].grey-3,
+input[type=url].grey-3, input[type=week].grey-3,
+textarea.grey-3, select.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+input:not([type]).grey-4,
+input[type=text].grey-4, input[type=date].grey-4,
+input[type=datetime-local].grey-4, input[type=email].grey-4,
+input[type=month].grey-4, input[type=number].grey-4,
+input[type=password].grey-4, input[type=search].grey-4,
+input[type=tel].grey-4, input[type=time].grey-4,
+input[type=url].grey-4, input[type=week].grey-4,
+textarea.grey-4, select.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+input:not([type]).small,
+input[type=text].small, input[type=date].small,
+input[type=datetime-local].small, input[type=email].small,
+input[type=month].small, input[type=number].small,
+input[type=password].small, input[type=search].small,
+input[type=tel].small, input[type=time].small,
+input[type=url].small, input[type=week].small,
+textarea.small, select.small {
+  border: 0;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: "monospace";
+  font-size: 0.70721em;
+  font-size: 0.84096rem;
+  line-height: 1.1625rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.775rem;
+  padding-right: 0.775rem;
+  margin-top: 0.19375rem;
+  margin-bottom: 0.19375rem;
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
+    font-size: 0.94608rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
     line-height: 1.22344rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
     padding-top: 0rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
     padding-bottom: 0rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
-    padding-left: 0.40781rem;
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
+    padding-left: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
-    padding-right: 0.40781rem;
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
+    padding-right: 0.81562rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
     margin-top: 0.20391rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.small, input.small, select.small {
+  input:not([type]).small,
+  input[type=text].small, input[type=date].small,
+  input[type=datetime-local].small, input[type=email].small,
+  input[type=month].small, input[type=number].small,
+  input[type=password].small, input[type=search].small,
+  input[type=tel].small, input[type=time].small,
+  input[type=url].small, input[type=week].small,
+  textarea.small, select.small {
     margin-bottom: 0.20391rem;
   }
 }
 
-button.small.primary, input.small.primary, select.small.primary {
+input:not([type]).small.primary,
+input[type=text].small.primary, input[type=date].small.primary,
+input[type=datetime-local].small.primary, input[type=email].small.primary,
+input[type=month].small.primary, input[type=number].small.primary,
+input[type=password].small.primary, input[type=search].small.primary,
+input[type=tel].small.primary, input[type=time].small.primary,
+input[type=url].small.primary, input[type=week].small.primary,
+textarea.small.primary, select.small.primary {
   box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
 }
 
-button.small.info, input.small.info, select.small.info {
+input:not([type]).small.info,
+input[type=text].small.info, input[type=date].small.info,
+input[type=datetime-local].small.info, input[type=email].small.info,
+input[type=month].small.info, input[type=number].small.info,
+input[type=password].small.info, input[type=search].small.info,
+input[type=tel].small.info, input[type=time].small.info,
+input[type=url].small.info, input[type=week].small.info,
+textarea.small.info, select.small.info {
   box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
 }
 
-button.small.warning, input.small.warning, select.small.warning {
+input:not([type]).small.warning,
+input[type=text].small.warning, input[type=date].small.warning,
+input[type=datetime-local].small.warning, input[type=email].small.warning,
+input[type=month].small.warning, input[type=number].small.warning,
+input[type=password].small.warning, input[type=search].small.warning,
+input[type=tel].small.warning, input[type=time].small.warning,
+input[type=url].small.warning, input[type=week].small.warning,
+textarea.small.warning, select.small.warning {
   box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
 }
 
-button.small.danger, input.small.danger, select.small.danger {
+input:not([type]).small.danger,
+input[type=text].small.danger, input[type=date].small.danger,
+input[type=datetime-local].small.danger, input[type=email].small.danger,
+input[type=month].small.danger, input[type=number].small.danger,
+input[type=password].small.danger, input[type=search].small.danger,
+input[type=tel].small.danger, input[type=time].small.danger,
+input[type=url].small.danger, input[type=week].small.danger,
+textarea.small.danger, select.small.danger {
   box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
 }
 
-button.small.white, input.small.white, select.small.white {
+input:not([type]).small.white,
+input[type=text].small.white, input[type=date].small.white,
+input[type=datetime-local].small.white, input[type=email].small.white,
+input[type=month].small.white, input[type=number].small.white,
+input[type=password].small.white, input[type=search].small.white,
+input[type=tel].small.white, input[type=time].small.white,
+input[type=url].small.white, input[type=week].small.white,
+textarea.small.white, select.small.white {
   box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
 }
 
-button.small.dark, input.small.dark, select.small.dark {
+input:not([type]).small.dark,
+input[type=text].small.dark, input[type=date].small.dark,
+input[type=datetime-local].small.dark, input[type=email].small.dark,
+input[type=month].small.dark, input[type=number].small.dark,
+input[type=password].small.dark, input[type=search].small.dark,
+input[type=tel].small.dark, input[type=time].small.dark,
+input[type=url].small.dark, input[type=week].small.dark,
+textarea.small.dark, select.small.dark {
   box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
 }
 
-button.small.light, input.small.light, select.small.light {
+input:not([type]).small.light,
+input[type=text].small.light, input[type=date].small.light,
+input[type=datetime-local].small.light, input[type=email].small.light,
+input[type=month].small.light, input[type=number].small.light,
+input[type=password].small.light, input[type=search].small.light,
+input[type=tel].small.light, input[type=time].small.light,
+input[type=url].small.light, input[type=week].small.light,
+textarea.small.light, select.small.light {
   box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
 }
 
-button.small.success, input.small.success, select.small.success {
+input:not([type]).small.success,
+input[type=text].small.success, input[type=date].small.success,
+input[type=datetime-local].small.success, input[type=email].small.success,
+input[type=month].small.success, input[type=number].small.success,
+input[type=password].small.success, input[type=search].small.success,
+input[type=tel].small.success, input[type=time].small.success,
+input[type=url].small.success, input[type=week].small.success,
+textarea.small.success, select.small.success {
   box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
 }
 
-button.small.grey, input.small.grey, select.small.grey {
+input:not([type]).small.grey,
+input[type=text].small.grey, input[type=date].small.grey,
+input[type=datetime-local].small.grey, input[type=email].small.grey,
+input[type=month].small.grey, input[type=number].small.grey,
+input[type=password].small.grey, input[type=search].small.grey,
+input[type=tel].small.grey, input[type=time].small.grey,
+input[type=url].small.grey, input[type=week].small.grey,
+textarea.small.grey, select.small.grey {
   box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
 }
 
-button.medium, input.medium, select.medium {
-  padding: 0;
+input:not([type]).small.grey-1,
+input[type=text].small.grey-1, input[type=date].small.grey-1,
+input[type=datetime-local].small.grey-1, input[type=email].small.grey-1,
+input[type=month].small.grey-1, input[type=number].small.grey-1,
+input[type=password].small.grey-1, input[type=search].small.grey-1,
+input[type=tel].small.grey-1, input[type=time].small.grey-1,
+input[type=url].small.grey-1, input[type=week].small.grey-1,
+textarea.small.grey-1, select.small.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+input:not([type]).small.grey-2,
+input[type=text].small.grey-2, input[type=date].small.grey-2,
+input[type=datetime-local].small.grey-2, input[type=email].small.grey-2,
+input[type=month].small.grey-2, input[type=number].small.grey-2,
+input[type=password].small.grey-2, input[type=search].small.grey-2,
+input[type=tel].small.grey-2, input[type=time].small.grey-2,
+input[type=url].small.grey-2, input[type=week].small.grey-2,
+textarea.small.grey-2, select.small.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+input:not([type]).small.grey-3,
+input[type=text].small.grey-3, input[type=date].small.grey-3,
+input[type=datetime-local].small.grey-3, input[type=email].small.grey-3,
+input[type=month].small.grey-3, input[type=number].small.grey-3,
+input[type=password].small.grey-3, input[type=search].small.grey-3,
+input[type=tel].small.grey-3, input[type=time].small.grey-3,
+input[type=url].small.grey-3, input[type=week].small.grey-3,
+textarea.small.grey-3, select.small.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+input:not([type]).small.grey-4,
+input[type=text].small.grey-4, input[type=date].small.grey-4,
+input[type=datetime-local].small.grey-4, input[type=email].small.grey-4,
+input[type=month].small.grey-4, input[type=number].small.grey-4,
+input[type=password].small.grey-4, input[type=search].small.grey-4,
+input[type=tel].small.grey-4, input[type=time].small.grey-4,
+input[type=url].small.grey-4, input[type=week].small.grey-4,
+textarea.small.grey-4, select.small.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+input:not([type]).medium,
+input[type=text].medium, input[type=date].medium,
+input[type=datetime-local].medium, input[type=email].medium,
+input[type=month].medium, input[type=number].medium,
+input[type=password].medium, input[type=search].medium,
+input[type=tel].medium, input[type=time].medium,
+input[type=url].medium, input[type=week].medium,
+textarea.medium, select.medium {
   border: 0;
   margin: 0;
   vertical-align: top;
   border-radius: 3px;
+  font-family: "monospace";
   font-size: 1.18912rem;
   line-height: 2.325rem;
-  padding-right: 1.55rem;
-  padding-left: 1.55rem;
+  padding-right: 1.1625rem;
+  padding-left: 1.1625rem;
   margin-top: 0.3875rem;
   margin-bottom: 0.3875rem;
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
     font-size: 1.33776rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
     line-height: 2.44687rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
-    padding-right: 1.63125rem;
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
+    padding-right: 1.22344rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
-    padding-left: 1.63125rem;
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
+    padding-left: 1.22344rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
     margin-top: 0.40781rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.medium, input.medium, select.medium {
+  input:not([type]).medium,
+  input[type=text].medium, input[type=date].medium,
+  input[type=datetime-local].medium, input[type=email].medium,
+  input[type=month].medium, input[type=number].medium,
+  input[type=password].medium, input[type=search].medium,
+  input[type=tel].medium, input[type=time].medium,
+  input[type=url].medium, input[type=week].medium,
+  textarea.medium, select.medium {
     margin-bottom: 0.40781rem;
   }
 }
 
-button.medium.primary, input.medium.primary, select.medium.primary {
+input:not([type]).medium.primary,
+input[type=text].medium.primary, input[type=date].medium.primary,
+input[type=datetime-local].medium.primary, input[type=email].medium.primary,
+input[type=month].medium.primary, input[type=number].medium.primary,
+input[type=password].medium.primary, input[type=search].medium.primary,
+input[type=tel].medium.primary, input[type=time].medium.primary,
+input[type=url].medium.primary, input[type=week].medium.primary,
+textarea.medium.primary, select.medium.primary {
   box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
 }
 
-button.medium.info, input.medium.info, select.medium.info {
+input:not([type]).medium.info,
+input[type=text].medium.info, input[type=date].medium.info,
+input[type=datetime-local].medium.info, input[type=email].medium.info,
+input[type=month].medium.info, input[type=number].medium.info,
+input[type=password].medium.info, input[type=search].medium.info,
+input[type=tel].medium.info, input[type=time].medium.info,
+input[type=url].medium.info, input[type=week].medium.info,
+textarea.medium.info, select.medium.info {
   box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
 }
 
-button.medium.warning, input.medium.warning, select.medium.warning {
+input:not([type]).medium.warning,
+input[type=text].medium.warning, input[type=date].medium.warning,
+input[type=datetime-local].medium.warning, input[type=email].medium.warning,
+input[type=month].medium.warning, input[type=number].medium.warning,
+input[type=password].medium.warning, input[type=search].medium.warning,
+input[type=tel].medium.warning, input[type=time].medium.warning,
+input[type=url].medium.warning, input[type=week].medium.warning,
+textarea.medium.warning, select.medium.warning {
   box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
 }
 
-button.medium.danger, input.medium.danger, select.medium.danger {
+input:not([type]).medium.danger,
+input[type=text].medium.danger, input[type=date].medium.danger,
+input[type=datetime-local].medium.danger, input[type=email].medium.danger,
+input[type=month].medium.danger, input[type=number].medium.danger,
+input[type=password].medium.danger, input[type=search].medium.danger,
+input[type=tel].medium.danger, input[type=time].medium.danger,
+input[type=url].medium.danger, input[type=week].medium.danger,
+textarea.medium.danger, select.medium.danger {
   box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
 }
 
-button.medium.white, input.medium.white, select.medium.white {
+input:not([type]).medium.white,
+input[type=text].medium.white, input[type=date].medium.white,
+input[type=datetime-local].medium.white, input[type=email].medium.white,
+input[type=month].medium.white, input[type=number].medium.white,
+input[type=password].medium.white, input[type=search].medium.white,
+input[type=tel].medium.white, input[type=time].medium.white,
+input[type=url].medium.white, input[type=week].medium.white,
+textarea.medium.white, select.medium.white {
   box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
 }
 
-button.medium.dark, input.medium.dark, select.medium.dark {
+input:not([type]).medium.dark,
+input[type=text].medium.dark, input[type=date].medium.dark,
+input[type=datetime-local].medium.dark, input[type=email].medium.dark,
+input[type=month].medium.dark, input[type=number].medium.dark,
+input[type=password].medium.dark, input[type=search].medium.dark,
+input[type=tel].medium.dark, input[type=time].medium.dark,
+input[type=url].medium.dark, input[type=week].medium.dark,
+textarea.medium.dark, select.medium.dark {
   box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
 }
 
-button.medium.light, input.medium.light, select.medium.light {
+input:not([type]).medium.light,
+input[type=text].medium.light, input[type=date].medium.light,
+input[type=datetime-local].medium.light, input[type=email].medium.light,
+input[type=month].medium.light, input[type=number].medium.light,
+input[type=password].medium.light, input[type=search].medium.light,
+input[type=tel].medium.light, input[type=time].medium.light,
+input[type=url].medium.light, input[type=week].medium.light,
+textarea.medium.light, select.medium.light {
   box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
 }
 
-button.medium.success, input.medium.success, select.medium.success {
+input:not([type]).medium.success,
+input[type=text].medium.success, input[type=date].medium.success,
+input[type=datetime-local].medium.success, input[type=email].medium.success,
+input[type=month].medium.success, input[type=number].medium.success,
+input[type=password].medium.success, input[type=search].medium.success,
+input[type=tel].medium.success, input[type=time].medium.success,
+input[type=url].medium.success, input[type=week].medium.success,
+textarea.medium.success, select.medium.success {
   box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
 }
 
-button.medium.grey, input.medium.grey, select.medium.grey {
+input:not([type]).medium.grey,
+input[type=text].medium.grey, input[type=date].medium.grey,
+input[type=datetime-local].medium.grey, input[type=email].medium.grey,
+input[type=month].medium.grey, input[type=number].medium.grey,
+input[type=password].medium.grey, input[type=search].medium.grey,
+input[type=tel].medium.grey, input[type=time].medium.grey,
+input[type=url].medium.grey, input[type=week].medium.grey,
+textarea.medium.grey, select.medium.grey {
   box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
 }
 
-button.big, input.big, select.big {
-  padding: 0;
+input:not([type]).medium.grey-1,
+input[type=text].medium.grey-1, input[type=date].medium.grey-1,
+input[type=datetime-local].medium.grey-1, input[type=email].medium.grey-1,
+input[type=month].medium.grey-1, input[type=number].medium.grey-1,
+input[type=password].medium.grey-1, input[type=search].medium.grey-1,
+input[type=tel].medium.grey-1, input[type=time].medium.grey-1,
+input[type=url].medium.grey-1, input[type=week].medium.grey-1,
+textarea.medium.grey-1, select.medium.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+input:not([type]).medium.grey-2,
+input[type=text].medium.grey-2, input[type=date].medium.grey-2,
+input[type=datetime-local].medium.grey-2, input[type=email].medium.grey-2,
+input[type=month].medium.grey-2, input[type=number].medium.grey-2,
+input[type=password].medium.grey-2, input[type=search].medium.grey-2,
+input[type=tel].medium.grey-2, input[type=time].medium.grey-2,
+input[type=url].medium.grey-2, input[type=week].medium.grey-2,
+textarea.medium.grey-2, select.medium.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+input:not([type]).medium.grey-3,
+input[type=text].medium.grey-3, input[type=date].medium.grey-3,
+input[type=datetime-local].medium.grey-3, input[type=email].medium.grey-3,
+input[type=month].medium.grey-3, input[type=number].medium.grey-3,
+input[type=password].medium.grey-3, input[type=search].medium.grey-3,
+input[type=tel].medium.grey-3, input[type=time].medium.grey-3,
+input[type=url].medium.grey-3, input[type=week].medium.grey-3,
+textarea.medium.grey-3, select.medium.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+input:not([type]).medium.grey-4,
+input[type=text].medium.grey-4, input[type=date].medium.grey-4,
+input[type=datetime-local].medium.grey-4, input[type=email].medium.grey-4,
+input[type=month].medium.grey-4, input[type=number].medium.grey-4,
+input[type=password].medium.grey-4, input[type=search].medium.grey-4,
+input[type=tel].medium.grey-4, input[type=time].medium.grey-4,
+input[type=url].medium.grey-4, input[type=week].medium.grey-4,
+textarea.medium.grey-4, select.medium.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+input:not([type]).big,
+input[type=text].big, input[type=date].big,
+input[type=datetime-local].big, input[type=email].big,
+input[type=month].big, input[type=number].big,
+input[type=password].big, input[type=search].big,
+input[type=tel].big, input[type=time].big,
+input[type=url].big, input[type=week].big,
+textarea.big, select.big {
   border: 0;
   margin: 0;
   vertical-align: top;
   border-radius: 3px;
+  font-family: "monospace";
   font-size: 1.414rem;
   line-height: 3.1rem;
   padding-top: 0rem;
@@ -10465,75 +10827,281 @@ button.big, input.big, select.big {
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     font-size: 1.59075rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     line-height: 3.2625rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     padding-top: 0rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     padding-bottom: 0rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     padding-left: 1.63125rem;
   }
 }
 
 @media screen and (min-width: 48em) {
-  button.big, input.big, select.big {
+  input:not([type]).big,
+  input[type=text].big, input[type=date].big,
+  input[type=datetime-local].big, input[type=email].big,
+  input[type=month].big, input[type=number].big,
+  input[type=password].big, input[type=search].big,
+  input[type=tel].big, input[type=time].big,
+  input[type=url].big, input[type=week].big,
+  textarea.big, select.big {
     padding-right: 1.63125rem;
   }
 }
 
-button.big.primary, input.big.primary, select.big.primary {
+input:not([type]).big.primary,
+input[type=text].big.primary, input[type=date].big.primary,
+input[type=datetime-local].big.primary, input[type=email].big.primary,
+input[type=month].big.primary, input[type=number].big.primary,
+input[type=password].big.primary, input[type=search].big.primary,
+input[type=tel].big.primary, input[type=time].big.primary,
+input[type=url].big.primary, input[type=week].big.primary,
+textarea.big.primary, select.big.primary {
   box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
 }
 
-button.big.info, input.big.info, select.big.info {
+input:not([type]).big.info,
+input[type=text].big.info, input[type=date].big.info,
+input[type=datetime-local].big.info, input[type=email].big.info,
+input[type=month].big.info, input[type=number].big.info,
+input[type=password].big.info, input[type=search].big.info,
+input[type=tel].big.info, input[type=time].big.info,
+input[type=url].big.info, input[type=week].big.info,
+textarea.big.info, select.big.info {
   box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
 }
 
-button.big.warning, input.big.warning, select.big.warning {
+input:not([type]).big.warning,
+input[type=text].big.warning, input[type=date].big.warning,
+input[type=datetime-local].big.warning, input[type=email].big.warning,
+input[type=month].big.warning, input[type=number].big.warning,
+input[type=password].big.warning, input[type=search].big.warning,
+input[type=tel].big.warning, input[type=time].big.warning,
+input[type=url].big.warning, input[type=week].big.warning,
+textarea.big.warning, select.big.warning {
   box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
 }
 
-button.big.danger, input.big.danger, select.big.danger {
+input:not([type]).big.danger,
+input[type=text].big.danger, input[type=date].big.danger,
+input[type=datetime-local].big.danger, input[type=email].big.danger,
+input[type=month].big.danger, input[type=number].big.danger,
+input[type=password].big.danger, input[type=search].big.danger,
+input[type=tel].big.danger, input[type=time].big.danger,
+input[type=url].big.danger, input[type=week].big.danger,
+textarea.big.danger, select.big.danger {
   box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
 }
 
-button.big.white, input.big.white, select.big.white {
+input:not([type]).big.white,
+input[type=text].big.white, input[type=date].big.white,
+input[type=datetime-local].big.white, input[type=email].big.white,
+input[type=month].big.white, input[type=number].big.white,
+input[type=password].big.white, input[type=search].big.white,
+input[type=tel].big.white, input[type=time].big.white,
+input[type=url].big.white, input[type=week].big.white,
+textarea.big.white, select.big.white {
   box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
 }
 
-button.big.dark, input.big.dark, select.big.dark {
+input:not([type]).big.dark,
+input[type=text].big.dark, input[type=date].big.dark,
+input[type=datetime-local].big.dark, input[type=email].big.dark,
+input[type=month].big.dark, input[type=number].big.dark,
+input[type=password].big.dark, input[type=search].big.dark,
+input[type=tel].big.dark, input[type=time].big.dark,
+input[type=url].big.dark, input[type=week].big.dark,
+textarea.big.dark, select.big.dark {
   box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
 }
 
-button.big.light, input.big.light, select.big.light {
+input:not([type]).big.light,
+input[type=text].big.light, input[type=date].big.light,
+input[type=datetime-local].big.light, input[type=email].big.light,
+input[type=month].big.light, input[type=number].big.light,
+input[type=password].big.light, input[type=search].big.light,
+input[type=tel].big.light, input[type=time].big.light,
+input[type=url].big.light, input[type=week].big.light,
+textarea.big.light, select.big.light {
   box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
 }
 
-button.big.success, input.big.success, select.big.success {
+input:not([type]).big.success,
+input[type=text].big.success, input[type=date].big.success,
+input[type=datetime-local].big.success, input[type=email].big.success,
+input[type=month].big.success, input[type=number].big.success,
+input[type=password].big.success, input[type=search].big.success,
+input[type=tel].big.success, input[type=time].big.success,
+input[type=url].big.success, input[type=week].big.success,
+textarea.big.success, select.big.success {
   box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
 }
 
-button.big.grey, input.big.grey, select.big.grey {
+input:not([type]).big.grey,
+input[type=text].big.grey, input[type=date].big.grey,
+input[type=datetime-local].big.grey, input[type=email].big.grey,
+input[type=month].big.grey, input[type=number].big.grey,
+input[type=password].big.grey, input[type=search].big.grey,
+input[type=tel].big.grey, input[type=time].big.grey,
+input[type=url].big.grey, input[type=week].big.grey,
+textarea.big.grey, select.big.grey {
   box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+input:not([type]).big.grey-1,
+input[type=text].big.grey-1, input[type=date].big.grey-1,
+input[type=datetime-local].big.grey-1, input[type=email].big.grey-1,
+input[type=month].big.grey-1, input[type=number].big.grey-1,
+input[type=password].big.grey-1, input[type=search].big.grey-1,
+input[type=tel].big.grey-1, input[type=time].big.grey-1,
+input[type=url].big.grey-1, input[type=week].big.grey-1,
+textarea.big.grey-1, select.big.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+input:not([type]).big.grey-2,
+input[type=text].big.grey-2, input[type=date].big.grey-2,
+input[type=datetime-local].big.grey-2, input[type=email].big.grey-2,
+input[type=month].big.grey-2, input[type=number].big.grey-2,
+input[type=password].big.grey-2, input[type=search].big.grey-2,
+input[type=tel].big.grey-2, input[type=time].big.grey-2,
+input[type=url].big.grey-2, input[type=week].big.grey-2,
+textarea.big.grey-2, select.big.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+input:not([type]).big.grey-3,
+input[type=text].big.grey-3, input[type=date].big.grey-3,
+input[type=datetime-local].big.grey-3, input[type=email].big.grey-3,
+input[type=month].big.grey-3, input[type=number].big.grey-3,
+input[type=password].big.grey-3, input[type=search].big.grey-3,
+input[type=tel].big.grey-3, input[type=time].big.grey-3,
+input[type=url].big.grey-3, input[type=week].big.grey-3,
+textarea.big.grey-3, select.big.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+input:not([type]).big.grey-4,
+input[type=text].big.grey-4, input[type=date].big.grey-4,
+input[type=datetime-local].big.grey-4, input[type=email].big.grey-4,
+input[type=month].big.grey-4, input[type=number].big.grey-4,
+input[type=password].big.grey-4, input[type=search].big.grey-4,
+input[type=tel].big.grey-4, input[type=time].big.grey-4,
+input[type=url].big.grey-4, input[type=week].big.grey-4,
+textarea.big.grey-4, select.big.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+input:not([type]):hover,
+input[type=text]:hover, input[type=date]:hover,
+input[type=datetime-local]:hover, input[type=email]:hover,
+input[type=month]:hover, input[type=number]:hover,
+input[type=password]:hover, input[type=search]:hover,
+input[type=tel]:hover, input[type=time]:hover,
+input[type=url]:hover, input[type=week]:hover,
+textarea:hover, select:hover {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+input:not([type]):focus,
+input[type=text]:focus, input[type=date]:focus,
+input[type=datetime-local]:focus, input[type=email]:focus,
+input[type=month]:focus, input[type=number]:focus,
+input[type=password]:focus, input[type=search]:focus,
+input[type=tel]:focus, input[type=time]:focus,
+input[type=url]:focus, input[type=week]:focus,
+textarea:focus, select:focus {
+  box-shadow: 0 0 2px #9b59b6;
+}
+
+/*
+ * Special classes for <input type='text'/> like inputs.
+ */
+input:not([type]).in-text,
+input[type=text].in-text, input[type=date].in-text,
+input[type=datetime-local].in-text, input[type=email].in-text,
+input[type=month].in-text, input[type=number].in-text,
+input[type=password].in-text, input[type=search].in-text,
+input[type=tel].in-text, input[type=time].in-text,
+input[type=url].in-text, input[type=week].in-text {
+  box-shadow: 0 1px 0 #ccc;
+  color: #666666;
+  border-radius: 0;
+  background: transparent;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+input:not([type]).rounded,
+input[type=text].rounded, input[type=date].rounded,
+input[type=datetime-local].rounded, input[type=email].rounded,
+input[type=month].rounded, input[type=number].rounded,
+input[type=password].rounded, input[type=search].rounded,
+input[type=tel].rounded, input[type=time].rounded,
+input[type=url].rounded, input[type=week].rounded {
+  border-radius: 100px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 1.55rem;
+  box-sizing: border-box;
 }
 
 select {
@@ -10616,6 +11184,795 @@ select.big option {
   }
 }
 
+/* BUTTONS */
+button, input[type=button] {
+  border: 0;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: "monospace";
+  font-size: 0.84096rem;
+  line-height: 1.55rem;
+  padding-left: 0.775rem;
+  padding-right: 0.775rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  white-space: nowrap;
+  background: #eee;
+  border: 0;
+  vertical-align: top;
+  /* For small button, a 2px margin-top appear without any reason. */
+  cursor: pointer;
+  transition: background-color 200ms;
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    font-size: 0.94608rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    line-height: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    padding-left: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    padding-right: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button, input[type=button] {
+    margin-bottom: 0rem;
+  }
+}
+
+button.primary, input[type=button].primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+button.info, input[type=button].info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+button.warning, input[type=button].warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+button.danger, input[type=button].danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+button.white, input[type=button].white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+button.dark, input[type=button].dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.light, input[type=button].light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+button.success, input[type=button].success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+button.grey, input[type=button].grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+button.grey-1, input[type=button].grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.grey-2, input[type=button].grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+button.grey-3, input[type=button].grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+button.grey-4, input[type=button].grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+button.small, input[type=button].small {
+  border: 0;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: "monospace";
+  font-size: 0.70721em;
+  font-size: 0.84096rem;
+  line-height: 1.1625rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.775rem;
+  padding-right: 0.775rem;
+  margin-top: 0.19375rem;
+  margin-bottom: 0.19375rem;
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    font-size: 0.94608rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    line-height: 1.22344rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    padding-left: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    padding-right: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    margin-top: 0.20391rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.small, input[type=button].small {
+    margin-bottom: 0.20391rem;
+  }
+}
+
+button.small.primary, input[type=button].small.primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+button.small.info, input[type=button].small.info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+button.small.warning, input[type=button].small.warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+button.small.danger, input[type=button].small.danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+button.small.white, input[type=button].small.white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+button.small.dark, input[type=button].small.dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.small.light, input[type=button].small.light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+button.small.success, input[type=button].small.success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+button.small.grey, input[type=button].small.grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+button.small.grey-1, input[type=button].small.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.small.grey-2, input[type=button].small.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+button.small.grey-3, input[type=button].small.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+button.small.grey-4, input[type=button].small.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+button.medium, input[type=button].medium {
+  border: 0;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: "monospace";
+  font-size: 1.18912rem;
+  line-height: 2.325rem;
+  padding-right: 1.1625rem;
+  padding-left: 1.1625rem;
+  margin-top: 0.3875rem;
+  margin-bottom: 0.3875rem;
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    font-size: 1.33776rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    line-height: 2.44687rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    padding-right: 1.22344rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    padding-left: 1.22344rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    margin-top: 0.40781rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.medium, input[type=button].medium {
+    margin-bottom: 0.40781rem;
+  }
+}
+
+button.medium.primary, input[type=button].medium.primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+button.medium.info, input[type=button].medium.info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+button.medium.warning, input[type=button].medium.warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+button.medium.danger, input[type=button].medium.danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+button.medium.white, input[type=button].medium.white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+button.medium.dark, input[type=button].medium.dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.medium.light, input[type=button].medium.light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+button.medium.success, input[type=button].medium.success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+button.medium.grey, input[type=button].medium.grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+button.medium.grey-1, input[type=button].medium.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.medium.grey-2, input[type=button].medium.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+button.medium.grey-3, input[type=button].medium.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+button.medium.grey-4, input[type=button].medium.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+button.big, input[type=button].big {
+  border: 0;
+  margin: 0;
+  vertical-align: top;
+  border-radius: 3px;
+  font-family: "monospace";
+  font-size: 1.414rem;
+  line-height: 3.1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 1.55rem;
+  padding-right: 1.55rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    font-size: 1.59075rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    line-height: 3.2625rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    padding-left: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.big, input[type=button].big {
+    padding-right: 1.63125rem;
+  }
+}
+
+button.big.primary, input[type=button].big.primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+button.big.info, input[type=button].big.info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+button.big.warning, input[type=button].big.warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+button.big.danger, input[type=button].big.danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+button.big.white, input[type=button].big.white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+button.big.dark, input[type=button].big.dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.big.light, input[type=button].big.light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+button.big.success, input[type=button].big.success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+button.big.grey, input[type=button].big.grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+button.big.grey-1, input[type=button].big.grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.big.grey-2, input[type=button].big.grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+button.big.grey-3, input[type=button].big.grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+button.big.grey-4, input[type=button].big.grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+button.invisible, input[type=button].invisible {
+  background-color: transparent;
+  box-shadow: none;
+  color: inherit;
+  padding-left: 0.3875rem;
+  padding-right: 0.3875rem;
+}
+
+@media screen and (min-width: 48em) {
+  button.invisible, input[type=button].invisible {
+    padding-left: 0.40781rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  button.invisible, input[type=button].invisible {
+    padding-right: 0.40781rem;
+  }
+}
+
+button.invisible:hover, input[type=button].invisible:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+button:hover, input[type=button]:hover {
+  background: white;
+}
+
+button.primary, input[type=button].primary {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+button.primary:hover, input[type=button].primary:hover {
+  background-color: #b07cc6;
+}
+
+button.primary:disabled, input[type=button].primary:disabled {
+  background-color: #c6a0d5;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-primary, input[type=button].border-primary {
+  box-shadow: 0 1px 0 #9b59b6 inset, 0 -1px 0 #9b59b6 inset, 1px 0 0 #9b59b6 inset, -1px 0 0 #9b59b6 inset !important;
+}
+
+button.info, input[type=button].info {
+  color: #fff;
+  background-color: #3498db;
+}
+
+button.info:hover, input[type=button].info:hover {
+  background-color: #5faee3;
+}
+
+button.info:disabled, input[type=button].info:disabled {
+  background-color: #8bc4ea;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-info, input[type=button].border-info {
+  box-shadow: 0 1px 0 #3498db inset, 0 -1px 0 #3498db inset, 1px 0 0 #3498db inset, -1px 0 0 #3498db inset !important;
+}
+
+button.warning, input[type=button].warning {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #f1c40f;
+}
+
+button.warning:hover, input[type=button].warning:hover {
+  background-color: #f4d03f;
+}
+
+button.warning:disabled, input[type=button].warning:disabled {
+  background-color: #f7dc6f;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-warning, input[type=button].border-warning {
+  box-shadow: 0 1px 0 #f1c40f inset, 0 -1px 0 #f1c40f inset, 1px 0 0 #f1c40f inset, -1px 0 0 #f1c40f inset !important;
+}
+
+button.danger, input[type=button].danger {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+button.danger:hover, input[type=button].danger:hover {
+  background-color: #ed7669;
+}
+
+button.danger:disabled, input[type=button].danger:disabled {
+  background-color: #f29f97;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-danger, input[type=button].border-danger {
+  box-shadow: 0 1px 0 #e74c3c inset, 0 -1px 0 #e74c3c inset, 1px 0 0 #e74c3c inset, -1px 0 0 #e74c3c inset !important;
+}
+
+button.white, input[type=button].white {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #fff;
+}
+
+button.white:hover, input[type=button].white:hover {
+  background-color: white;
+}
+
+button.white:disabled, input[type=button].white:disabled {
+  background-color: white;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-white, input[type=button].border-white {
+  box-shadow: 0 1px 0 #fff inset, 0 -1px 0 #fff inset, 1px 0 0 #fff inset, -1px 0 0 #fff inset !important;
+}
+
+button.dark, input[type=button].dark {
+  color: #fff;
+  background-color: #333333;
+}
+
+button.dark:hover, input[type=button].dark:hover {
+  background-color: #4d4d4d;
+}
+
+button.dark:disabled, input[type=button].dark:disabled {
+  background-color: #666666;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-dark, input[type=button].border-dark {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.light, input[type=button].light {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #eeeeee;
+}
+
+button.light:hover, input[type=button].light:hover {
+  background-color: white;
+}
+
+button.light:disabled, input[type=button].light:disabled {
+  background-color: white;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-light, input[type=button].border-light {
+  box-shadow: 0 1px 0 #eeeeee inset, 0 -1px 0 #eeeeee inset, 1px 0 0 #eeeeee inset, -1px 0 0 #eeeeee inset !important;
+}
+
+button.success, input[type=button].success {
+  color: #fff;
+  background-color: #44d13f;
+}
+
+button.success:hover, input[type=button].success:hover {
+  background-color: #6cdb68;
+}
+
+button.success:disabled, input[type=button].success:disabled {
+  background-color: #94e591;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-success, input[type=button].border-success {
+  box-shadow: 0 1px 0 #44d13f inset, 0 -1px 0 #44d13f inset, 1px 0 0 #44d13f inset, -1px 0 0 #44d13f inset !important;
+}
+
+button.grey, input[type=button].grey {
+  color: #fff;
+  background-color: #666666;
+}
+
+button.grey:hover, input[type=button].grey:hover {
+  background-color: gray;
+}
+
+button.grey:disabled, input[type=button].grey:disabled {
+  background-color: #999999;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-grey, input[type=button].border-grey {
+  box-shadow: 0 1px 0 #666666 inset, 0 -1px 0 #666666 inset, 1px 0 0 #666666 inset, -1px 0 0 #666666 inset !important;
+}
+
+button.grey-1, input[type=button].grey-1 {
+  color: #fff;
+  background-color: #333333;
+}
+
+button.grey-1:hover, input[type=button].grey-1:hover {
+  background-color: #4d4d4d;
+}
+
+button.grey-1:disabled, input[type=button].grey-1:disabled {
+  background-color: #666666;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-grey-1, input[type=button].border-grey-1 {
+  box-shadow: 0 1px 0 #333333 inset, 0 -1px 0 #333333 inset, 1px 0 0 #333333 inset, -1px 0 0 #333333 inset !important;
+}
+
+button.grey-2, input[type=button].grey-2 {
+  color: #fff;
+  background-color: #555555;
+}
+
+button.grey-2:hover, input[type=button].grey-2:hover {
+  background-color: #6f6f6f;
+}
+
+button.grey-2:disabled, input[type=button].grey-2:disabled {
+  background-color: #888888;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-grey-2, input[type=button].border-grey-2 {
+  box-shadow: 0 1px 0 #555555 inset, 0 -1px 0 #555555 inset, 1px 0 0 #555555 inset, -1px 0 0 #555555 inset !important;
+}
+
+button.grey-3, input[type=button].grey-3 {
+  color: #fff;
+  background-color: #888888;
+}
+
+button.grey-3:hover, input[type=button].grey-3:hover {
+  background-color: #a2a2a2;
+}
+
+button.grey-3:disabled, input[type=button].grey-3:disabled {
+  background-color: #bbbbbb;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-grey-3, input[type=button].border-grey-3 {
+  box-shadow: 0 1px 0 #888888 inset, 0 -1px 0 #888888 inset, 1px 0 0 #888888 inset, -1px 0 0 #888888 inset !important;
+}
+
+button.grey-4, input[type=button].grey-4 {
+  color: #fff;
+  background-color: #aaaaaa;
+}
+
+button.grey-4:hover, input[type=button].grey-4:hover {
+  background-color: #c4c4c4;
+}
+
+button.grey-4:disabled, input[type=button].grey-4:disabled {
+  background-color: #dddddd;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.border-grey-4, input[type=button].border-grey-4 {
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 1px 0 0 #aaaaaa inset, -1px 0 0 #aaaaaa inset !important;
+}
+
+/* OTHERS FORM TAGS */
+label > span {
+  padding-right: 1.55rem;
+  min-width: 4.65rem;
+  display: inline-block;
+}
+
+@media screen and (min-width: 48em) {
+  label > span {
+    padding-right: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  label > span {
+    min-width: 4.89375rem;
+  }
+}
+
+label.line {
+  display: flex;
+  margin-top: 1.55rem;
+  margin-bottom: 1.55rem;
+}
+
+@media screen and (min-width: 48em) {
+  label.line {
+    margin-top: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  label.line {
+    margin-bottom: 1.63125rem;
+  }
+}
+
+label.line > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label.line input, label.line button, label.line input[type=button] {
+  flex: 1;
+}
+
+fieldset {
+  border: 0;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 1.55rem;
+  margin-bottom: 0.775rem;
+}
+
+@media screen and (min-width: 48em) {
+  fieldset {
+    padding: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  fieldset {
+    margin-bottom: 0.81562rem;
+  }
+}
+
+fieldset > legend {
+  font-size: 0.84096rem;
+}
+
+@media screen and (min-width: 48em) {
+  fieldset > legend {
+    font-size: 0.94608rem;
+  }
+}
+
+/*
+ * ADDITIONAL FORMATTING CLASSES
+ */
 .with-icon {
   position: relative;
   display: inline-block;
@@ -10682,12 +12039,134 @@ select.big option {
   }
 }
 
+/* TODO change name */
+.stick {
+  display: flex;
+}
+
+.stick button, .stick input, .stick select {
+  border-radius: 0;
+}
+
+.stick button:nth-child, .stick input:nth-child, .stick select:nth-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.stick button:nth-last-child, .stick input:nth-last-child, .stick select:nth-last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.stick-center {
+  display: flex;
+  justify-content: center;
+}
+
+.stick-center button, .stick-center input, .stick-center select {
+  border-radius: 0;
+}
+
+.stick-center button:nth-child, .stick-center input:nth-child, .stick-center select:nth-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.stick-center button:nth-last-child, .stick-center input:nth-last-child, .stick-center select:nth-last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.stick-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stick-right button, .stick-right input, .stick-right select {
+  border-radius: 0;
+}
+
+.stick-right button:nth-child, .stick-right input:nth-child, .stick-right select:nth-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.stick-right button:nth-last-child, .stick-right input:nth-last-child, .stick-right select:nth-last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.stick-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stick-left button, .stick-left input, .stick-left select {
+  border-radius: 0;
+}
+
+.stick-left button:nth-child, .stick-left input:nth-child, .stick-left select:nth-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.stick-left button:nth-last-child, .stick-left input:nth-last-child, .stick-left select:nth-last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.loading {
+  position: relative;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.loading:before {
+  content: "";
+  animation: spin .5s infinite linear;
+  position: absolute;
+  border: 0.1rem solid #dbdbdb;
+  border-radius: 100px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  height: 1rem;
+  width: 1rem;
+  right: 10px;
+  top: 50%;
+  margin-top: -0.6rem;
+}
+
+.loading.small:before {
+  height: 0.5rem;
+  width: 0.5rem;
+  margin-top: -0.35rem;
+}
+
+.loading.medium:before {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: -0.85rem;
+}
+
+.loading.big:before {
+  height: 2rem;
+  width: 2rem;
+  margin-top: -1.1rem;
+}
+
 @media screen and (min-width: 48em) {
   .columns {
     display: flex;
   }
   .columns .column {
     flex: 1;
+  }
+  .columns .column:last-child {
+    margin-bottom: 0;
+  }
+  .columns .column:first-child {
+    margin-top: 0;
   }
 }
 

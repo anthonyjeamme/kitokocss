@@ -159,7 +159,6 @@
         //,linear-gradient(to bottom,transparent $leading/2-1+rem,#{$primary}55 $leading/2+rem,transparent $leading/2+1+rem);
     background-size: 100% $leading+rem;
 
-    
     @media screen and (min-width: $tablet-breakpoint){ 
 
         background-image: linear-gradient(to bottom,#{$primary}FF 0px,transparent 1px);
@@ -186,99 +185,4 @@
         font-weight: 900;
     }
     font-family: "Font Awesome 5 Free";
-}
-
-@mixin stick {
-    
-    display: flex;
-
-    button,input, select{
-        border-radius: 0;
-        
-        @include border-shadow( $field-border-color,1px,0,1px,1px );
-
-        &:nth-child(1){
-            border-radius: $border-radius 0 0 $border-radius;
-            @include border-shadow( $field-border-color,1px,0,1px,1px );
-        }
-        
-        &:nth-last-child(1){
-            border-radius: 0 $border-radius $border-radius 0;
-            @include border-shadow( $field-border-color,1px,1px,1px,1px );
-        }
-    }
-}
-
-@mixin form-field( $size ) {
-    
-    padding: 0;
-    border:0;
-    margin:0;
-
-    vertical-align: top;
-    
-    border-radius: $border-radius;
-
-    @if( $size == small ){
-
-        font-size: $font-size-em /$size-ratio +em;
-        
-        @include font-size(1/2);
-        @include line-height(3/4);
-
-        @include padding-top(0);
-        @include padding-bottom(0);
-        @include padding-left(0.25);
-        @include padding-right(0.25);
-        @include margin-top(0.125);
-        @include margin-bottom(0.125);
-    }
-    @else if( $size == normal ){
-
-        @include font-size(1);
-        @include line-height(1);
-
-        @include padding-left(0.5);
-        @include padding-right(0.5);
-        @include margin-top(0);
-        @include margin-bottom(0);
-    
-    }
-    @else if( $size == medium ){
-
-        @include font-size(1.5);
-        @include line-height(1.5);
-        
-        @include padding-right(1);
-        @include padding-left(1);
-        @include margin-top( 1/4 );
-        @include margin-bottom( 1/4 );
-    }
-    @else if( $size == big ){
-
-        @include font-size(2);
-        @include line-height(2);
-
-        @include padding-top(0);
-        @include padding-bottom(0);
-
-        @include padding-left(1);
-        @include padding-right(1);
-        
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    
-    @each $color-name in $color-names-list {
-
-        $i: index( $color-names-list, $color-name ) ;
-        $color: nth( $color-list,$i);
-        
-        &.#{$color-name}{
-            
-            @include border-shadow( $color, 1px, 1px, 1px, 1px );
-
-        }
-    }
 }

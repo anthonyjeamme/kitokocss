@@ -10,8 +10,13 @@ $success: #44d13f !default;
 $white: #ffffff !default;
 $grey: #aaaaaa !default;
 
-$link-color-dark-background: $light;
-$link-color-light-background: $dark;
+$grey-1: #333333 !default;
+$grey-2: #555555 !default;
+$grey-3: #888888 !default;
+$grey-4: #aaaaaa !default;
+
+$link-color-dark-background: $light !default;
+$link-color-light-background: $dark !default;
 
 $body-background: $light !default;
 $code-background: $dark !default;
@@ -72,6 +77,7 @@ $hover-animation-duration: 200ms !default;
 $hyphen: true !default;
 
 $font-family: 'Cormorant Garamond', serif !default;
+$form-field-font-family: 'monospace' !default;
 
 // Responsive
 $phablet-breakpoint: 37em !default;
@@ -80,14 +86,19 @@ $desktop-breakpoint: 64em !default;
 $large-desktop-breakpoint: 80em !default;
 
 // Hero
-$hero-small-min-height: 5;
-$hero-min-height: 10;
-$hero-medium-min-height: 15;
-$hero-large-min-height: 25;
+$hero-small-min-height: 5 !default;
+$hero-min-height: 10 !default;
+$hero-medium-min-height: 15 !default;
+$hero-large-min-height: 25 !default;
 
 // Input
-$field-border-color: #eaeaea;
+$field-box-shadow: 0 0 2px rgba(0,0,0,0.2) !default;
+$field-box-shadow-hover:  0 0 2px rgba(0,0,0,0.5) !default;
+$field-box-shadow-focus: 0 0 2px $primary !default;
+$field-color: #777;
 
 // Fontawesome
 $use-fontawesome: true !default; // TODO
 $all-animations: true !default;
+
+$loading-border-size-em: 0.1 !default;

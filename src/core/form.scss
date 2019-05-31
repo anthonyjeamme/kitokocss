@@ -1,40 +1,150 @@
-.stick{
-    @include stick();
-}
+/*
+ * This file describe form fields.
+ * It includes input, textarea, select and buttons.
+ *
+ * File architecture:
+ *
+ * - EDITION FIELDS
+ * - BUTTONS
+ * - OTHERS FORM TAGS (label, fieldset)
+ * - ADDITIONAL FORMATTING CLASSES
+ *
+ */
 
-.stick-center{
+/*
+ * This mixin give to a field general rules
+ * (margin, padding, font-size, line-height and so on.)
+ * depending to the size.
+ */
+ @mixin form-field-sizing( $size ) {
     
-    @include stick();
-    justify-content: center;
-}
+    border:0;
+    margin:0;
 
-.stick-right{
+    vertical-align: top;
+    border-radius: $border-radius;
+    font-family: $form-field-font-family;
+
+    @if( $size == small ){
+
+        font-size: $font-size-em /$size-ratio +em;
+        
+        @include font-size(1/2);
+        @include line-height(3/4);
+
+        @include padding-top(0);
+        @include padding-bottom(0);
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+        @include margin-top(0.125);
+        @include margin-bottom(0.125);
+    }
+    @else if( $size == normal ){
+
+        @include font-size(0.5);
+        @include line-height(1);
+
+        @include padding-left(0.5);
+        @include padding-right(0.5);
+        @include margin-top(0);
+        @include margin-bottom(0);
     
-    @include stick();
-    justify-content: flex-end;
-}
+    }
+    @else if( $size == medium ){
 
-.stick-left{
+        @include font-size(1.5);
+        @include line-height(1.5);
+        
+        @include padding-right(0.75);
+        @include padding-left(0.75);
+        @include margin-top( 1/4 );
+        @include margin-bottom( 1/4 );
+    }
+    @else if( $size == big ){
+
+        @include font-size(2);
+        @include line-height(2);
+
+        @include padding-top(0);
+        @include padding-bottom(0);
+
+        @include padding-left(1);
+        @include padding-right(1);
+        
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     
-    @include stick();
-    justify-content: flex-start;
+    @each $color-name in $color-names-list {
+
+        $i: index( $color-names-list, $color-name ) ;
+        $color: nth( $color-list,$i);
+        
+        &.#{$color-name}{
+            
+            @include border-shadow( $color, 1px, 1px, 1px, 1px );
+
+        }
+    }
 }
 
-textarea{
+/* EDITION FIELDS */
 
-    border-radius: $border-radius;
-    color: $dark;
+/*
+ * Give border (through box-shadow) & sizing for each field
+ * that looks like <input type='text'/>.
+ * The list is exhaustive.
+ */
+input:not([type]),
+input[type=text],input[type=date],
+input[type=datetime-local], input[type=email],
+input[type=month], input[type=number],
+input[type=password], input[type=search],
+input[type=tel], input[type=time],
+input[type=url], input[type=week],
+textarea, select
+{
+
+    box-shadow: $field-box-shadow;
+    color:$field-color;
+
+    @include form-field-sizing(normal);
+
+    &.small{
+        @include form-field-sizing(small);
+    }
+    &.medium{
+        @include form-field-sizing(medium);
+    }
+    &.big{
+        @include form-field-sizing(big);
+    }
+    
+
+    @if( $hover-animation ){
+        transition: box-shadow $hover-animation-duration;
+    }
+
+    &:hover{
+        box-shadow: $field-box-shadow-hover;
+    }
+
+    &:focus{
+        box-shadow: $field-box-shadow-focus;
+    }
 }
 
-select{
-
-    border-radius: $border-radius;
-}
-
-input{
-
-    border-radius: $border-radius;
-    color: $dark;
+/*
+ * Special classes for <input type='text'/> like inputs.
+ */ 
+ input:not([type]),
+ input[type=text],input[type=date],
+ input[type=datetime-local], input[type=email],
+ input[type=month], input[type=number],
+ input[type=password], input[type=search],
+ input[type=tel], input[type=time],
+ input[type=url], input[type=week]{
 
     &.in-text{
 
@@ -45,34 +155,71 @@ input{
         font-family: inherit;
         line-height: inherit;
     }
+
+    &.rounded{
+        border-radius: 100px;
+    }
 }
 
-label {
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-height: $line-height+rem;
+    box-sizing: border-box;
+}
+
+select {
+
+    @include height(1);
+    option{
+        @include font-size(1);
+    }
+
+    &.small{
+
+        @include height(3/4);
+        option{
+            @include font-size(3/4);
+        }
+    }
+
+    &.medium{
+
+        @include height(1.5);
+        option{
+            @include font-size(1.5);
+        }
+    }
+
+    &.big{
+        
+        @include height(2);
+        option{
+            @include font-size(2);
+        }
+    }
+}
+
+/* BUTTONS */
+
+button, input[type=button] {
+
+    @include form-field-sizing(normal);
     
-    &> span{
-        @include padding-right(1);
-        @include min-width(3);
-        display: inline-block;
+    &.small{
+
+        @include form-field-sizing(small);
     }
 
-    &.line{
-        display: flex;
-        @include margin-top(1);
-        @include margin-bottom(1);
+    &.medium{
 
-        &>span{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        input, button{
-            flex:1;
-        }
+        @include form-field-sizing(medium);
     }
-}
 
-button {
+    &.big{
+
+        @include form-field-sizing(big);
+    }
 
     white-space: nowrap;
 
@@ -129,6 +276,8 @@ button {
 
             &:disabled{
                 background-color: lighten( nth( $color-list, $i ), 20% );
+                opacity:0.5;
+                cursor: not-allowed;
             }
         }
 
@@ -141,57 +290,48 @@ button {
     }
 }
 
-button, input, select {
+/* OTHERS FORM TAGS */
+ 
+label {
     
-    @include form-field(normal);
-
-    &.small{
-
-        @include form-field(small);
+    &> span{
+        @include padding-right(1);
+        @include min-width(3);
+        display: inline-block;
     }
 
-    &.medium{
+    &.line{
+        display: flex;
+        @include margin-top(1);
+        @include margin-bottom(1);
 
-        @include form-field(medium);
-    }
-
-    &.big{
-
-        @include form-field(big);
-    }
-}
-
-select {
-
-    @include height(1);
-    option{
-        @include font-size(1);
-    }
-
-    &.small{
-
-        @include height(3/4);
-        option{
-            @include font-size(3/4);
+        &>span{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
-    }
 
-    &.medium{
-
-        @include height(1.5);
-        option{
-            @include font-size(1.5);
-        }
-    }
-
-    &.big{
-        
-        @include height(2);
-        option{
-            @include font-size(2);
+        input, button, input[type=button]{
+            flex:1;
         }
     }
 }
+
+fieldset{
+    border:0;
+    background: $white;
+    border-radius: $border-radius-box;
+    @include padding(1);
+    @include margin-bottom(0.5);
+
+    &>legend{
+        @include font-size(0.5);
+    }
+}
+
+/*
+ * ADDITIONAL FORMATTING CLASSES
+ */
 
 .with-icon{
 
@@ -236,5 +376,113 @@ select {
         &.right{
             @include right(0.25);
         }
+    }
+}
+
+/* TODO change name */
+
+
+@mixin stick {
+    
+    display: flex;
+
+    button,input, select{
+        border-radius: 0;
+        
+        // @include border-shadow( $field-border-color,1px,0,1px,1px );
+
+        &:nth-child{
+            border-radius: $border-radius 0 0 $border-radius;
+            // @include border-shadow( $field-border-color,1px,0,1px,1px );
+        }
+        
+        &:nth-last-child{
+            border-radius: 0 $border-radius $border-radius 0;
+            // @include border-shadow( $field-border-color,1px,1px,1px,1px );
+        }
+    }
+}
+
+
+.stick{
+    @include stick();
+}
+
+.stick-center{
+    
+    @include stick();
+    justify-content: center;
+}
+
+.stick-right{
+    
+    @include stick();
+    justify-content: flex-end;
+}
+
+.stick-left{
+    
+    @include stick();
+    justify-content: flex-start;
+}
+
+.loading{
+
+    position: relative;
+
+
+    @keyframes spin {
+        0%{
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
+        }
+        100%{
+            -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+        }
+    }
+    
+    &:before{
+
+        content:"";
+        
+        animation: spin .5s infinite linear;
+        position: absolute;
+        border: $loading-border-size-em+rem solid #dbdbdb;
+        border-radius: 100px;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        
+        $size : $font-size-em;
+        height: $size+rem;
+        width: $size+rem;
+        right:10px;
+
+        top:50%;
+        margin-top: -($size/2+$loading-border-size-em)+rem;
+    }
+
+    &.small:before{
+        
+        $size : $font-size-em*0.5;
+        height: $size+rem;
+        width: $size+rem;
+        margin-top: -($size/2+$loading-border-size-em)+rem;
+    }
+
+    &.medium:before{
+        
+        $size : $font-size-em*1.5;
+        height: $size+rem;
+        width: $size+rem;
+        margin-top: -($size/2+$loading-border-size-em)+rem;
+    }
+
+    &.big:before{
+        
+        $size : $font-size-em*2;
+        height: $size+rem;
+        width: $size+rem;
+        margin-top: -($size/2+$loading-border-size-em)+rem;
     }
 }

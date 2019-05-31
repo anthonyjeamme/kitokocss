@@ -7,6 +7,11 @@
     position: relative;
     align-items: center;
     @include min-height($hero-min-height);
+
+    &>.hero-body{
+        margin-top:auto;
+        margin-bottom: auto;
+    }
     
     &>header, &>footer {
 
@@ -392,6 +397,14 @@
     @media screen and (min-width: $phablet-breakpoint){
         
         @include padding(1);
+    }
+
+    :nth-child(1){
+        margin-top:0;
+    }
+
+    :nth-last-child(1){
+        margin-bottom: 0;
     }
 }
 
