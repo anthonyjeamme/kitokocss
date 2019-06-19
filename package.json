@@ -1,6 +1,6 @@
 {
   "name": "kitoko",
-  "version": "0.0.22",
+  "version": "0.0.24",
   "description": "The typography based CSS framework",
   "main": "kitoko.scss",
   "scripts": {
@@ -22,9 +22,6 @@
   "devDependencies": {
     "node-sass": "^4.11.0",
     "postcss": "^7.0.14"
-  },
-  "dependencies": {
-    "fontawesome": "^5.6.3"
   },
   "author": {
     "name": "Anthony JEAMME",

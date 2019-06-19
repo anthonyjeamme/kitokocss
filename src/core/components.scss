@@ -7,11 +7,6 @@
     position: relative;
     align-items: center;
     @include min-height($hero-min-height);
-
-    &>.hero-body{
-        margin-top:auto;
-        margin-bottom: auto;
-    }
     
     &>header, &>footer {
 
@@ -38,8 +33,6 @@
         order:1;
         width:100%;
         box-sizing: border-box;
-        @include padding-top(1);
-        @include padding-bottom(1);
         @include padding-right(0.5);
         @include padding-left(0.5);
 
@@ -48,6 +41,9 @@
             @include padding-right(1);
             @include padding-left(1);
         }
+        
+        margin-top:auto;
+        margin-bottom: auto;
     }
 
     &>header.container, &>div.container, &>footer.container{
@@ -81,17 +77,14 @@
     }
 
     &.small{
-
         @include min-height($hero-small-min-height);
     }
 
     &.medium{
-        
         @include min-height($hero-medium-min-height);
     }
 
     &.large{
-
         @include min-height($hero-large-min-height);
     }
 
@@ -104,6 +97,18 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+        }
+    }
+
+    &>.hero-body{
+        margin-top:auto !important;
+        margin-bottom: auto !important;
+
+        :nth-child(1){
+            margin-top: 0;
+        }
+        :nth-last-child(1){
+            margin-bottom: 0;
         }
     }
 }
@@ -336,14 +341,14 @@
 
             .progress-value{
 
-                background-color: nth( $color-list, $i );
+                background-color: $color;
             }
 
             &.gradient{
                 
                 .progress-value{
 
-                    $background-color: nth( $color-list, $i );
+                    $background-color: $color;
                     background: linear-gradient(-90deg, $background-color, lighten($background-color,20%));
                     animation-duration: 1s;
                     animation-iteration-count: infinite;
@@ -359,30 +364,17 @@
     background-color: #fff;
     border-radius: $border-radius-box;
 
-    &.primary{
+    
+    @each $color-name in $color-names-list {
 
-        background-color: $primary;
-        color: getColorFromBackground($primary);
-    }
-
-    &.info{
-        background-color: $info;
-        color: getColorFromBackground($info);
-    }
-
-    &.warning{
-        background-color: $warning;
-        color: getColorFromBackground($warning);
-    }
-
-    &.danger{
-        background-color: $danger;
-        color: getColorFromBackground($danger);
-    }
-
-    &.dark{
-        background-color: $dark;
-        color: getColorFromBackground($dark);
+        $i: index( $color-names-list, $color-name ) ;
+        $color: nth( $color-list,$i);
+    
+        &.#{$color-name}{
+            
+        background-color: $color;
+        color: getColorFromBackground($color);
+        }
     }
 }
 
@@ -405,6 +397,22 @@
 
     :nth-last-child(1){
         margin-bottom: 0;
+    }
+
+    @each $color-name in $color-names-list {
+
+        $i: index( $color-names-list, $color-name ) ;
+        $color: nth( $color-list,$i);
+    
+        &.#{$color-name}{
+            
+        background-color: $color;
+        color: getColorFromBackground($color);
+        }
+    }
+
+    a{
+        color: getColorFromBackground($white);
     }
 }
 

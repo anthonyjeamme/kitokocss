@@ -35,8 +35,10 @@
     max-width: $measure+em;
     
     @if( $hyphen==true ){
-        text-align: justify;
-        hyphens: auto;
+        p{
+            text-align: justify;
+            hyphens: auto;
+        }
     }
 
     @include padding-left(2);

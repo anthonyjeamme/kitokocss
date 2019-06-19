@@ -4,5 +4,5 @@ $font-size-desktop-em : $font-size-desktop / 16;
 $leading: $font-size-em * $line-height;
 $leading-desktop: $font-size-desktop-em * $line-height-desktop;
 
-$color-names-list: primary info warning danger white dark light success grey grey-1 grey-2 grey-3 grey-4;
-$color-list: $primary $info $warning $danger #fff $dark $light $success $grey $grey-1 $grey-2 $grey-3 $grey-4;
+$color-names-list: append( primary info warning danger white dark light success grey grey-1 grey-2 grey-3 grey-4, $custom-color-names-list);
+$color-list: append($primary $info $warning $danger #fff $dark $light $success $grey $grey-1 $grey-2 $grey-3 $grey-4, $custom-color-list);

@@ -54,7 +54,7 @@ $h1-small-caps: false !default;
 $h2-small-caps: false !default;
 $h3-small-caps: false !default;
 
-$measure-h1-margin-left: -1 !default;
+$measure-h1-margin-left: 0 !default;
 $measure-h2-margin-left: 0 !default;
 $measure-h3-margin-left: 0 !default;
 
@@ -97,8 +97,9 @@ $field-box-shadow-hover:  0 0 2px rgba(0,0,0,0.5) !default;
 $field-box-shadow-focus: 0 0 2px $primary !default;
 $field-color: #777;
 
-// Fontawesome
-$use-fontawesome: true !default; // TODO
 $all-animations: true !default;
 
 $loading-border-size-em: 0.1 !default;
+
+$custom-color-names-list: custom-color !default;
+$custom-color-list: $primary !default;
