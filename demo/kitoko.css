@@ -59,15 +59,15 @@
   padding-right: 0;
 }
 
+.justify {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .measure {
   max-width: 33em;
   padding-left: 3.1rem;
   padding-right: 3.1rem;
-}
-
-.measure p {
-  text-align: justify;
-  hyphens: auto;
 }
 
 @media screen and (min-width: 48em) {
@@ -116,11 +116,6 @@
   .measure h3 {
     margin-left: 0rem;
   }
-}
-
-.no-justify {
-  text-align: left;
-  hyphens: none;
 }
 
 .margin-auto {
@@ -8005,7 +8000,7 @@
 }
 
 .fullheight {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 @media not screen and (min-width: 48em) {
@@ -8887,6 +8882,23 @@ figure {
   }
 }
 
+.hero > div {
+  padding-top: 1.55rem;
+  padding-bottom: 1.55rem;
+}
+
+@media screen and (min-width: 48em) {
+  .hero > div {
+    padding-top: 1.63125rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero > div {
+    padding-bottom: 1.63125rem;
+  }
+}
+
 .hero > header, .hero > footer {
   padding-right: 0.775rem;
   padding-left: 0.775rem;
@@ -8974,7 +8986,6 @@ figure {
 
 .hero > header.container, .hero > div.container, .hero > footer.container {
   max-width: 64em;
-  margin: 0;
   padding-left: 0.775rem;
   padding-right: 0.775rem;
 }
@@ -9057,6 +9068,23 @@ figure {
   }
 }
 
+.hero.small > div {
+  padding-top: 0.775rem;
+  padding-bottom: 0.775rem;
+}
+
+@media screen and (min-width: 48em) {
+  .hero.small > div {
+    padding-top: 0.81562rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero.small > div {
+    padding-bottom: 0.81562rem;
+  }
+}
+
 .hero.medium {
   min-height: 23.25rem;
 }
@@ -9064,6 +9092,23 @@ figure {
 @media screen and (min-width: 48em) {
   .hero.medium {
     min-height: 24.46875rem;
+  }
+}
+
+.hero.medium > div {
+  padding-top: 3.1rem;
+  padding-bottom: 3.1rem;
+}
+
+@media screen and (min-width: 48em) {
+  .hero.medium > div {
+    padding-top: 3.2625rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero.medium > div {
+    padding-bottom: 3.2625rem;
   }
 }
 
@@ -9077,26 +9122,43 @@ figure {
   }
 }
 
-.hero.fullheight {
-  height: 100vh;
+.hero.large > div {
+  padding-top: 4.65rem;
+  padding-bottom: 4.65rem;
 }
 
-.hero.fullheight .hero-body {
+@media screen and (min-width: 48em) {
+  .hero.large > div {
+    padding-top: 4.89375rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .hero.large > div {
+    padding-bottom: 4.89375rem;
+  }
+}
+
+.hero.fullheight {
+  min-height: 100vh;
+}
+
+.hero.fullheight > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.hero > .hero-body {
+.hero > div {
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
 
-.hero > .hero-body :nth-child(1) {
+.hero > div :nth-child(1) {
   margin-top: 0;
 }
 
-.hero > .hero-body :nth-last-child(1) {
+.hero > div :nth-last-child(1) {
   margin-bottom: 0;
 }
 
@@ -9654,11 +9716,11 @@ figure {
   }
 }
 
-.box :nth-child(1) {
+.box > :nth-child(1) {
   margin-top: 0;
 }
 
-.box :nth-last-child(1) {
+.box > :nth-last-child(1) {
   margin-bottom: 0;
 }
 

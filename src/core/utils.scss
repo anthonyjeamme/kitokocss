@@ -30,17 +30,15 @@
     }
 }
 
+.justify{
+    text-align: justify;
+    hyphens: auto;
+}
+
 .measure{
 
     max-width: $measure+em;
     
-    @if( $hyphen==true ){
-        p{
-            text-align: justify;
-            hyphens: auto;
-        }
-    }
-
     @include padding-left(2);
     @include padding-right(2);
 
@@ -62,11 +60,6 @@
             @include margin-left($measure-h3-margin-left);
         }
     }
-}
-
-.no-justify{
-    text-align: left;
-    hyphens: none;
 }
 
 .margin-auto{
@@ -236,7 +229,7 @@
 }
 
 .fullheight{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .desktop-only{

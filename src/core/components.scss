@@ -6,7 +6,13 @@
     justify-content: space-between;
     position: relative;
     align-items: center;
+
     @include min-height($hero-min-height);
+
+    &>div{
+        @include padding-top(1);
+        @include padding-bottom(1);
+    }
     
     &>header, &>footer {
 
@@ -49,7 +55,7 @@
     &>header.container, &>div.container, &>footer.container{
         
         max-width: $container-max-width;
-        margin: 0;
+        // margin: 0;
 
         @include padding-left(0.5);
         @include padding-right(0.5);
@@ -78,21 +84,35 @@
 
     &.small{
         @include min-height($hero-small-min-height);
+        &>div{
+            
+            @include padding-top(0.5);
+            @include padding-bottom(0.5);
+        }
     }
 
     &.medium{
         @include min-height($hero-medium-min-height);
+        &>div{
+            
+            @include padding-top(2);
+            @include padding-bottom(2);
+        }
     }
 
     &.large{
         @include min-height($hero-large-min-height);
+        &>div{
+            @include padding-top(3);
+            @include padding-bottom(3);
+        }
     }
 
     &.fullheight{
 
-        height: 100vh;
+        min-height: 100vh;
 
-        .hero-body{
+        &>div{
 
             display: flex;
             flex-direction: column;
@@ -100,7 +120,7 @@
         }
     }
 
-    &>.hero-body{
+    &>div{
         margin-top:auto !important;
         margin-bottom: auto !important;
 
@@ -391,11 +411,11 @@
         @include padding(1);
     }
 
-    :nth-child(1){
+    >:nth-child(1){
         margin-top:0;
     }
 
-    :nth-last-child(1){
+    >:nth-last-child(1){
         margin-bottom: 0;
     }
 
